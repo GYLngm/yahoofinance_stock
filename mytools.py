@@ -146,9 +146,6 @@ class myTools:
         directory += filename+".log"
 
         with open(directory, "w+", encoding='utf-8') as f:
-            l = list(f)
-            print(l)
-            """line_found = any(p in line for line in f)
+            line_found = any(p in line for line in f)
             if not line_found:
                 f.write(p+"\n")
-"""
