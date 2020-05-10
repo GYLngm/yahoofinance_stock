@@ -1,5 +1,6 @@
 import mysql.connector
 from logHandler import LogHandler
+from config import dbConfig
 
 
 class dbConnection:
@@ -12,16 +13,10 @@ class dbConnection:
             'yahoofinance_stock_valuation_measures': ()
         }
 
-    def __init__(self, host, user, password, database, **args):
-        self.__db_name = database
-        config = {
-            'host': host,
-            'user': user,
-            'password': password,
-            'database': self.__db_name,
-        }
+    def __init__(self):
+        self.__db_name = dbConfig['database']
         if self.__sqlConnect is None:
-            self.__sqlConnect = mysql.connector.connect(**config)
+            self.__sqlConnect = mysql.connector.connect(**dbConfig)
         self.loadModelProperties()
 
     def getConnect(self):

@@ -5,7 +5,6 @@ from datetime import datetime
 from logHandler import LogHandler
 import numpy as np
 
-from config import dbConfig
 from dbConnection import dbConnection
 
 
@@ -13,11 +12,7 @@ class myTools:
     __con = None
 
     def __init__(self):
-        self.__con = dbConnection(
-            host=dbConfig['host'],
-            user=dbConfig['user'],
-            password=dbConfig['password'],
-            database=dbConfig['database'])
+        self.__con = dbConnection()
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}
