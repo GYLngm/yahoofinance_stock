@@ -4,15 +4,18 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 from mytools import myTools
+from logHandler import LogHandler
 
 mytools = myTools()
 
 setlocale(LC_NUMERIC, 'English_US')
 
 print("Start...")
+number = 0
 for root, directories, files in os.walk("csv"):
-    mytools.log_msg("{0} files in directory".format(len(files)))
+    LogHandler.log_msg("{0} files in directory".format(len(files)))
     for filename in files:
+        number += 1
         # checkCSVInTable
         file_path = os.path.join(root, filename)
         csvdata = pd.read_csv(file_path).fillna(value='0')
@@ -33,7 +36,12 @@ for root, directories, files in os.walk("csv"):
             dr = dataset.to_dict()
             args = mytools.regroupRowsFromDictForPrice(dr=dr, fileProperty=fileProperty)
         
-        print('Parsing file %s' % filename)
+        print('Parsing file %s/%s %s \n' % (
+            number,
+            len(files),
+            filename
+        ))
+
         # Do variable convertions
         mytools.saveData(args=args, table=fileProperty['table'])
 
@@ -42,26 +50,3 @@ for root, directories, files in os.walk("csv"):
 
 print("END")
 mytools.closeDbConnection()
-
-"""
-        print("Proceeding file", filename, ", code:", code)
-        dataset = pd.read_csv(file_path)
-
-        data_values = dataset.dropna(axis=0, how='any').values
-
-        print("Ready to insert ", len(data_values), " data")
-
-        priceHelper.insertAllItem(data_values)
-
-        print(priceHelper.getHandleCount(), " data inserted")
-
-        historyObj = priceHelper.getAllPrice()
-        historyJson = []
-
-        for x in historyObj:
-            historyJson.append(x.toServilize())
-
-        del dataset
-        del data_values
-        gc.collect()
-"""

@@ -1,4 +1,6 @@
 import mysql.connector
+from logHandler import LogHandler
+
 
 class dbConnection:
     __sqlConnect = None
@@ -10,7 +12,7 @@ class dbConnection:
             'yahoofinance_stock_valuation_measures': ()
         }
 
-    def __init__(self, host, user, password, database):
+    def __init__(self, host, user, password, database, **args):
         self.__db_name = database
         config = {
             'host': host,
@@ -38,7 +40,7 @@ class dbConnection:
         cursor.execute(sql_select)
         result = cursor.fetchone()
         if result['count'] == 0:
-            print("Alter column '%s' to table '%s'" % (
+            LogHandler.log_msg("Alter column '%s' to table '%s'\n" % (
                 col,
                 table
             ))
@@ -53,7 +55,7 @@ class dbConnection:
             return False
         return True
 
-    def insert(self, table, cols, rows):     
+    def insert(self, table, cols, rows, **args):
         onDupUpdateKey = []
         # print(rows)
         for i in range(len(rows)):
@@ -64,12 +66,16 @@ class dbConnection:
             ','.join(['%s']*len(rows)),
             'ON DUPLICATE KEY UPDATE '+','.join(onDupUpdateKey)
         )
-
         # print(sql_insert)
-        flag = self.__sqlConnect.cursor().execute(sql_insert, rows)
-        return flag
+        try:
+            self.__sqlConnect.cursor().execute(sql_insert, rows)
+            # NB : you won't get an IntegrityError when reading
+        except mysql.connector.Error as err:
+            LogHandler.log_msg("""
+                    Parsing file {}\nSQL Query: {}\nSomething went wrong: {}\n
+            """.format(args['filename'], sql_insert, err))
 
-    def select(self, table, fields, conditions=None):
+    def select(self, table, fields, conditions=None, **args):
         cursor = self.__sqlConnect.cursor(buffered=True, dictionary=True)
         sql_select = ''
         con_rows = []
@@ -86,7 +92,14 @@ class dbConnection:
                 fields,
                 table
             )
-        cursor.execute(sql_select)
+
+        try:
+            cursor.execute(sql_select)
+        except mysql.connector.Error as err:
+            LogHandler.log_msg("""
+                Parsing file {}\nSQL Query: {}\nSomething went wrong: {}\n
+            """.format(args['filename'], sql_select, err))
+
         record = cursor.fetchall()
         rows = []
         for row in record:
