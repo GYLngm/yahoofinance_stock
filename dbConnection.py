@@ -7,11 +7,11 @@ class dbConnection:
     __sqlConnect = None
     __db_name = None
     __model_properties = {
-            'yahoofinance_stock_balance_sheet': (),
-            'yahoofinance_stock_income_statement': (),
-            'yahoofinance_stock_price': (),
-            'yahoofinance_stock_valuation_measures': ()
-        }
+        'yahoofinance_stock_balance_sheet': (),
+        'yahoofinance_stock_income_statement': (),
+        'yahoofinance_stock_price': (),
+        'yahoofinance_stock_valuation_measures': ()
+    }
 
     def __init__(self):
         self.__db_name = dbConfig['database']
@@ -28,10 +28,10 @@ class dbConnection:
                 WHERE TABLE_NAME='%s' 
                 AND TABLE_SCHEMA='%s' 
                 AND COLUMN_NAME='%s' LIMIT 1;""" % (
-                table,
-                db_name,
-                col,
-            )
+            table,
+            db_name,
+            col,
+        )
         cursor.execute(sql_select)
         result = cursor.fetchone()
         if result['count'] == 0:
@@ -54,14 +54,16 @@ class dbConnection:
         onDupUpdateKey = []
         # print(rows)
         for i in range(len(rows)):
-            onDupUpdateKey.append('%s=\'%s\'' % (cols[i], rows[i]))
+            if cols[i] != 'ReportDate' and cols[i] != 'Code' and cols[i] != 'Date':
+                onDupUpdateKey.append('%s=\'%s\'' % (cols[i], rows[i]))
+
         sql_insert = 'INSERT IGNORE INTO %s(%s) VALUES(%s) %s' % (
             table,
             ','.join(cols),
-            ','.join(['%s']*len(rows)),
-            'ON DUPLICATE KEY UPDATE '+','.join(onDupUpdateKey)
+            ','.join(['%s'] * len(rows)),
+            'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
-        # print(sql_insert)
+        print(sql_insert)
         try:
             self.__sqlConnect.cursor().execute(sql_insert, rows)
             # NB : you won't get an IntegrityError when reading

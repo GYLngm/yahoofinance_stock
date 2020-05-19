@@ -77,7 +77,7 @@ class myTools:
                     tmp[dr['name'][x].strip()] = self.convertNumberWithCommaInArray(dr[c[i]][x])
                     tmp['Code'] = fileProperty['cols']['Code']
                     if c[i] == 'ttm':
-                        tmp['ReportDate'] = time.strftime("%Y-%m-%d", time.localtime())
+                        continue
                     else:
                         tmp['ReportDate'] = datetime.strptime(c[i], '%m/%d/%Y').strftime('%Y-%m-%d')
                     if fileProperty['key'] != 'balance':
@@ -106,7 +106,10 @@ class myTools:
             self.__con.alter(table=table, col=list(args[0].keys())[c])
         """
         for i in range(len(args)):
-            flag = self.__con.insert(table=table, cols=list(args[i].keys()), rows=list(args[i].values()))
+            flag = self.__con.insert(table=table,
+                                     cols=list(args[i].keys()),
+                                     rows=list(args[i].values()),
+                                     org_dict=args[i])
         self.__con.getConnect().commit()
 
     def closeDbConnection(self):
