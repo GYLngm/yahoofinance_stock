@@ -3,5 +3,5 @@ dbConfig = {
     'user': 'mgnl',
     'password': 'password',
     'database': 'py_sql',
-    'port': 3306
+    'port': 3306,
 }

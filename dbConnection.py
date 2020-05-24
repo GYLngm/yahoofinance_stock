@@ -1,4 +1,5 @@
 import mysql.connector
+from dbConnectionPool import dbConnectionPool
 from logHandler import LogHandler
 from config import dbConfig
 
@@ -18,7 +19,8 @@ class dbConnection:
         LogHandler.log_msg("DB connection initializing...")
         if self.__sqlConnect is None:
             LogHandler.log_msg("Getting new connection..")
-            self.__sqlConnect = mysql.connector.connect(**dbConfig)
+            self.__sqlConnect = dbConnectionPool().getPoolConnect()
+        self.__sqlConnect.autocommit = False
         LogHandler.log_msg("Done.")
 
     def getConnect(self):
@@ -109,7 +111,6 @@ class dbConnection:
 
     def closeConnection(self):
         self.__sqlConnect.close()
-        print('Connection closed')
 
     def loadModelProperties(self, mp):
         mp['yahoofinance_stock_balance_sheet'] = self.select(

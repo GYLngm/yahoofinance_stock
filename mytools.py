@@ -1,14 +1,10 @@
 import re
-import time
-import os
 from datetime import datetime
-
 import mysql.connector
+import numpy as np
+from dbConnection import dbConnection
 
 from logHandler import LogHandler
-import numpy as np
-
-from dbConnection import dbConnection
 
 
 class myTools:

@@ -127,3 +127,2249 @@
 [2020/05/24 21:19:21] All transaction success
 [2020/05/24 21:19:21] END, total time: 7.328125s
 [2020/05/24 21:19:21] Performance average: 0.124s
+[2020/05/24 21:22:45] Start...
+[2020/05/24 21:22:45] Initializing tools..
+[2020/05/24 21:22:45] DB connection initializing...
+[2020/05/24 21:22:45] Getting new connection..
+[2020/05/24 21:22:45] Done.
+[2020/05/24 21:22:45] Fetch current table attribute
+[2020/05/24 21:22:45] Done.
+[2020/05/24 21:22:45] 59 files in directory
+[2020/05/24 21:22:46] Parsing file 1/59 AAL.csv in 0.375s
+
+[2020/05/24 21:22:46] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:22:46] Parsing file 3/59 AAL_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:22:46] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:22:46] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.28125s
+
+[2020/05/24 21:22:47] Parsing file 6/59 AAL_quarterly_financials.csv in 0.265625s
+
+[2020/05/24 21:22:47] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 21:22:47] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.171875s
+
+[2020/05/24 21:22:47] Parsing file 9/59 XEC_quarterly_financials.csv in 0.1875s
+
+[2020/05/24 21:22:47] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:22:48] Parsing file 11/59 XPO.csv in 0.609375s
+
+[2020/05/24 21:22:48] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:22:48] Parsing file 13/59 XPO_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:22:48] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:22:49] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.328125s
+
+[2020/05/24 21:22:49] Parsing file 16/59 XPO_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 21:22:49] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:22:50] Parsing file 18/59 XRX.csv in 0.625s
+
+[2020/05/24 21:22:50] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.203125s
+
+[2020/05/24 21:22:50] Parsing file 20/59 XRX_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:22:50] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:22:51] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.546875s
+
+[2020/05/24 21:22:51] Parsing file 23/59 XRX_quarterly_financials.csv in 0.3125s
+
+[2020/05/24 21:22:51] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:22:52] Parsing file 25/59 XYL.csv in 0.53125s
+
+[2020/05/24 21:22:52] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:22:52] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:22:52] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:22:52] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:22:52] Parsing file 30/59 XYL_quarterly_financials.csv in 0.09375s
+
+[2020/05/24 21:22:52] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:22:53] Parsing file 32/59 Y.csv in 0.484375s
+
+[2020/05/24 21:22:53] Parsing file 33/59 YY.csv in 0.4375s
+
+[2020/05/24 21:22:53] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:22:53] Parsing file 35/59 YY_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:22:53] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:22:54] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:22:54] Parsing file 38/59 YY_quarterly_financials.csv in 0.0625s
+
+[2020/05/24 21:22:54] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:22:54] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:22:54] Parsing file 41/59 Y_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:22:54] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:22:54] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.15625s
+
+[2020/05/24 21:22:54] Parsing file 44/59 Y_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 21:22:54] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 21:22:55] Parsing file 46/59 ZION.csv in 0.40625s
+
+[2020/05/24 21:22:55] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:22:55] Parsing file 48/59 ZION_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:22:55] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:22:55] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 21:22:56] Parsing file 51/59 ZION_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:22:56] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:22:56] Parsing file 53/59 ZTO.csv in 0.34375s
+
+[2020/05/24 21:22:56] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:22:56] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:22:56] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:22:56] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:22:56] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.03125s
+
+[2020/05/24 21:22:56] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:22:56] All transaction success
+[2020/05/24 21:22:56] END, total time: 9.078125s
+[2020/05/24 21:22:56] Performance average: 0.154s
+[2020/05/24 21:24:48] Start...
+[2020/05/24 21:24:48] Initializing tools..
+[2020/05/24 21:24:48] DB connection initializing...
+[2020/05/24 21:24:48] Getting new connection..
+[2020/05/24 21:25:53] Start...
+[2020/05/24 21:25:53] Initializing tools..
+[2020/05/24 21:25:53] DB connection initializing...
+[2020/05/24 21:25:53] Getting new connection..
+[2020/05/24 21:25:53] Done.
+[2020/05/24 21:25:53] Fetch current table attribute
+[2020/05/24 21:25:53] Done.
+[2020/05/24 21:25:53] 59 files in directory
+[2020/05/24 21:25:54] Parsing file 1/59 AAL.csv in 0.53125s
+
+[2020/05/24 21:25:54] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.125s
+
+[2020/05/24 21:25:54] Parsing file 3/59 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:25:54] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:25:55] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.390625s
+
+[2020/05/24 21:25:55] Parsing file 6/59 AAL_quarterly_financials.csv in 0.390625s
+
+[2020/05/24 21:25:55] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.171875s
+
+[2020/05/24 21:25:56] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.28125s
+
+[2020/05/24 21:25:56] Parsing file 9/59 XEC_quarterly_financials.csv in 0.25s
+
+[2020/05/24 21:25:56] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:25:57] Parsing file 11/59 XPO.csv in 0.71875s
+
+[2020/05/24 21:25:57] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:25:57] Parsing file 13/59 XPO_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:25:57] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:25:57] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.34375s
+
+[2020/05/24 21:25:58] Parsing file 16/59 XPO_quarterly_financials.csv in 0.25s
+
+[2020/05/24 21:25:58] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:25:58] Parsing file 18/59 XRX.csv in 0.625s
+
+[2020/05/24 21:25:59] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.1875s
+
+[2020/05/24 21:25:59] Parsing file 20/59 XRX_annual_financials.csv in 0.15625s
+
+[2020/05/24 21:25:59] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:25:59] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.625s
+
+[2020/05/24 21:26:00] Parsing file 23/59 XRX_quarterly_financials.csv in 0.5s
+
+[2020/05/24 21:26:00] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 21:26:01] Parsing file 25/59 XYL.csv in 0.515625s
+
+[2020/05/24 21:26:01] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/24 21:26:01] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:26:01] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:26:01] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:26:01] Parsing file 30/59 XYL_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 21:26:01] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:26:02] Parsing file 32/59 Y.csv in 0.546875s
+
+[2020/05/24 21:26:02] Parsing file 33/59 YY.csv in 0.484375s
+
+[2020/05/24 21:26:02] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:26:02] Parsing file 35/59 YY_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:26:02] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:26:02] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:26:02] Parsing file 38/59 YY_quarterly_financials.csv in 0.09375s
+
+[2020/05/24 21:26:03] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:26:03] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:26:03] Parsing file 41/59 Y_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:26:03] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:26:03] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:26:03] Parsing file 44/59 Y_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:26:03] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:26:04] Parsing file 46/59 ZION.csv in 0.46875s
+
+[2020/05/24 21:26:04] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:26:04] Parsing file 48/59 ZION_annual_financials.csv in 0.125s
+
+[2020/05/24 21:26:04] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:26:04] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 21:26:04] Parsing file 51/59 ZION_quarterly_financials.csv in 0.1875s
+
+[2020/05/24 21:26:04] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:26:05] Parsing file 53/59 ZTO.csv in 0.296875s
+
+[2020/05/24 21:26:05] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/24 21:26:05] Parsing file 55/59 ZTO_annual_financials.csv in 0.0s
+
+[2020/05/24 21:26:05] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:26:05] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.015625s
+
+[2020/05/24 21:26:05] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.03125s
+
+[2020/05/24 21:26:05] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:26:05] All transaction success
+[2020/05/24 21:26:05] END, total time: 10.28125s
+[2020/05/24 21:26:05] Performance average: 0.174s
+[2020/05/24 21:34:27] Start...
+[2020/05/24 21:34:27] Initializing tools..
+[2020/05/24 21:34:27] DB connection initializing...
+[2020/05/24 21:34:27] Getting new connection..
+[2020/05/24 21:34:27] Done.
+[2020/05/24 21:34:27] Fetch current table attribute
+[2020/05/24 21:34:27] Done.
+[2020/05/24 21:34:27] 1 files in directory
+[2020/05/24 21:34:27] Parsing file 1/1 AAL_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:34:27] All transaction success
+[2020/05/24 21:34:27] END, total time: 0.109375s
+[2020/05/24 21:34:27] Performance average: 0.109s
+[2020/05/24 21:34:40] Start...
+[2020/05/24 21:34:40] Initializing tools..
+[2020/05/24 21:34:40] DB connection initializing...
+[2020/05/24 21:34:40] Getting new connection..
+[2020/05/24 21:34:40] Done.
+[2020/05/24 21:34:40] Fetch current table attribute
+[2020/05/24 21:34:40] Done.
+[2020/05/24 21:34:40] 1 files in directory
+[2020/05/24 21:34:40] Parsing file 1/1 AAL_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:34:40] All transaction success
+[2020/05/24 21:34:40] END, total time: 0.109375s
+[2020/05/24 21:34:40] Performance average: 0.109s
+[2020/05/24 21:35:13] Start...
+[2020/05/24 21:35:13] Initializing tools..
+[2020/05/24 21:35:13] DB connection initializing...
+[2020/05/24 21:35:13] Getting new connection..
+[2020/05/24 21:35:13] Done.
+[2020/05/24 21:35:13] Fetch current table attribute
+[2020/05/24 21:35:13] Done.
+[2020/05/24 21:35:13] 1 files in directory
+[2020/05/24 21:35:13] Parsing file 1/1 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:35:13] All transaction success
+[2020/05/24 21:35:13] END, total time: 0.09375s
+[2020/05/24 21:35:13] Performance average: 0.094s
+[2020/05/24 21:40:33] Start...
+[2020/05/24 21:40:33] Initializing tools..
+[2020/05/24 21:40:33] DB connection initializing...
+[2020/05/24 21:40:33] Getting new connection..
+[2020/05/24 21:40:33] Done.
+[2020/05/24 21:40:33] Fetch current table attribute
+[2020/05/24 21:40:33] Done.
+[2020/05/24 21:40:33] 1 files in directory
+[2020/05/24 21:40:33] Mapping data in 0.0625s
+[2020/05/24 21:40:33] Parsing file 1/1 AAL_annual_financials.csv in 0.09375s
+
+[2020/05/24 21:40:33] All transaction success
+[2020/05/24 21:40:33] END, total time: 0.09375s
+[2020/05/24 21:40:33] Performance average: 0.094s
+[2020/05/24 21:40:59] Start...
+[2020/05/24 21:40:59] Initializing tools..
+[2020/05/24 21:40:59] DB connection initializing...
+[2020/05/24 21:40:59] Getting new connection..
+[2020/05/24 21:40:59] Done.
+[2020/05/24 21:40:59] Fetch current table attribute
+[2020/05/24 21:40:59] Done.
+[2020/05/24 21:40:59] 59 files in directory
+[2020/05/24 21:40:59] Mapping data in 0.0312s
+[2020/05/24 21:40:59] Parsing file 1/59 AAL.csv in 0.265625s
+
+[2020/05/24 21:40:59] Mapping data in 0.0469s
+[2020/05/24 21:40:59] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:40:59] Mapping data in 0.0625s
+[2020/05/24 21:40:59] Parsing file 3/59 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:40:59] Mapping data in 0.0s
+[2020/05/24 21:40:59] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:41:00] Mapping data in 0.1719s
+[2020/05/24 21:41:00] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.21875s
+
+[2020/05/24 21:41:00] Mapping data in 0.1875s
+[2020/05/24 21:41:00] Parsing file 6/59 AAL_quarterly_financials.csv in 0.265625s
+
+[2020/05/24 21:41:00] Mapping data in 0.0156s
+[2020/05/24 21:41:00] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:41:00] Mapping data in 0.0938s
+[2020/05/24 21:41:00] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:41:00] Mapping data in 0.0938s
+[2020/05/24 21:41:00] Parsing file 9/59 XEC_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:41:00] Mapping data in 0.0s
+[2020/05/24 21:41:00] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:41:01] Mapping data in 0.0156s
+[2020/05/24 21:41:01] Parsing file 11/59 XPO.csv in 0.296875s
+
+[2020/05/24 21:41:01] Mapping data in 0.0312s
+[2020/05/24 21:41:01] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:41:01] Mapping data in 0.0312s
+[2020/05/24 21:41:01] Parsing file 13/59 XPO_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:41:01] Mapping data in 0.0s
+[2020/05/24 21:41:01] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:01] Mapping data in 0.125s
+[2020/05/24 21:41:01] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.1875s
+
+[2020/05/24 21:41:01] Mapping data in 0.0938s
+[2020/05/24 21:41:01] Parsing file 16/59 XPO_quarterly_financials.csv in 0.109375s
+
+[2020/05/24 21:41:01] Mapping data in 0.0156s
+[2020/05/24 21:41:01] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:41:02] Mapping data in 0.0312s
+[2020/05/24 21:41:02] Parsing file 18/59 XRX.csv in 0.328125s
+
+[2020/05/24 21:41:02] Mapping data in 0.0625s
+[2020/05/24 21:41:02] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:41:02] Mapping data in 0.0469s
+[2020/05/24 21:41:02] Parsing file 20/59 XRX_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:41:02] Mapping data in 0.0s
+[2020/05/24 21:41:02] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:41:02] Mapping data in 0.375s
+[2020/05/24 21:41:03] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.5s
+
+[2020/05/24 21:41:03] Mapping data in 0.2969s
+[2020/05/24 21:41:03] Parsing file 23/59 XRX_quarterly_financials.csv in 0.390625s
+
+[2020/05/24 21:41:03] Mapping data in 0.0312s
+[2020/05/24 21:41:03] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:41:03] Mapping data in 0.0312s
+[2020/05/24 21:41:04] Parsing file 25/59 XYL.csv in 0.46875s
+
+[2020/05/24 21:41:04] Mapping data in 0.0156s
+[2020/05/24 21:41:04] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:41:04] Mapping data in 0.0156s
+[2020/05/24 21:41:04] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:41:04] Mapping data in 0.0s
+[2020/05/24 21:41:04] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:41:04] Mapping data in 0.0781s
+[2020/05/24 21:41:04] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:41:04] Mapping data in 0.0625s
+[2020/05/24 21:41:04] Parsing file 30/59 XYL_quarterly_financials.csv in 0.125s
+
+[2020/05/24 21:41:04] Mapping data in 0.0s
+[2020/05/24 21:41:04] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:04] Mapping data in 0.0312s
+[2020/05/24 21:41:05] Parsing file 32/59 Y.csv in 0.390625s
+
+[2020/05/24 21:41:05] Mapping data in 0.0312s
+[2020/05/24 21:41:05] Parsing file 33/59 YY.csv in 0.453125s
+
+[2020/05/24 21:41:05] Mapping data in 0.0312s
+[2020/05/24 21:41:05] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:41:05] Mapping data in 0.0312s
+[2020/05/24 21:41:05] Parsing file 35/59 YY_annual_financials.csv in 0.046875s
+
+[2020/05/24 21:41:05] Mapping data in 0.0s
+[2020/05/24 21:41:05] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:05] Mapping data in 0.0625s
+[2020/05/24 21:41:05] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:41:05] Mapping data in 0.0469s
+[2020/05/24 21:41:05] Parsing file 38/59 YY_quarterly_financials.csv in 0.0625s
+
+[2020/05/24 21:41:05] Mapping data in 0.0s
+[2020/05/24 21:41:05] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:05] Mapping data in 0.0469s
+[2020/05/24 21:41:05] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:41:06] Mapping data in 0.0312s
+[2020/05/24 21:41:06] Parsing file 41/59 Y_annual_financials.csv in 0.046875s
+
+[2020/05/24 21:41:06] Mapping data in 0.0156s
+[2020/05/24 21:41:06] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:06] Mapping data in 0.0625s
+[2020/05/24 21:41:06] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 21:41:06] Mapping data in 0.0781s
+[2020/05/24 21:41:06] Parsing file 44/59 Y_quarterly_financials.csv in 0.171875s
+
+[2020/05/24 21:41:06] Mapping data in 0.0156s
+[2020/05/24 21:41:06] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:41:06] Mapping data in 0.0312s
+[2020/05/24 21:41:06] Parsing file 46/59 ZION.csv in 0.34375s
+
+[2020/05/24 21:41:06] Mapping data in 0.0781s
+[2020/05/24 21:41:07] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:41:07] Mapping data in 0.125s
+[2020/05/24 21:41:07] Parsing file 48/59 ZION_annual_financials.csv in 0.140625s
+
+[2020/05/24 21:41:07] Mapping data in 0.0s
+[2020/05/24 21:41:07] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:41:07] Mapping data in 0.0781s
+[2020/05/24 21:41:07] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.15625s
+
+[2020/05/24 21:41:07] Mapping data in 0.125s
+[2020/05/24 21:41:07] Parsing file 51/59 ZION_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 21:41:07] Mapping data in 0.0312s
+[2020/05/24 21:41:07] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:41:07] Mapping data in 0.0312s
+[2020/05/24 21:41:08] Parsing file 53/59 ZTO.csv in 0.28125s
+
+[2020/05/24 21:41:08] Mapping data in 0.0156s
+[2020/05/24 21:41:08] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:41:08] Mapping data in 0.0156s
+[2020/05/24 21:41:08] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:41:08] Mapping data in 0.0s
+[2020/05/24 21:41:08] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:08] Mapping data in 0.0312s
+[2020/05/24 21:41:08] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:41:08] Mapping data in 0.0312s
+[2020/05/24 21:41:08] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.046875s
+
+[2020/05/24 21:41:08] Mapping data in 0.0s
+[2020/05/24 21:41:08] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:41:08] All transaction success
+[2020/05/24 21:41:08] END, total time: 7.515625s
+[2020/05/24 21:41:08] Performance average: 0.127s
+[2020/05/24 21:42:56] Start...
+[2020/05/24 21:42:56] Initializing tools..
+[2020/05/24 21:42:56] DB connection initializing...
+[2020/05/24 21:42:56] Getting new connection..
+[2020/05/24 21:42:56] Done.
+[2020/05/24 21:42:56] Fetch current table attribute
+[2020/05/24 21:42:56] Done.
+[2020/05/24 21:42:56] 59 files in directory
+[2020/05/24 21:42:56] Mapping data in 0.0156s
+[2020/05/24 21:42:56] Parsing file 1/59 AAL.csv in 0.34375s
+
+[2020/05/24 21:42:57] Mapping data in 0.0625s
+[2020/05/24 21:42:57] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:42:57] Mapping data in 0.0625s
+[2020/05/24 21:42:57] Parsing file 3/59 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:42:57] Mapping data in 0.0s
+[2020/05/24 21:42:57] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:42:57] Mapping data in 0.1562s
+[2020/05/24 21:42:57] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.21875s
+
+[2020/05/24 21:42:57] Mapping data in 0.1719s
+[2020/05/24 21:42:57] Parsing file 6/59 AAL_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 21:42:57] Mapping data in 0.0156s
+[2020/05/24 21:42:57] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:42:58] Mapping data in 0.0938s
+[2020/05/24 21:42:58] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.140625s
+
+[2020/05/24 21:42:58] Mapping data in 0.0938s
+[2020/05/24 21:42:58] Parsing file 9/59 XEC_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:42:58] Mapping data in 0.0s
+[2020/05/24 21:42:58] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:42:58] Mapping data in 0.0312s
+[2020/05/24 21:42:58] Parsing file 11/59 XPO.csv in 0.359375s
+
+[2020/05/24 21:42:58] Mapping data in 0.0312s
+[2020/05/24 21:42:58] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:42:58] Mapping data in 0.0312s
+[2020/05/24 21:42:58] Parsing file 13/59 XPO_annual_financials.csv in 0.046875s
+
+[2020/05/24 21:42:58] Mapping data in 0.0s
+[2020/05/24 21:42:58] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:42:58] Mapping data in 0.125s
+[2020/05/24 21:42:59] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.1875s
+
+[2020/05/24 21:42:59] Mapping data in 0.0781s
+[2020/05/24 21:42:59] Parsing file 16/59 XPO_quarterly_financials.csv in 0.125s
+
+[2020/05/24 21:42:59] Mapping data in 0.0156s
+[2020/05/24 21:42:59] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.046875s
+
+[2020/05/24 21:42:59] Mapping data in 0.0156s
+[2020/05/24 21:42:59] Parsing file 18/59 XRX.csv in 0.3125s
+
+[2020/05/24 21:42:59] Mapping data in 0.0625s
+[2020/05/24 21:42:59] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:42:59] Mapping data in 0.0625s
+[2020/05/24 21:42:59] Parsing file 20/59 XRX_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:42:59] Mapping data in 0.0s
+[2020/05/24 21:42:59] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:43:00] Mapping data in 0.4062s
+[2020/05/24 21:43:00] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.5s
+
+[2020/05/24 21:43:00] Mapping data in 0.2969s
+[2020/05/24 21:43:00] Parsing file 23/59 XRX_quarterly_financials.csv in 0.40625s
+
+[2020/05/24 21:43:00] Mapping data in 0.0469s
+[2020/05/24 21:43:01] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.125s
+
+[2020/05/24 21:43:01] Mapping data in 0.0469s
+[2020/05/24 21:43:01] Parsing file 25/59 XYL.csv in 0.390625s
+
+[2020/05/24 21:43:01] Mapping data in 0.0312s
+[2020/05/24 21:43:01] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:43:01] Mapping data in 0.0312s
+[2020/05/24 21:43:01] Parsing file 27/59 XYL_annual_financials.csv in 0.046875s
+
+[2020/05/24 21:43:01] Mapping data in 0.0s
+[2020/05/24 21:43:01] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:01] Mapping data in 0.0938s
+[2020/05/24 21:43:01] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.140625s
+
+[2020/05/24 21:43:01] Mapping data in 0.0781s
+[2020/05/24 21:43:01] Parsing file 30/59 XYL_quarterly_financials.csv in 0.109375s
+
+[2020/05/24 21:43:01] Mapping data in 0.0156s
+[2020/05/24 21:43:01] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:43:02] Mapping data in 0.0469s
+[2020/05/24 21:43:02] Parsing file 32/59 Y.csv in 0.421875s
+
+[2020/05/24 21:43:02] Mapping data in 0.0312s
+[2020/05/24 21:43:02] Parsing file 33/59 YY.csv in 0.421875s
+
+[2020/05/24 21:43:03] Mapping data in 0.0312s
+[2020/05/24 21:43:03] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:43:03] Mapping data in 0.0156s
+[2020/05/24 21:43:03] Parsing file 35/59 YY_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:43:03] Mapping data in 0.0s
+[2020/05/24 21:43:03] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:03] Mapping data in 0.0625s
+[2020/05/24 21:43:03] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:43:03] Mapping data in 0.0469s
+[2020/05/24 21:43:03] Parsing file 38/59 YY_quarterly_financials.csv in 0.0625s
+
+[2020/05/24 21:43:03] Mapping data in 0.0s
+[2020/05/24 21:43:03] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:43:03] Mapping data in 0.0312s
+[2020/05/24 21:43:03] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:03] Mapping data in 0.0312s
+[2020/05/24 21:43:03] Parsing file 41/59 Y_annual_financials.csv in 0.046875s
+
+[2020/05/24 21:43:03] Mapping data in 0.0s
+[2020/05/24 21:43:03] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:03] Mapping data in 0.0625s
+[2020/05/24 21:43:03] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.171875s
+
+[2020/05/24 21:43:03] Mapping data in 0.0938s
+[2020/05/24 21:43:03] Parsing file 44/59 Y_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:43:03] Mapping data in 0.0156s
+[2020/05/24 21:43:03] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:43:04] Mapping data in 0.0156s
+[2020/05/24 21:43:04] Parsing file 46/59 ZION.csv in 0.3125s
+
+[2020/05/24 21:43:04] Mapping data in 0.0469s
+[2020/05/24 21:43:04] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:04] Mapping data in 0.0938s
+[2020/05/24 21:43:04] Parsing file 48/59 ZION_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:43:04] Mapping data in 0.0s
+[2020/05/24 21:43:04] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:04] Mapping data in 0.0625s
+[2020/05/24 21:43:04] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:43:04] Mapping data in 0.0781s
+[2020/05/24 21:43:04] Parsing file 51/59 ZION_quarterly_financials.csv in 0.171875s
+
+[2020/05/24 21:43:05] Mapping data in 0.0156s
+[2020/05/24 21:43:05] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:43:05] Mapping data in 0.0156s
+[2020/05/24 21:43:05] Parsing file 53/59 ZTO.csv in 0.234375s
+
+[2020/05/24 21:43:05] Mapping data in 0.0s
+[2020/05/24 21:43:05] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/24 21:43:05] Mapping data in 0.0156s
+[2020/05/24 21:43:05] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:43:05] Mapping data in 0.0s
+[2020/05/24 21:43:05] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:43:05] Mapping data in 0.0312s
+[2020/05/24 21:43:05] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:43:05] Mapping data in 0.0156s
+[2020/05/24 21:43:05] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.046875s
+
+[2020/05/24 21:43:05] Mapping data in 0.0s
+[2020/05/24 21:43:05] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:43:05] All transaction success
+[2020/05/24 21:43:05] END, total time: 7.40625s
+[2020/05/24 21:43:05] Main thread performance average: 0.126s
+[2020/05/24 21:43:05] Data mapping Performance average: 3.031s
+[2020/05/24 21:43:13] Start...
+[2020/05/24 21:43:13] Initializing tools..
+[2020/05/24 21:43:13] DB connection initializing...
+[2020/05/24 21:43:13] Getting new connection..
+[2020/05/24 21:43:13] Done.
+[2020/05/24 21:43:13] Fetch current table attribute
+[2020/05/24 21:43:13] Done.
+[2020/05/24 21:43:13] 59 files in directory
+[2020/05/24 21:43:13] Mapping data in 0.0156s
+[2020/05/24 21:43:13] Parsing file 1/59 AAL.csv in 0.328125s
+
+[2020/05/24 21:43:14] Mapping data in 0.0469s
+[2020/05/24 21:43:14] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:43:14] Mapping data in 0.0469s
+[2020/05/24 21:43:14] Parsing file 3/59 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:43:14] Mapping data in 0.0s
+[2020/05/24 21:43:14] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:43:14] Mapping data in 0.1875s
+[2020/05/24 21:43:14] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.234375s
+
+[2020/05/24 21:43:14] Mapping data in 0.2188s
+[2020/05/24 21:43:14] Parsing file 6/59 AAL_quarterly_financials.csv in 0.28125s
+
+[2020/05/24 21:43:14] Mapping data in 0.0312s
+[2020/05/24 21:43:14] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:43:15] Mapping data in 0.1406s
+[2020/05/24 21:43:15] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.21875s
+
+[2020/05/24 21:43:15] Mapping data in 0.1406s
+[2020/05/24 21:43:15] Parsing file 9/59 XEC_quarterly_financials.csv in 0.1875s
+
+[2020/05/24 21:43:15] Mapping data in 0.0156s
+[2020/05/24 21:43:15] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 21:43:15] Mapping data in 0.0312s
+[2020/05/24 21:43:15] Parsing file 11/59 XPO.csv in 0.390625s
+
+[2020/05/24 21:43:16] Mapping data in 0.0469s
+[2020/05/24 21:43:16] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:16] Mapping data in 0.0469s
+[2020/05/24 21:43:16] Parsing file 13/59 XPO_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:43:16] Mapping data in 0.0156s
+[2020/05/24 21:43:16] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:16] Mapping data in 0.2031s
+[2020/05/24 21:43:16] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.265625s
+
+[2020/05/24 21:43:16] Mapping data in 0.125s
+[2020/05/24 21:43:16] Parsing file 16/59 XPO_quarterly_financials.csv in 0.171875s
+
+[2020/05/24 21:43:16] Mapping data in 0.0156s
+[2020/05/24 21:43:16] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 21:43:16] Mapping data in 0.0469s
+[2020/05/24 21:43:17] Parsing file 18/59 XRX.csv in 0.375s
+
+[2020/05/24 21:43:17] Mapping data in 0.125s
+[2020/05/24 21:43:17] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.15625s
+
+[2020/05/24 21:43:17] Mapping data in 0.0781s
+[2020/05/24 21:43:17] Parsing file 20/59 XRX_annual_financials.csv in 0.09375s
+
+[2020/05/24 21:43:17] Mapping data in 0.0s
+[2020/05/24 21:43:17] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:18] Mapping data in 0.4062s
+[2020/05/24 21:43:18] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.5s
+
+[2020/05/24 21:43:18] Mapping data in 0.2969s
+[2020/05/24 21:43:18] Parsing file 23/59 XRX_quarterly_financials.csv in 0.40625s
+
+[2020/05/24 21:43:18] Mapping data in 0.0469s
+[2020/05/24 21:43:18] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:43:18] Mapping data in 0.0469s
+[2020/05/24 21:43:19] Parsing file 25/59 XYL.csv in 0.421875s
+
+[2020/05/24 21:43:19] Mapping data in 0.0156s
+[2020/05/24 21:43:19] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:43:19] Mapping data in 0.0156s
+[2020/05/24 21:43:19] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:43:19] Mapping data in 0.0s
+[2020/05/24 21:43:19] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:19] Mapping data in 0.0469s
+[2020/05/24 21:43:19] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:19] Mapping data in 0.0469s
+[2020/05/24 21:43:19] Parsing file 30/59 XYL_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 21:43:19] Mapping data in 0.0156s
+[2020/05/24 21:43:19] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:43:19] Mapping data in 0.0156s
+[2020/05/24 21:43:19] Parsing file 32/59 Y.csv in 0.34375s
+
+[2020/05/24 21:43:20] Mapping data in 0.0312s
+[2020/05/24 21:43:20] Parsing file 33/59 YY.csv in 0.328125s
+
+[2020/05/24 21:43:20] Mapping data in 0.0156s
+[2020/05/24 21:43:20] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:43:20] Mapping data in 0.0156s
+[2020/05/24 21:43:20] Parsing file 35/59 YY_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0s
+[2020/05/24 21:43:20] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0625s
+[2020/05/24 21:43:20] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:43:20] Mapping data in 0.0469s
+[2020/05/24 21:43:20] Parsing file 38/59 YY_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 21:43:20] Mapping data in 0.0s
+[2020/05/24 21:43:20] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0469s
+[2020/05/24 21:43:20] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0312s
+[2020/05/24 21:43:20] Parsing file 41/59 Y_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0s
+[2020/05/24 21:43:20] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:20] Mapping data in 0.0469s
+[2020/05/24 21:43:20] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:43:20] Mapping data in 0.0781s
+[2020/05/24 21:43:21] Parsing file 44/59 Y_quarterly_financials.csv in 0.171875s
+
+[2020/05/24 21:43:21] Mapping data in 0.0156s
+[2020/05/24 21:43:21] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 21:43:21] Mapping data in 0.0156s
+[2020/05/24 21:43:21] Parsing file 46/59 ZION.csv in 0.28125s
+
+[2020/05/24 21:43:21] Mapping data in 0.0625s
+[2020/05/24 21:43:21] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:43:21] Mapping data in 0.0938s
+[2020/05/24 21:43:21] Parsing file 48/59 ZION_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:43:21] Mapping data in 0.0s
+[2020/05/24 21:43:21] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:21] Mapping data in 0.0625s
+[2020/05/24 21:43:21] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:43:21] Mapping data in 0.0625s
+[2020/05/24 21:43:22] Parsing file 51/59 ZION_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:43:22] Mapping data in 0.0312s
+[2020/05/24 21:43:22] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:43:22] Mapping data in 0.0312s
+[2020/05/24 21:43:22] Parsing file 53/59 ZTO.csv in 0.296875s
+
+[2020/05/24 21:43:22] Mapping data in 0.0156s
+[2020/05/24 21:43:22] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:43:22] Mapping data in 0.0156s
+[2020/05/24 21:43:22] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:43:22] Mapping data in 0.0s
+[2020/05/24 21:43:22] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:22] Mapping data in 0.0312s
+[2020/05/24 21:43:22] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:43:22] Mapping data in 0.0312s
+[2020/05/24 21:43:22] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.0625s
+
+[2020/05/24 21:43:22] Mapping data in 0.0s
+[2020/05/24 21:43:22] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:43:22] All transaction success
+[2020/05/24 21:43:22] END, total time: 7.640625s
+[2020/05/24 21:43:22] Main thread performance average: 0.13s
+[2020/05/24 21:43:22] Data mapping Performance average: 0.057s
+[2020/05/24 21:44:42] Start...
+[2020/05/24 21:44:42] Initializing tools..
+[2020/05/24 21:44:42] DB connection initializing...
+[2020/05/24 21:44:42] Getting new connection..
+[2020/05/24 21:44:42] Done.
+[2020/05/24 21:44:42] Fetch current table attribute
+[2020/05/24 21:44:42] Done.
+[2020/05/24 21:44:42] 59 files in directory
+[2020/05/24 21:44:42] Mapping data in 0.0938s
+[2020/05/24 21:44:43] Parsing file 1/59 AAL.csv in 0.3125s
+
+[2020/05/24 21:44:43] Mapping data in 0.0469s
+[2020/05/24 21:44:43] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:44:43] Mapping data in 0.0469s
+[2020/05/24 21:44:43] Parsing file 3/59 AAL_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:44:43] Mapping data in 0.0156s
+[2020/05/24 21:44:43] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:43] Mapping data in 0.1719s
+[2020/05/24 21:44:43] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.25s
+
+[2020/05/24 21:44:43] Mapping data in 0.2031s
+[2020/05/24 21:44:43] Parsing file 6/59 AAL_quarterly_financials.csv in 0.265625s
+
+[2020/05/24 21:44:44] Mapping data in 0.0469s
+[2020/05/24 21:44:44] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 21:44:44] Mapping data in 0.1719s
+[2020/05/24 21:44:44] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.21875s
+
+[2020/05/24 21:44:44] Mapping data in 0.1406s
+[2020/05/24 21:44:44] Parsing file 9/59 XEC_quarterly_financials.csv in 0.203125s
+
+[2020/05/24 21:44:44] Mapping data in 0.0156s
+[2020/05/24 21:44:44] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 21:44:44] Mapping data in 0.125s
+[2020/05/24 21:44:45] Parsing file 11/59 XPO.csv in 0.359375s
+
+[2020/05/24 21:44:45] Mapping data in 0.0469s
+[2020/05/24 21:44:45] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:44:45] Mapping data in 0.0312s
+[2020/05/24 21:44:45] Parsing file 13/59 XPO_annual_financials.csv in 0.0625s
+
+[2020/05/24 21:44:45] Mapping data in 0.0s
+[2020/05/24 21:44:45] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:44:45] Mapping data in 0.2031s
+[2020/05/24 21:44:45] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.25s
+
+[2020/05/24 21:44:45] Mapping data in 0.1406s
+[2020/05/24 21:44:45] Parsing file 16/59 XPO_quarterly_financials.csv in 0.15625s
+
+[2020/05/24 21:44:45] Mapping data in 0.0156s
+[2020/05/24 21:44:45] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 21:44:46] Mapping data in 0.0781s
+[2020/05/24 21:44:46] Parsing file 18/59 XRX.csv in 0.359375s
+
+[2020/05/24 21:44:46] Mapping data in 0.0625s
+[2020/05/24 21:44:46] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:44:46] Mapping data in 0.0469s
+[2020/05/24 21:44:46] Parsing file 20/59 XRX_annual_financials.csv in 0.078125s
+
+[2020/05/24 21:44:46] Mapping data in 0.0156s
+[2020/05/24 21:44:46] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:46] Mapping data in 0.2344s
+[2020/05/24 21:44:46] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.296875s
+
+[2020/05/24 21:44:47] Mapping data in 0.2031s
+[2020/05/24 21:44:47] Parsing file 23/59 XRX_quarterly_financials.csv in 0.28125s
+
+[2020/05/24 21:44:47] Mapping data in 0.0156s
+[2020/05/24 21:44:47] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 21:44:47] Mapping data in 0.0781s
+[2020/05/24 21:44:47] Parsing file 25/59 XYL.csv in 0.3125s
+
+[2020/05/24 21:44:47] Mapping data in 0.0156s
+[2020/05/24 21:44:47] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:44:47] Mapping data in 0.0156s
+[2020/05/24 21:44:47] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:44:47] Mapping data in 0.0s
+[2020/05/24 21:44:47] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:47] Mapping data in 0.0625s
+[2020/05/24 21:44:47] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.0625s
+
+[2020/05/24 21:44:47] Mapping data in 0.0469s
+[2020/05/24 21:44:47] Parsing file 30/59 XYL_quarterly_financials.csv in 0.0625s
+
+[2020/05/24 21:44:47] Mapping data in 0.0s
+[2020/05/24 21:44:47] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:48] Mapping data in 0.0625s
+[2020/05/24 21:44:48] Parsing file 32/59 Y.csv in 0.296875s
+
+[2020/05/24 21:44:48] Mapping data in 0.0781s
+[2020/05/24 21:44:48] Parsing file 33/59 YY.csv in 0.28125s
+
+[2020/05/24 21:44:48] Mapping data in 0.0312s
+[2020/05/24 21:44:48] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 21:44:48] Mapping data in 0.0156s
+[2020/05/24 21:44:48] Parsing file 35/59 YY_annual_financials.csv in 0.03125s
+
+[2020/05/24 21:44:48] Mapping data in 0.0s
+[2020/05/24 21:44:48] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 21:44:48] Mapping data in 0.0625s
+[2020/05/24 21:44:48] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 21:44:48] Mapping data in 0.0469s
+[2020/05/24 21:44:48] Parsing file 38/59 YY_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 21:44:49] Mapping data in 0.0s
+[2020/05/24 21:44:49] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:44:49] Mapping data in 0.0781s
+[2020/05/24 21:44:49] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 21:44:49] Mapping data in 0.0625s
+[2020/05/24 21:44:49] Parsing file 41/59 Y_annual_financials.csv in 0.109375s
+
+[2020/05/24 21:44:49] Mapping data in 0.0156s
+[2020/05/24 21:44:49] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 21:44:49] Mapping data in 0.1094s
+[2020/05/24 21:44:49] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.15625s
+
+[2020/05/24 21:44:49] Mapping data in 0.1562s
+[2020/05/24 21:44:49] Parsing file 44/59 Y_quarterly_financials.csv in 0.234375s
+
+[2020/05/24 21:44:49] Mapping data in 0.0469s
+[2020/05/24 21:44:49] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.125s
+
+[2020/05/24 21:44:50] Mapping data in 0.125s
+[2020/05/24 21:44:50] Parsing file 46/59 ZION.csv in 0.484375s
+
+[2020/05/24 21:44:50] Mapping data in 0.0781s
+[2020/05/24 21:44:50] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 21:44:50] Mapping data in 0.1406s
+[2020/05/24 21:44:50] Parsing file 48/59 ZION_annual_financials.csv in 0.15625s
+
+[2020/05/24 21:44:50] Mapping data in 0.0156s
+[2020/05/24 21:44:50] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:50] Mapping data in 0.1094s
+[2020/05/24 21:44:50] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.171875s
+
+[2020/05/24 21:44:51] Mapping data in 0.125s
+[2020/05/24 21:44:51] Parsing file 51/59 ZION_quarterly_financials.csv in 0.1875s
+
+[2020/05/24 21:44:51] Mapping data in 0.0312s
+[2020/05/24 21:44:51] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 21:44:51] Mapping data in 0.0938s
+[2020/05/24 21:44:51] Parsing file 53/59 ZTO.csv in 0.265625s
+
+[2020/05/24 21:44:51] Mapping data in 0.0156s
+[2020/05/24 21:44:51] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/24 21:44:51] Mapping data in 0.0156s
+[2020/05/24 21:44:51] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 21:44:51] Mapping data in 0.0s
+[2020/05/24 21:44:51] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:51] Mapping data in 0.0312s
+[2020/05/24 21:44:51] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.046875s
+
+[2020/05/24 21:44:51] Mapping data in 0.0312s
+[2020/05/24 21:44:51] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.046875s
+
+[2020/05/24 21:44:51] Mapping data in 0.0156s
+[2020/05/24 21:44:51] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 21:44:51] All transaction success
+[2020/05/24 21:44:51] END, total time: 7.5s
+[2020/05/24 21:44:51] Main thread performance average / file: 0.127s
+[2020/05/24 21:44:51] Data mapping Performance average / file: 0.068s
+[2020/05/24 22:24:25] Start...
+[2020/05/24 22:24:25] Initializing tools..
+[2020/05/24 22:24:25] DB connection initializing...
+[2020/05/24 22:24:25] Getting new connection..
+[2020/05/24 22:24:25] Done.
+[2020/05/24 22:24:25] Fetch current table attribute
+[2020/05/24 23:11:43] Start...
+[2020/05/24 23:11:43] Initializing tools..
+[2020/05/24 23:11:43] DB connection initializing...
+[2020/05/24 23:11:43] Getting new connection..
+[2020/05/24 23:11:43] Create connection pool..
+[2020/05/24 23:11:43] Done.
+[2020/05/24 23:14:55] Start...
+[2020/05/24 23:14:55] Initializing tools..
+[2020/05/24 23:14:55] DB connection initializing...
+[2020/05/24 23:14:55] Getting new connection..
+[2020/05/24 23:14:55] Create connection pool..
+[2020/05/24 23:14:55] Done.
+[2020/05/24 23:14:55] Done.
+[2020/05/24 23:14:55] Fetch current table attribute
+[2020/05/24 23:14:55] Done.
+[2020/05/24 23:14:55] 59 files in directory
+[2020/05/24 23:14:56] Mapping data in 0.0938s
+[2020/05/24 23:14:56] Parsing file 1/59 AAL.csv in 0.578125s
+
+[2020/05/24 23:14:56] Mapping data in 0.0625s
+[2020/05/24 23:14:56] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:14:56] Mapping data in 0.0469s
+[2020/05/24 23:14:56] Parsing file 3/59 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 23:14:56] Mapping data in 0.0156s
+[2020/05/24 23:14:56] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:14:57] Mapping data in 0.2188s
+[2020/05/24 23:14:57] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.375s
+
+[2020/05/24 23:14:57] Mapping data in 0.2188s
+[2020/05/24 23:14:57] Parsing file 6/59 AAL_quarterly_financials.csv in 0.34375s
+
+[2020/05/24 23:14:57] Mapping data in 0.0625s
+[2020/05/24 23:14:58] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.171875s
+
+[2020/05/24 23:14:58] Mapping data in 0.2031s
+[2020/05/24 23:14:58] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.359375s
+
+[2020/05/24 23:14:58] Mapping data in 0.1875s
+[2020/05/24 23:14:58] Parsing file 9/59 XEC_quarterly_financials.csv in 0.328125s
+
+[2020/05/24 23:14:58] Mapping data in 0.0312s
+[2020/05/24 23:14:58] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 23:14:59] Mapping data in 0.2031s
+[2020/05/24 23:15:00] Parsing file 11/59 XPO.csv in 0.921875s
+
+[2020/05/24 23:15:00] Mapping data in 0.0625s
+[2020/05/24 23:15:00] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:20:24] Start...
+[2020/05/24 23:20:24] Initializing tools..
+[2020/05/24 23:20:24] DB connection initializing...
+[2020/05/24 23:20:24] Getting new connection..
+[2020/05/24 23:20:24] Create connection pool..
+[2020/05/24 23:20:24] Done.
+[2020/05/24 23:20:24] Done.
+[2020/05/24 23:20:24] Fetch current table attribute
+[2020/05/24 23:20:24] Done.
+[2020/05/24 23:20:24] 59 files in directory
+[2020/05/24 23:20:24] Mapping data in 0.0938s
+[2020/05/24 23:20:25] Parsing file 1/59 AAL.csv in 0.59375s
+
+[2020/05/24 23:20:25] Mapping data in 0.0625s
+[2020/05/24 23:20:25] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.140625s
+
+[2020/05/24 23:20:25] Mapping data in 0.0781s
+[2020/05/24 23:20:25] Parsing file 3/59 AAL_annual_financials.csv in 0.125s
+
+[2020/05/24 23:20:25] Mapping data in 0.0156s
+[2020/05/24 23:20:25] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:20:25] Mapping data in 0.25s
+[2020/05/24 23:20:26] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.34375s
+
+[2020/05/24 23:20:26] Mapping data in 0.25s
+[2020/05/24 23:20:26] Parsing file 6/59 AAL_quarterly_financials.csv in 0.375s
+
+[2020/05/24 23:20:26] Mapping data in 0.0312s
+[2020/05/24 23:20:26] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 23:20:26] Mapping data in 0.1406s
+[2020/05/24 23:20:27] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.203125s
+
+[2020/05/24 23:20:27] Mapping data in 0.125s
+[2020/05/24 23:20:27] Parsing file 9/59 XEC_quarterly_financials.csv in 0.1875s
+
+[2020/05/24 23:20:27] Mapping data in 0.0156s
+[2020/05/24 23:20:27] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.046875s
+
+[2020/05/24 23:20:27] Mapping data in 0.1094s
+[2020/05/24 23:20:28] Parsing file 11/59 XPO.csv in 0.625s
+
+[2020/05/24 23:20:28] Mapping data in 0.0625s
+[2020/05/24 23:20:28] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.125s
+
+[2020/05/24 23:20:28] Mapping data in 0.0625s
+[2020/05/24 23:20:28] Parsing file 13/59 XPO_annual_financials.csv in 0.078125s
+
+[2020/05/24 23:20:28] Mapping data in 0.0156s
+[2020/05/24 23:20:28] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:20:28] Mapping data in 0.25s
+[2020/05/24 23:20:28] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.390625s
+
+[2020/05/24 23:20:28] Mapping data in 0.1875s
+[2020/05/24 23:20:29] Parsing file 16/59 XPO_quarterly_financials.csv in 0.265625s
+
+[2020/05/24 23:20:29] Mapping data in 0.0156s
+[2020/05/24 23:20:29] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 23:20:29] Mapping data in 0.125s
+[2020/05/24 23:20:30] Parsing file 18/59 XRX.csv in 0.75s
+
+[2020/05/24 23:20:30] Mapping data in 0.1406s
+[2020/05/24 23:20:30] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.25s
+
+[2020/05/24 23:20:30] Mapping data in 0.0938s
+[2020/05/24 23:20:30] Parsing file 20/59 XRX_annual_financials.csv in 0.140625s
+
+[2020/05/24 23:20:30] Mapping data in 0.0156s
+[2020/05/24 23:20:30] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 23:20:30] Mapping data in 0.375s
+[2020/05/24 23:20:31] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.546875s
+
+[2020/05/24 23:20:31] Mapping data in 0.2656s
+[2020/05/24 23:20:31] Parsing file 23/59 XRX_quarterly_financials.csv in 0.375s
+
+[2020/05/24 23:20:31] Mapping data in 0.0469s
+[2020/05/24 23:20:31] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 23:20:31] Mapping data in 0.0938s
+[2020/05/24 23:20:32] Parsing file 25/59 XYL.csv in 0.53125s
+
+[2020/05/24 23:20:32] Mapping data in 0.0156s
+[2020/05/24 23:20:32] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/24 23:20:32] Mapping data in 0.0156s
+[2020/05/24 23:20:32] Parsing file 27/59 XYL_annual_financials.csv in 0.015625s
+
+[2020/05/24 23:20:32] Mapping data in 0.0s
+[2020/05/24 23:20:32] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:20:32] Mapping data in 0.0625s
+[2020/05/24 23:20:32] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.078125s
+
+[2020/05/24 23:20:32] Mapping data in 0.0625s
+[2020/05/24 23:20:32] Parsing file 30/59 XYL_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 23:20:32] Mapping data in 0.0156s
+[2020/05/24 23:20:32] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:20:33] Mapping data in 0.0938s
+[2020/05/24 23:20:33] Parsing file 32/59 Y.csv in 0.515625s
+
+[2020/05/24 23:20:33] Mapping data in 0.0938s
+[2020/05/24 23:20:34] Parsing file 33/59 YY.csv in 0.546875s
+
+[2020/05/24 23:20:34] Mapping data in 0.0312s
+[2020/05/24 23:20:34] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 23:20:34] Mapping data in 0.0312s
+[2020/05/24 23:20:34] Parsing file 35/59 YY_annual_financials.csv in 0.046875s
+
+[2020/05/24 23:20:34] Mapping data in 0.0s
+[2020/05/24 23:20:34] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 23:20:34] Mapping data in 0.0781s
+[2020/05/24 23:20:34] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 23:20:34] Mapping data in 0.0781s
+[2020/05/24 23:20:34] Parsing file 38/59 YY_quarterly_financials.csv in 0.109375s
+
+[2020/05/24 23:20:34] Mapping data in 0.0156s
+[2020/05/24 23:20:34] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:20:34] Mapping data in 0.0625s
+[2020/05/24 23:20:34] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:20:34] Mapping data in 0.0469s
+[2020/05/24 23:20:34] Parsing file 41/59 Y_annual_financials.csv in 0.078125s
+
+[2020/05/24 23:20:34] Mapping data in 0.0156s
+[2020/05/24 23:20:34] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 23:20:34] Mapping data in 0.0938s
+[2020/05/24 23:20:35] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.15625s
+
+[2020/05/24 23:20:35] Mapping data in 0.1094s
+[2020/05/24 23:20:35] Parsing file 44/59 Y_quarterly_financials.csv in 0.203125s
+
+[2020/05/24 23:20:35] Mapping data in 0.0312s
+[2020/05/24 23:20:35] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 23:20:35] Mapping data in 0.0781s
+[2020/05/24 23:20:36] Parsing file 46/59 ZION.csv in 0.5s
+
+[2020/05/24 23:20:36] Mapping data in 0.0625s
+[2020/05/24 23:20:36] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.125s
+
+[2020/05/24 23:20:36] Mapping data in 0.1094s
+[2020/05/24 23:20:36] Parsing file 48/59 ZION_annual_financials.csv in 0.15625s
+
+[2020/05/24 23:20:36] Mapping data in 0.0s
+[2020/05/24 23:20:36] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:20:36] Mapping data in 0.1094s
+[2020/05/24 23:20:36] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.234375s
+
+[2020/05/24 23:20:36] Mapping data in 0.1719s
+[2020/05/24 23:20:37] Parsing file 51/59 ZION_quarterly_financials.csv in 0.296875s
+
+[2020/05/24 23:20:37] Mapping data in 0.0469s
+[2020/05/24 23:20:37] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.140625s
+
+[2020/05/24 23:20:37] Mapping data in 0.0938s
+[2020/05/24 23:20:37] Parsing file 53/59 ZTO.csv in 0.453125s
+
+[2020/05/24 23:20:37] Mapping data in 0.0312s
+[2020/05/24 23:20:37] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/24 23:20:37] Mapping data in 0.0156s
+[2020/05/24 23:20:37] Parsing file 55/59 ZTO_annual_financials.csv in 0.03125s
+
+[2020/05/24 23:20:37] Mapping data in 0.0s
+[2020/05/24 23:20:37] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:20:37] Mapping data in 0.0469s
+[2020/05/24 23:20:38] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.09375s
+
+[2020/05/24 23:20:38] Mapping data in 0.0469s
+[2020/05/24 23:20:38] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.09375s
+
+[2020/05/24 23:20:38] Mapping data in 0.0s
+[2020/05/24 23:20:38] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:20:38] All transaction success
+[2020/05/24 23:20:38] END, total time: 11.140625s
+[2020/05/24 23:20:38] Main thread performance average / file: 0.189s
+[2020/05/24 23:20:38] Data mapping Performance average / file: 0.079s
+[2020/05/24 23:23:38] Start...
+[2020/05/24 23:23:38] Initializing tools..
+[2020/05/24 23:23:38] DB connection initializing...
+[2020/05/24 23:23:38] Getting new connection..
+[2020/05/24 23:23:38] Create connection pool..
+[2020/05/24 23:23:38] Done.
+[2020/05/24 23:23:38] Done.
+[2020/05/24 23:23:38] Fetch current table attribute
+[2020/05/24 23:23:38] Done.
+[2020/05/24 23:23:38] 59 files in directory
+[2020/05/24 23:23:38] Mapping data in 0.0938s
+[2020/05/24 23:23:38] Parsing file 1/59 AAL.csv in 0.453125s
+
+[2020/05/24 23:23:38] Mapping data in 0.0469s
+[2020/05/24 23:23:38] Parsing file 2/59 AAL_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 23:23:39] Mapping data in 0.0781s
+[2020/05/24 23:23:39] Parsing file 3/59 AAL_annual_financials.csv in 0.125s
+
+[2020/05/24 23:23:39] Mapping data in 0.0s
+[2020/05/24 23:23:39] Parsing file 4/59 AAL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:23:39] Mapping data in 0.2656s
+[2020/05/24 23:23:39] Parsing file 5/59 AAL_quarterly_balance-sheet.csv in 0.4375s
+
+[2020/05/24 23:23:39] Mapping data in 0.2656s
+[2020/05/24 23:23:40] Parsing file 6/59 AAL_quarterly_financials.csv in 0.390625s
+
+[2020/05/24 23:23:40] Mapping data in 0.0312s
+[2020/05/24 23:23:40] Parsing file 7/59 AAL_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 23:23:40] Mapping data in 0.1406s
+[2020/05/24 23:23:40] Parsing file 8/59 XEC_quarterly_balance-sheet.csv in 0.21875s
+
+[2020/05/24 23:23:40] Mapping data in 0.125s
+[2020/05/24 23:23:40] Parsing file 9/59 XEC_quarterly_financials.csv in 0.171875s
+
+[2020/05/24 23:23:40] Mapping data in 0.0156s
+[2020/05/24 23:23:40] Parsing file 10/59 XEC_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 23:23:41] Mapping data in 0.0781s
+[2020/05/24 23:23:41] Parsing file 11/59 XPO.csv in 0.59375s
+
+[2020/05/24 23:23:41] Mapping data in 0.0625s
+[2020/05/24 23:23:41] Parsing file 12/59 XPO_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:23:41] Mapping data in 0.0469s
+[2020/05/24 23:23:41] Parsing file 13/59 XPO_annual_financials.csv in 0.078125s
+
+[2020/05/24 23:23:41] Mapping data in 0.0156s
+[2020/05/24 23:23:41] Parsing file 14/59 XPO_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:23:42] Mapping data in 0.25s
+[2020/05/24 23:23:42] Parsing file 15/59 XPO_quarterly_balance-sheet.csv in 0.375s
+
+[2020/05/24 23:23:42] Mapping data in 0.1719s
+[2020/05/24 23:23:42] Parsing file 16/59 XPO_quarterly_financials.csv in 0.25s
+
+[2020/05/24 23:23:42] Mapping data in 0.0312s
+[2020/05/24 23:23:42] Parsing file 17/59 XPO_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 23:23:42] Mapping data in 0.125s
+[2020/05/24 23:23:43] Parsing file 18/59 XRX.csv in 0.734375s
+
+[2020/05/24 23:23:43] Mapping data in 0.1406s
+[2020/05/24 23:23:43] Parsing file 19/59 XRX_annual_balance-sheet.csv in 0.234375s
+
+[2020/05/24 23:23:43] Mapping data in 0.0938s
+[2020/05/24 23:23:44] Parsing file 20/59 XRX_annual_financials.csv in 0.15625s
+
+[2020/05/24 23:23:44] Mapping data in 0.0156s
+[2020/05/24 23:23:44] Parsing file 21/59 XRX_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 23:23:44] Mapping data in 0.5469s
+[2020/05/24 23:23:44] Parsing file 22/59 XRX_quarterly_balance-sheet.csv in 0.828125s
+
+[2020/05/24 23:23:45] Mapping data in 0.4219s
+[2020/05/24 23:23:45] Parsing file 23/59 XRX_quarterly_financials.csv in 0.640625s
+
+[2020/05/24 23:23:45] Mapping data in 0.0625s
+[2020/05/24 23:23:45] Parsing file 24/59 XRX_quarterly_valuation_measures.csv in 0.171875s
+
+[2020/05/24 23:23:46] Mapping data in 0.1562s
+[2020/05/24 23:23:46] Parsing file 25/59 XYL.csv in 0.71875s
+
+[2020/05/24 23:23:46] Mapping data in 0.0312s
+[2020/05/24 23:23:46] Parsing file 26/59 XYL_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 23:23:46] Mapping data in 0.0312s
+[2020/05/24 23:23:46] Parsing file 27/59 XYL_annual_financials.csv in 0.03125s
+
+[2020/05/24 23:23:46] Mapping data in 0.0s
+[2020/05/24 23:23:46] Parsing file 28/59 XYL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:23:47] Mapping data in 0.1094s
+[2020/05/24 23:23:47] Parsing file 29/59 XYL_quarterly_balance-sheet.csv in 0.1875s
+
+[2020/05/24 23:23:47] Mapping data in 0.0625s
+[2020/05/24 23:23:47] Parsing file 30/59 XYL_quarterly_financials.csv in 0.109375s
+
+[2020/05/24 23:23:47] Mapping data in 0.0156s
+[2020/05/24 23:23:47] Parsing file 31/59 XYL_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:23:47] Mapping data in 0.0938s
+[2020/05/24 23:23:47] Parsing file 32/59 Y.csv in 0.59375s
+
+[2020/05/24 23:23:48] Mapping data in 0.0781s
+[2020/05/24 23:23:48] Parsing file 33/59 YY.csv in 0.484375s
+
+[2020/05/24 23:23:48] Mapping data in 0.0312s
+[2020/05/24 23:23:48] Parsing file 34/59 YY_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/24 23:23:48] Mapping data in 0.0156s
+[2020/05/24 23:23:48] Parsing file 35/59 YY_annual_financials.csv in 0.015625s
+
+[2020/05/24 23:23:48] Mapping data in 0.0s
+[2020/05/24 23:23:48] Parsing file 36/59 YY_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:23:48] Mapping data in 0.0781s
+[2020/05/24 23:23:48] Parsing file 37/59 YY_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 23:23:48] Mapping data in 0.0625s
+[2020/05/24 23:23:48] Parsing file 38/59 YY_quarterly_financials.csv in 0.078125s
+
+[2020/05/24 23:23:48] Mapping data in 0.0s
+[2020/05/24 23:23:49] Parsing file 39/59 YY_quarterly_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:23:49] Mapping data in 0.0625s
+[2020/05/24 23:23:49] Parsing file 40/59 Y_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:23:49] Mapping data in 0.0469s
+[2020/05/24 23:23:49] Parsing file 41/59 Y_annual_financials.csv in 0.0625s
+
+[2020/05/24 23:23:49] Mapping data in 0.0156s
+[2020/05/24 23:23:49] Parsing file 42/59 Y_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:23:49] Mapping data in 0.0938s
+[2020/05/24 23:23:49] Parsing file 43/59 Y_quarterly_balance-sheet.csv in 0.125s
+
+[2020/05/24 23:23:49] Mapping data in 0.125s
+[2020/05/24 23:23:49] Parsing file 44/59 Y_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 23:23:49] Mapping data in 0.0312s
+[2020/05/24 23:23:49] Parsing file 45/59 Y_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/24 23:23:49] Mapping data in 0.0781s
+[2020/05/24 23:23:50] Parsing file 46/59 ZION.csv in 0.484375s
+
+[2020/05/24 23:23:50] Mapping data in 0.0781s
+[2020/05/24 23:23:50] Parsing file 47/59 ZION_annual_balance-sheet.csv in 0.109375s
+
+[2020/05/24 23:23:50] Mapping data in 0.1094s
+[2020/05/24 23:23:50] Parsing file 48/59 ZION_annual_financials.csv in 0.125s
+
+[2020/05/24 23:23:50] Mapping data in 0.0s
+[2020/05/24 23:23:50] Parsing file 49/59 ZION_annual_valuation_measures.csv in 0.03125s
+
+[2020/05/24 23:23:50] Mapping data in 0.0469s
+[2020/05/24 23:23:51] Parsing file 50/59 ZION_quarterly_balance-sheet.csv in 0.140625s
+
+[2020/05/24 23:23:51] Mapping data in 0.1094s
+[2020/05/24 23:23:51] Parsing file 51/59 ZION_quarterly_financials.csv in 0.21875s
+
+[2020/05/24 23:23:51] Mapping data in 0.0156s
+[2020/05/24 23:23:51] Parsing file 52/59 ZION_quarterly_valuation_measures.csv in 0.109375s
+
+[2020/05/24 23:23:51] Mapping data in 0.0625s
+[2020/05/24 23:23:51] Parsing file 53/59 ZTO.csv in 0.359375s
+
+[2020/05/24 23:23:51] Mapping data in 0.0156s
+[2020/05/24 23:23:51] Parsing file 54/59 ZTO_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/24 23:23:51] Mapping data in 0.0s
+[2020/05/24 23:23:51] Parsing file 55/59 ZTO_annual_financials.csv in 0.015625s
+
+[2020/05/24 23:23:51] Mapping data in 0.0s
+[2020/05/24 23:23:51] Parsing file 56/59 ZTO_annual_valuation_measures.csv in 0.0s
+
+[2020/05/24 23:23:51] Mapping data in 0.0312s
+[2020/05/24 23:23:51] Parsing file 57/59 ZTO_quarterly_balance-sheet.csv in 0.0625s
+
+[2020/05/24 23:23:51] Mapping data in 0.0312s
+[2020/05/24 23:23:51] Parsing file 58/59 ZTO_quarterly_financials.csv in 0.046875s
+
+[2020/05/24 23:23:52] Mapping data in 0.0s
+[2020/05/24 23:23:52] Parsing file 59/59 ZTO_quarterly_valuation_measures.csv in 0.0s
+
+[2020/05/24 23:23:52] All transaction success
+[2020/05/24 23:23:52] END, total time: 11.375s
+[2020/05/24 23:23:52] Main thread performance average / file: 0.193s
+[2020/05/24 23:23:52] Data mapping Performance average / file: 0.082s
+[2020/05/24 23:24:28] Start...
+[2020/05/24 23:24:28] Initializing tools..
+[2020/05/24 23:24:28] DB connection initializing...
+[2020/05/24 23:24:28] Getting new connection..
+[2020/05/24 23:24:28] Create connection pool..
+[2020/05/24 23:24:28] Done.
+[2020/05/24 23:24:28] Done.
+[2020/05/24 23:24:28] Fetch current table attribute
+[2020/05/24 23:24:28] Done.
+[2020/05/24 23:24:28] 17 files in directory
+[2020/05/24 23:24:28] Mapping data in 0.1094s
+[2020/05/24 23:24:29] Parsing file 1/17 AAL.csv in 0.578125s
+
+[2020/05/24 23:24:29] Mapping data in 0.0625s
+[2020/05/24 23:24:29] Parsing file 2/17 AAL_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/24 23:24:29] Mapping data in 0.0781s
+[2020/05/24 23:24:29] Parsing file 3/17 AAL_annual_financials.csv in 0.078125s
+
+[2020/05/24 23:24:29] Mapping data in 0.0156s
+[2020/05/24 23:24:29] Parsing file 4/17 AAL_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/24 23:24:30] Mapping data in 0.2656s
+[2020/05/24 23:24:30] Parsing file 5/17 AAL_quarterly_balance-sheet.csv in 0.4375s
+
+[2020/05/24 23:24:30] Mapping data in 0.2344s
+[2020/05/24 23:24:30] Parsing file 6/17 AAL_quarterly_financials.csv in 0.34375s
+
+[2020/05/24 23:24:30] Mapping data in 0.0625s
+[2020/05/24 23:24:30] Parsing file 7/17 AAL_quarterly_valuation_measures.csv in 0.15625s
+
+[2020/05/24 23:24:31] Mapping data in 0.1875s
+[2020/05/24 23:24:31] Parsing file 8/17 XEC_quarterly_balance-sheet.csv in 0.265625s
+
+[2020/05/24 23:24:31] Mapping data in 0.125s
+[2020/05/24 23:24:31] Parsing file 9/17 XEC_quarterly_financials.csv in 0.25s
+
+[2020/05/24 23:24:31] Mapping data in 0.0156s
+[2020/05/24 23:24:31] Parsing file 10/17 XEC_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/24 23:24:31] Mapping data in 0.0938s
+[2020/05/24 23:24:32] Parsing file 11/17 XPO.csv in 0.59375s
+
+[2020/05/24 23:24:32] Mapping data in 0.0625s
+[2020/05/24 23:24:32] Parsing file 12/17 XPO_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/24 23:24:32] Mapping data in 0.0625s
+[2020/05/24 23:24:32] Parsing file 13/17 XPO_annual_financials.csv in 0.109375s
+
+[2020/05/24 23:24:32] Mapping data in 0.0156s
+[2020/05/24 23:24:32] Parsing file 14/17 XPO_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/24 23:24:32] Mapping data in 0.25s
+[2020/05/24 23:24:32] Parsing file 15/17 XPO_quarterly_balance-sheet.csv in 0.421875s
+
+[2020/05/24 23:24:33] Mapping data in 0.1719s
+[2020/05/24 23:24:33] Parsing file 16/17 XPO_quarterly_financials.csv in 0.28125s
+
+[2020/05/24 23:24:33] Mapping data in 0.0312s
+[2020/05/24 23:24:33] Parsing file 17/17 XPO_quarterly_valuation_measures.csv in 0.078125s
+
+[2020/05/24 23:24:33] All transaction success
+[2020/05/24 23:24:33] END, total time: 3.890625s
+[2020/05/24 23:24:33] Main thread performance average / file: 0.229s
+[2020/05/24 23:24:33] Data mapping Performance average / file: 0.108s
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Initializing tools..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] DB connection initializing...
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Getting new connection..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Create connection pool..
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Fetch current table attribute
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:31:51] Done.
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] Initializing tools..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] DB connection initializing...
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Getting new connection..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Create connection pool..
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Fetch current table attribute
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:51] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Done.
+[2020/05/24 23:32:52] Mapping data in 0.1562s
+[2020/05/24 23:32:52] Mapping data in 0.0156s
+[2020/05/24 23:32:52] Mapping data in 0.1562s
+[2020/05/24 23:32:53] Mapping data in 0.1406s
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Initializing tools..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] DB connection initializing...
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Getting new connection..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Create connection pool..
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Fetch current table attribute
+[2020/05/24 23:32:53] Fetch current table attribute
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:53] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Fetch current table attribute
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Done.
+[2020/05/24 23:32:54] Mapping data in 0.2031s
+[2020/05/24 23:32:54] Mapping data in 0.2031s
+[2020/05/24 23:32:55] Mapping data in 0.7188s
+[2020/05/24 23:32:55] Mapping data in 0.7188s
+[2020/05/24 23:32:56] Mapping data in 4.7188s
+[2020/05/24 23:32:56] Mapping data in 4.8438s
+[2020/05/24 23:32:57] Mapping data in 3.7969s
+[2020/05/24 23:32:57] Mapping data in 3.8125s
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] Create connection pool..
+..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Initializing tools..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] DB connection initializing...
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Getting new connection..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Create connection pool..
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Fetch current table attribute
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Done.
+[2020/05/24 23:33:48] Mapping data in 0.0312s
+[2020/05/24 23:33:49] Mapping data in 0.1094s
+[2020/05/24 23:33:49] Mapping data in 0.0938s
+[2020/05/24 23:33:49] Mapping data in 0.3594s
+[2020/05/24 23:33:49] Mapping data in 0.875s
+[2020/05/24 23:33:49] Mapping data in 0.875s
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Initializing tools..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] DB connection initializing...
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Getting new connection..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Create connection pool..
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Fetch current table attribute
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Done.
+[2020/05/24 23:33:50] Mapping data in 0.0156s
+[2020/05/24 23:33:50] Mapping data in 0.0469s
+[2020/05/24 23:33:51] Mapping data in 0.2344s
+[2020/05/24 23:33:51] Mapping data in 0.3438s
+[2020/05/24 23:33:51] Mapping data in 0.375s
+[2020/05/24 23:33:51] Mapping data in 0.3438s
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Initializing tools..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] DB connection initializing...
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Getting new connection..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Create connection pool..
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Fetch current table attribute
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:53] Done.
+[2020/05/24 23:35:54] Mapping data in 0.1875s
+[2020/05/24 23:35:54] Mapping data in 0.1562s
+[2020/05/24 23:35:54] Mapping data in 0.6406s
+[2020/05/24 23:35:54] Mapping data in 0.8125s
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] Initializing tools..
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] DB connection initializing...
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Getting new connection..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Create connection pool..
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Fetch current table attribute
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:55] Done.
+[2020/05/24 23:35:56] Mapping data in 0.3594s
+[2020/05/24 23:35:56] Mapping data in 0.2969s
+[2020/05/24 23:35:56] Mapping data in 1.1406s
+[2020/05/24 23:35:56] Mapping data in 1.0938s
+[2020/05/24 23:35:58] Mapping data in 5.9844s
+[2020/05/24 23:35:58] Mapping data in 6.0s
+[2020/05/24 23:35:59] Mapping data in 4.0469s
+[2020/05/24 23:35:59] Mapping data in 4.0938s
