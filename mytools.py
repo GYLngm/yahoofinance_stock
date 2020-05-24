@@ -77,6 +77,7 @@ class myTools:
                     tmp[dr['name'][x].strip()] = self.convertNumberWithCommaInArray(dr[c[i]][x])
                     tmp['Code'] = fileProperty['cols']['Code']
                     if c[i] == 'ttm':
+                        tmp['ReportDate'] = '0000-00-00'
                         continue
                     else:
                         tmp['ReportDate'] = datetime.strptime(c[i], '%m/%d/%Y').strftime('%Y-%m-%d')

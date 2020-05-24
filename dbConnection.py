@@ -1,6 +1,6 @@
 import mysql.connector
 from logHandler import LogHandler
-from config import dbConfig
+import config as config
 
 
 class dbConnection:
@@ -14,9 +14,9 @@ class dbConnection:
     }
 
     def __init__(self):
-        self.__db_name = dbConfig['database']
+        self.__db_name = config.dbConfig['database']
         if self.__sqlConnect is None:
-            self.__sqlConnect = mysql.connector.connect(**dbConfig)
+            self.__sqlConnect = mysql.connector.connect(**config.dbConfig)
         self.loadModelProperties()
 
     def getConnect(self):
@@ -63,7 +63,8 @@ class dbConnection:
             ','.join(['%s'] * len(rows)),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
-        print(sql_insert)
+        if table in config.DB_TABLE_DEBUG:
+            print(args['org_dict'])
         try:
             self.__sqlConnect.cursor().execute(sql_insert, rows)
             # NB : you won't get an IntegrityError when reading
