@@ -65,10 +65,6 @@ class dbConnection:
             ','.join(['%s'] * len(rows)),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
-
-        if table in self.__table_debug:
-            LogHandler.log_msg(args['org_dict'])
-
         try:
             self.__sqlConnect.cursor().execute(sql_insert, rows)
             # NB : you won't get an IntegrityError when reading
