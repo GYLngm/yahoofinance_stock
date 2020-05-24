@@ -10,9 +10,16 @@ from dbConnection import dbConnection
 
 class myTools:
     __con = None
+    mp = {
+        'yahoofinance_stock_balance_sheet': (),
+        'yahoofinance_stock_income_statement': (),
+        'yahoofinance_stock_price': (),
+        'yahoofinance_stock_valuation_measures': ()
+    }
 
     def __init__(self):
         self.__con = dbConnection()
+        self.__con.loadModelProperties(self.mp)
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}
@@ -72,8 +79,7 @@ class myTools:
         for i in range(1, len(c)):
             tmp = {}
             for x in range(len(dr[c[i]])):
-                mp = self.__con.getModelProperties()
-                if dr['name'][x].strip() in mp[fileProperty['table']]:
+                if dr['name'][x].strip() in self.mp[fileProperty['table']]:
                     tmp[dr['name'][x].strip()] = self.convertNumberWithCommaInArray(dr[c[i]][x])
                     tmp['Code'] = fileProperty['cols']['Code']
                     if c[i] == 'ttm':

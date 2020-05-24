@@ -6,12 +6,6 @@ from config import dbConfig
 class dbConnection:
     __sqlConnect = None
     __db_name = None
-    __model_properties = {
-        'yahoofinance_stock_balance_sheet': (),
-        'yahoofinance_stock_income_statement': (),
-        'yahoofinance_stock_price': (),
-        'yahoofinance_stock_valuation_measures': ()
-    }
     __table_debug = (
         'yahoofinance_stock_balance_sheet',
         'yahoofinance_stock_income_statement',
@@ -23,7 +17,6 @@ class dbConnection:
         self.__db_name = dbConfig['database']
         if self.__sqlConnect is None:
             self.__sqlConnect = mysql.connector.connect(**dbConfig)
-        self.loadModelProperties()
 
     def getConnect(self):
         return self.__sqlConnect
@@ -115,39 +108,37 @@ class dbConnection:
     def update(self, table, fields, conditions):
         return True
 
-    def getModelProperties(self):
-        return self.__model_properties
-
     def closeConnection(self):
         self.__sqlConnect.close()
         print('Connection closed')
 
-    def loadModelProperties(self):
-        self.__model_properties['yahoofinance_stock_balance_sheet'] = self.select(
+    def loadModelProperties(self, mp):
+        mp['yahoofinance_stock_balance_sheet'] = self.select(
             'INFORMATION_SCHEMA.COLUMNS',
             'COLUMN_NAME',
             {
                 'TABLE_NAME': 'yahoofinance_stock_balance_sheet',
                 'TABLE_SCHEMA': self.__db_name,
             })
-        self.__model_properties['yahoofinance_stock_income_statement'] = self.select(
+        mp['yahoofinance_stock_income_statement'] = self.select(
             'INFORMATION_SCHEMA.COLUMNS',
             'COLUMN_NAME',
             {
                 'TABLE_NAME': 'yahoofinance_stock_income_statement',
                 'TABLE_SCHEMA': self.__db_name,
             })
-        self.__model_properties['yahoofinance_stock_price'] = self.select(
+        mp['yahoofinance_stock_price'] = self.select(
             'INFORMATION_SCHEMA.COLUMNS',
             'COLUMN_NAME',
             {
                 'TABLE_NAME': 'yahoofinance_stock_price',
                 'TABLE_SCHEMA': self.__db_name,
             })
-        self.__model_properties['yahoofinance_stock_valuation_measures'] = self.select(
+        mp['yahoofinance_stock_valuation_measures'] = self.select(
             'INFORMATION_SCHEMA.COLUMNS',
             'COLUMN_NAME',
             {
                 'TABLE_NAME': 'yahoofinance_stock_valuation_measures',
                 'TABLE_SCHEMA': self.__db_name,
             })
+        return mp

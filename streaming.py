@@ -1,10 +1,11 @@
-import datetime, gc, os, re, time
+import gc
+import os
+import time
 from locale import *
-from pathlib import Path
 import pandas as pd
-import numpy as np
-from mytools import myTools
+
 from logHandler import LogHandler
+from mytools import myTools
 
 mytools = myTools()
 
@@ -12,9 +13,13 @@ setlocale(LC_NUMERIC, 'English_US')
 
 print("Start...")
 number = 0
+t_start = time.process_time()
+file_nums = 0
 for root, directories, files in os.walk("csv"):
+    file_nums = len(files)
     LogHandler.log_msg("{0} files in directory".format(len(files)))
     for filename in files:
+        t3 = time.process_time()
         number += 1
         # checkCSVInTable
         file_path = os.path.join(root, filename)
@@ -35,18 +40,19 @@ for root, directories, files in os.walk("csv"):
             fileProperty = mytools.matchFile(filename, isPrice=True)
             dr = dataset.to_dict()
             args = mytools.regroupRowsFromDictForPrice(dr=dr, fileProperty=fileProperty)
-        
-        print('Parsing file %s/%s %s \n' % (
-            number,
-            len(files),
-            filename
-        ))
 
         # Do variable convertions
         mytools.saveData(args=args, table=fileProperty['table'])
-
+        t4 = time.process_time()
+        print('Parsing file %s/%s %s in %ss\n' % (
+            number,
+            len(files),
+            filename,
+            (t4 - t3)
+        ))
         del dataset, csvdata, dr, args, fileProperty, file_path, filename
         gc.collect()
-
-print("END")
+t_end = time.process_time()
+print("END, total time: %ss" % (t_end-t_start))
+print("Performance average: %ss" % round((t_end-t_start)/file_nums, 3))
 mytools.closeDbConnection()
