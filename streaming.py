@@ -11,7 +11,7 @@ mytools = myTools()
 
 setlocale(LC_NUMERIC, 'English_US')
 
-print("Start...")
+LogHandler.log_msg("Start...")
 number = 0
 t_start = time.process_time()
 file_nums = 0
@@ -44,15 +44,14 @@ for root, directories, files in os.walk("csv"):
         # Do variable convertions
         mytools.saveData(args=args, table=fileProperty['table'])
         t4 = time.process_time()
-        print('Parsing file %s/%s %s in %ss\n' % (
+        LogHandler.log_msg('Parsing file %s/%s %s in %ss\n' % (
             number,
             len(files),
             filename,
             (t4 - t3)
         ))
-        del dataset, csvdata, dr, args, fileProperty, file_path, filename
-        gc.collect()
+
 t_end = time.process_time()
-print("END, total time: %ss" % (t_end-t_start))
-print("Performance average: %ss" % round((t_end-t_start)/file_nums, 3))
+LogHandler.log_msg("END, total time: %ss" % (t_end-t_start))
+LogHandler.log_msg("Performance average: %ss" % round((t_end-t_start)/file_nums, 3))
 mytools.closeDbConnection()

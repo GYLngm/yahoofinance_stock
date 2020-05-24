@@ -15,8 +15,11 @@ class dbConnection:
 
     def __init__(self):
         self.__db_name = dbConfig['database']
+        LogHandler.log_msg("DB connection initializing...")
         if self.__sqlConnect is None:
+            LogHandler.log_msg("Getting new connection..")
             self.__sqlConnect = mysql.connector.connect(**dbConfig)
+        LogHandler.log_msg("Done.")
 
     def getConnect(self):
         return self.__sqlConnect

@@ -18,8 +18,11 @@ class myTools:
     }
 
     def __init__(self):
+        LogHandler.log_msg("Initializing tools..")
         self.__con = dbConnection()
+        LogHandler.log_msg("Fetch current table attribute")
         self.__con.loadModelProperties(self.mp)
+        LogHandler.log_msg("Done.")
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}
