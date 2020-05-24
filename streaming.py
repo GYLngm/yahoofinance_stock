@@ -7,11 +7,10 @@ import pandas as pd
 from logHandler import LogHandler
 from mytools import myTools
 
-mytools = myTools()
-
 setlocale(LC_NUMERIC, 'English_US')
 
 LogHandler.log_msg("Start...")
+mytools = myTools()
 number = 0
 t_start = time.process_time()
 file_nums = 0
@@ -50,6 +49,7 @@ for root, directories, files in os.walk("csv"):
             filename,
             (t4 - t3)
         ))
+    mytools.commitTransactions()
 
 t_end = time.process_time()
 LogHandler.log_msg("END, total time: %ss" % (t_end-t_start))

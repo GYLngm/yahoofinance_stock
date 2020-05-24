@@ -2,6 +2,9 @@ import re
 import time
 import os
 from datetime import datetime
+
+import mysql.connector
+
 from logHandler import LogHandler
 import numpy as np
 
@@ -93,7 +96,6 @@ class myTools:
                     if fileProperty['key'] != 'balance':
                         tmp['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
                 else:
-                    # print(dr['name'][x].strip())
                     LogHandler.log_properties(filename=fileProperty['filename'], p=dr['name'][x].strip())
             args = np.append(args, tmp)
         return args
@@ -120,7 +122,17 @@ class myTools:
                                      cols=list(args[i].keys()),
                                      rows=list(args[i].values()),
                                      org_dict=args[i])
-        self.__con.getConnect().commit()
+        # LogHandler.log_msg("Commit transactions")
+        # self.__con.getConnect().commit()
 
     def closeDbConnection(self):
         self.__con.closeConnection()
+
+    def commitTransactions(self):
+        try:
+            self.__con.getConnect().commit()
+        except mysql.connector.Error as error:
+            LogHandler.log_msg("Failed to update record to database rollback: {}".format(error))
+            self.__con.getConnect().rollback()
+        finally:
+            LogHandler.log_msg("All transaction success")

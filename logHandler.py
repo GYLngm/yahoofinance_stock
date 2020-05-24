@@ -8,7 +8,7 @@ class LogHandler:
     def log_msg(msg):
         now = time.strftime('%Y/%m/%d %H:%M:%S', time.localtime(int(round(time.time() * 1000)) / 1000))
         filenow = time.strftime('%Y%m%d', time.localtime(int(round(time.time() * 1000)) / 1000))
-        log_msg = "[%s] %s" % (
+        log_msg = "[%s] %s\r\n" % (
             now,
             msg
         )
@@ -33,4 +33,4 @@ class LogHandler:
         with open(directory, "w+", encoding='utf-8') as f:
             line_found = any(p in line for line in f)
             if not line_found:
-                f.write(p + "\n")
+                f.write(p + "\r\n")
