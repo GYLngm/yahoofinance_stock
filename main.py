@@ -23,7 +23,7 @@ for root, directories, files in os.walk("csv"):
             print("Error: unable to start thread, msg: {0}".format(err))
         finally:
             end_time = time.process_time()
-            LogHandler.log_msg(
+            LogHandler.log_exceptions(
                 "Main thread performance average / file: %ss" % round((start_time - end_time) / len(files), 3))
             pass
 

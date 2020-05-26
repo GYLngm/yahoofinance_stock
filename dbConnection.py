@@ -26,34 +26,6 @@ class dbConnection:
     def getConnect(self):
         return self.__sqlConnect
 
-    def alter(self, table, col, db_name=__db_name):
-        cursor = self.__sqlConnect.cursor(buffered=True, dictionary=True)
-        sql_select = """SELECT COUNT(*) as count FROM INFORMATION_SCHEMA.COLUMNS 
-                WHERE TABLE_NAME='%s' 
-                AND TABLE_SCHEMA='%s' 
-                AND COLUMN_NAME='%s' LIMIT 1;""" % (
-            table,
-            db_name,
-            col,
-        )
-        cursor.execute(sql_select)
-        result = cursor.fetchone()
-        if result['count'] == 0:
-            LogHandler.log_msg("Alter column '%s' to table '%s'\n" % (
-                col,
-                table
-            ))
-            sql_alter = """ALTER TABLE %s ADD COLUMN IF NOT EXISTS %s FLOAT NULL DEFAULT 0;""" % (
-                table,
-                col
-            )
-            cursor.execute(sql_alter)
-        elif result['count'] > 0:
-            return False
-        elif result is None:
-            return False
-        return True
-
     def insert(self, table, cols, rows, **args):
         onDupUpdateKey = []
         # print(rows)

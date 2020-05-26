@@ -27,7 +27,10 @@ for root, directories, files in os.walk("csv"):
         if csvdata.empty:
             continue
 
+        # new function
+        dr = csvdata.to_dict()
         dataset = csvdata.T
+
         args = []
         t1 = time.process_time()
         if mytools.checkIfIsDate(csvdata.columns):

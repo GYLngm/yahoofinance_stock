@@ -7194,3 +7194,1337 @@ rrent table attribute
 [2020/05/25 00:40:26] END, total time: 201.078125s
 [2020/05/25 00:40:26] Main thread performance average / file: 0.19s
 [2020/05/25 00:40:26] Data mapping Performance average / file: 0.078s
+[2020/05/25 20:52:18] Start...
+[2020/05/25 20:52:18] Initializing tools..
+[2020/05/25 20:52:18] DB connection initializing...
+[2020/05/25 20:52:18] Getting new connection..
+[2020/05/25 20:52:18] Create connection pool..
+[2020/05/25 20:52:18] Done.
+[2020/05/25 20:52:18] Done.
+[2020/05/25 20:52:18] Fetch current table attribute
+[2020/05/25 20:52:18] Done.
+[2020/05/25 20:52:18] 500 files in directory
+[2020/05/25 20:52:18] Mapping data first 0.0s
+[2020/05/25 20:52:19] Mapping data in 0.2344s
+[2020/05/25 20:52:20] Parsing file 1/500 AAL.csv in 1.09375s
+
+[2020/05/25 20:52:20] Mapping data first 0.0s
+[2020/05/25 20:55:38] Start...
+[2020/05/25 20:55:38] Initializing tools..
+[2020/05/25 20:55:38] DB connection initializing...
+[2020/05/25 20:55:38] Getting new connection..
+[2020/05/25 20:55:38] Create connection pool..
+[2020/05/25 20:55:38] Done.
+[2020/05/25 20:55:38] Done.
+[2020/05/25 20:55:38] Fetch current table attribute
+[2020/05/25 20:55:38] Done.
+[2020/05/25 20:55:38] 500 files in directory
+[2020/05/25 20:55:38] Mapping data first 0.0s
+[2020/05/25 20:55:38] Mapping data in 0.0781s
+[2020/05/25 20:55:38] Parsing file 1/500 AAL.csv in 0.375s
+
+[2020/05/25 20:55:38] Mapping data first 0.0s
+[2020/05/25 20:55:39] Mapping data in 0.0625s
+[2020/05/25 20:55:39] Parsing file 2/500 AAL_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/25 20:55:39] Mapping data first 0.0s
+[2020/05/25 20:55:39] Mapping data in 0.0781s
+[2020/05/25 20:55:39] Parsing file 3/500 AAL_annual_financials.csv in 0.09375s
+
+[2020/05/25 20:55:39] Mapping data first 0.0s
+[2020/05/25 20:55:39] Mapping data in 0.0156s
+[2020/05/25 20:55:39] Parsing file 4/500 AAL_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/25 20:55:39] Mapping data first 0.0s
+[2020/05/25 20:55:39] Mapping data in 0.2031s
+[2020/05/25 20:55:39] Parsing file 5/500 AAL_quarterly_balance-sheet.csv in 0.28125s
+
+[2020/05/25 20:55:39] Mapping data first 0.0s
+[2020/05/25 20:55:40] Mapping data in 0.2188s
+[2020/05/25 20:55:40] Parsing file 6/500 AAL_quarterly_financials.csv in 0.359375s
+
+[2020/05/25 20:55:40] Mapping data first 0.0s
+[2020/05/25 20:55:40] Mapping data in 0.0156s
+[2020/05/25 20:55:40] Parsing file 7/500 AAL_quarterly_valuation_measures.csv in 0.09375s
+
+[2020/05/25 20:55:40] Mapping data first 0.0s
+[2020/05/25 20:55:40] Mapping data in 0.0625s
+[2020/05/25 20:55:40] Parsing file 8/500 ABBV.csv in 0.359375s
+
+[2020/05/25 20:55:40] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0156s
+[2020/05/25 20:55:41] Parsing file 9/500 ABBV_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0156s
+[2020/05/25 20:55:41] Parsing file 10/500 ABBV_annual_financials.csv in 0.03125s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0s
+[2020/05/25 20:55:41] Parsing file 11/500 ABBV_annual_valuation_measures.csv in 0.0s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0469s
+[2020/05/25 20:55:41] Parsing file 12/500 ABBV_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0469s
+[2020/05/25 20:55:41] Parsing file 13/500 ABBV_quarterly_financials.csv in 0.09375s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0156s
+[2020/05/25 20:55:41] Parsing file 14/500 ABBV_quarterly_valuation_measures.csv in 0.015625s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0781s
+[2020/05/25 20:55:41] Parsing file 15/500 ABMD.csv in 0.40625s
+
+[2020/05/25 20:55:41] Mapping data first 0.0s
+[2020/05/25 20:55:41] Mapping data in 0.0781s
+[2020/05/25 20:55:42] Parsing file 16/500 ABMD_annual_balance-sheet.csv in 0.140625s
+
+[2020/05/25 20:55:42] Mapping data first 0.0s
+[2020/05/25 20:55:42] Mapping data in 0.0469s
+[2020/05/25 20:55:42] Parsing file 17/500 ABMD_annual_financials.csv in 0.09375s
+
+[2020/05/25 20:55:42] Mapping data first 0.0s
+[2020/05/25 20:55:42] Mapping data in 0.0156s
+[2020/05/25 20:55:42] Parsing file 18/500 ABMD_annual_valuation_measures.csv in 0.046875s
+
+[2020/05/25 20:55:42] Mapping data first 0.0s
+[2020/05/25 20:55:42] Mapping data in 0.2969s
+[2020/05/25 20:55:42] Parsing file 19/500 ABMD_quarterly_balance-sheet.csv in 0.453125s
+
+[2020/05/25 20:55:42] Mapping data first 0.0s
+[2020/05/25 20:55:42] Mapping data in 0.2344s
+[2020/05/25 20:55:43] Parsing file 20/500 ABMD_quarterly_financials.csv in 0.328125s
+
+[2020/05/25 20:55:43] Mapping data first 0.0s
+[2020/05/25 20:55:43] Mapping data in 0.0469s
+[2020/05/25 20:55:43] Parsing file 21/500 ABMD_quarterly_valuation_measures.csv in 0.125s
+
+[2020/05/25 20:55:43] Mapping data first 0.0s
+[2020/05/25 20:55:43] Mapping data in 0.1094s
+[2020/05/25 20:55:43] Parsing file 22/500 ACGL.csv in 0.53125s
+
+[2020/05/25 20:55:43] Mapping data first 0.0s
+[2020/05/25 20:55:43] Mapping data in 0.0469s
+[2020/05/25 20:55:43] Parsing file 23/500 ACGL_annual_balance-sheet.csv in 0.046875s
+
+[2020/05/25 20:55:43] Mapping data first 0.0s
+[2020/05/25 20:55:43] Mapping data in 0.0s
+[2020/05/25 20:55:44] Parsing file 24/500 ACGL_annual_financials.csv in 0.03125s
+
+[2020/05/25 20:55:44] Mapping data first 0.0s
+[2020/05/25 20:55:44] Mapping data in 0.0156s
+[2020/05/25 20:55:44] Parsing file 25/500 ACGL_annual_valuation_measures.csv in 0.015625s
+
+[2020/05/25 20:55:44] Mapping data first 0.0s
+[2020/05/25 20:55:44] Mapping data in 0.0469s
+[2020/05/25 20:55:44] Parsing file 26/500 ACGL_quarterly_balance-sheet.csv in 0.109375s
+
+[2020/05/25 20:55:44] Mapping data first 0.0s
+[2020/05/25 20:55:44] Mapping data in 0.0312s
+[2020/05/25 20:55:44] Parsing file 27/500 ACGL_quarterly_financials.csv in 0.0625s
+
+[2020/05/25 20:55:44] Mapping data first 0.0s
+[2020/05/25 20:55:44] Mapping data in 0.0156s
+[2020/05/25 20:55:44] Parsing file 28/500 ACGL_quarterly_valuation_measures.csv in 0.0625s
+
+[2020/05/25 20:55:44] Mapping data first 0.0s
+[2020/05/25 20:55:44] Mapping data in 0.0625s
+[2020/05/25 20:56:10] Start...
+[2020/05/25 20:56:10] Initializing tools..
+[2020/05/25 20:56:10] DB connection initializing...
+[2020/05/25 20:56:10] Getting new connection..
+[2020/05/25 20:56:10] Create connection pool..
+[2020/05/25 20:56:10] Done.
+[2020/05/25 20:56:10] Done.
+[2020/05/25 20:56:10] Fetch current table attribute
+[2020/05/25 20:56:10] Done.
+[2020/05/25 20:56:10] 500 files in directory
+[2020/05/25 20:56:10] Mapping data first 0.0s
+[2020/05/25 20:56:10] Mapping data in 0.1562s
+[2020/05/25 20:56:11] Parsing file 1/500 AAL.csv in 0.84375s
+
+[2020/05/25 20:56:11] Mapping data first 0.0s
+[2020/05/25 21:12:49] Start...
+[2020/05/25 21:12:49] Initializing tools..
+[2020/05/25 21:12:49] DB connection initializing...
+[2020/05/25 21:12:49] Getting new connection..
+[2020/05/25 21:12:49] Create connection pool..
+[2020/05/25 21:12:49] Done.
+[2020/05/25 21:12:49] Done.
+[2020/05/25 21:12:49] Fetch current table attribute
+[2020/05/25 21:12:49] Done.
+[2020/05/25 21:12:49] 1 files in directory
+[2020/05/25 21:12:49] Mapping data in 0.0s
+[2020/05/25 21:12:49] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/25 21:12:49] All transaction success
+[2020/05/25 21:12:49] END, total time: 0.0625s
+[2020/05/25 21:12:49] Main thread performance average / file: 0.062s
+[2020/05/25 21:12:49] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:13:29] Start...
+[2020/05/25 21:13:29] Initializing tools..
+[2020/05/25 21:13:29] DB connection initializing...
+[2020/05/25 21:13:29] Getting new connection..
+[2020/05/25 21:13:29] Create connection pool..
+[2020/05/25 21:13:29] Done.
+[2020/05/25 21:13:29] Done.
+[2020/05/25 21:13:29] Fetch current table attribute
+[2020/05/25 21:13:29] Done.
+[2020/05/25 21:13:29] 1 files in directory
+[2020/05/25 21:13:29] Mapping data in 0.0156s
+[2020/05/25 21:13:29] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/25 21:13:29] All transaction success
+[2020/05/25 21:13:29] END, total time: 0.03125s
+[2020/05/25 21:13:29] Main thread performance average / file: 0.031s
+[2020/05/25 21:13:29] Data mapping Performance average / file: 0.016s
+[2020/05/25 21:14:33] Start...
+[2020/05/25 21:14:33] Initializing tools..
+[2020/05/25 21:14:33] DB connection initializing...
+[2020/05/25 21:14:33] Getting new connection..
+[2020/05/25 21:14:33] Create connection pool..
+[2020/05/25 21:14:33] Done.
+[2020/05/25 21:14:33] Done.
+[2020/05/25 21:14:33] Fetch current table attribute
+[2020/05/25 21:14:33] Done.
+[2020/05/25 21:14:33] 1 files in directory
+[2020/05/25 21:14:42] Start...
+[2020/05/25 21:14:42] Initializing tools..
+[2020/05/25 21:14:42] DB connection initializing...
+[2020/05/25 21:14:42] Getting new connection..
+[2020/05/25 21:14:42] Create connection pool..
+[2020/05/25 21:14:42] Done.
+[2020/05/25 21:14:42] Done.
+[2020/05/25 21:14:42] Fetch current table attribute
+[2020/05/25 21:14:42] Done.
+[2020/05/25 21:14:42] 1 files in directory
+[2020/05/25 21:14:42] Mapping data in 0.0s
+[2020/05/25 21:14:42] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:14:42] All transaction success
+[2020/05/25 21:14:42] END, total time: 0.015625s
+[2020/05/25 21:14:42] Main thread performance average / file: 0.016s
+[2020/05/25 21:14:42] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:16:32] Start...
+[2020/05/25 21:16:32] Initializing tools..
+[2020/05/25 21:16:32] DB connection initializing...
+[2020/05/25 21:16:32] Getting new connection..
+[2020/05/25 21:16:32] Create connection pool..
+[2020/05/25 21:16:32] Done.
+[2020/05/25 21:16:32] Done.
+[2020/05/25 21:16:32] Fetch current table attribute
+[2020/05/25 21:16:32] Done.
+[2020/05/25 21:16:32] 1 files in directory
+[2020/05/25 21:16:52] Start...
+[2020/05/25 21:16:52] Initializing tools..
+[2020/05/25 21:16:52] DB connection initializing...
+[2020/05/25 21:16:52] Getting new connection..
+[2020/05/25 21:16:52] Create connection pool..
+[2020/05/25 21:16:52] Done.
+[2020/05/25 21:16:52] Done.
+[2020/05/25 21:16:52] Fetch current table attribute
+[2020/05/25 21:16:52] Done.
+[2020/05/25 21:16:52] 1 files in directory
+[2020/05/25 21:17:16] Start...
+[2020/05/25 21:17:16] Initializing tools..
+[2020/05/25 21:17:16] DB connection initializing...
+[2020/05/25 21:17:16] Getting new connection..
+[2020/05/25 21:17:16] Create connection pool..
+[2020/05/25 21:17:16] Done.
+[2020/05/25 21:17:16] Done.
+[2020/05/25 21:17:16] Fetch current table attribute
+[2020/05/25 21:17:16] Done.
+[2020/05/25 21:17:16] 1 files in directory
+[2020/05/25 21:17:27] Start...
+[2020/05/25 21:17:27] Initializing tools..
+[2020/05/25 21:17:27] DB connection initializing...
+[2020/05/25 21:17:27] Getting new connection..
+[2020/05/25 21:17:27] Create connection pool..
+[2020/05/25 21:17:27] Done.
+[2020/05/25 21:17:27] Done.
+[2020/05/25 21:17:27] Fetch current table attribute
+[2020/05/25 21:17:27] Done.
+[2020/05/25 21:17:27] 1 files in directory
+[2020/05/25 21:17:37] Start...
+[2020/05/25 21:17:37] Initializing tools..
+[2020/05/25 21:17:37] DB connection initializing...
+[2020/05/25 21:17:37] Getting new connection..
+[2020/05/25 21:17:37] Create connection pool..
+[2020/05/25 21:17:37] Done.
+[2020/05/25 21:17:37] Done.
+[2020/05/25 21:17:37] Fetch current table attribute
+[2020/05/25 21:17:37] Done.
+[2020/05/25 21:17:37] 1 files in directory
+[2020/05/25 21:17:55] Start...
+[2020/05/25 21:17:55] Initializing tools..
+[2020/05/25 21:17:55] DB connection initializing...
+[2020/05/25 21:17:55] Getting new connection..
+[2020/05/25 21:17:55] Create connection pool..
+[2020/05/25 21:17:55] Done.
+[2020/05/25 21:17:55] Done.
+[2020/05/25 21:17:55] Fetch current table attribute
+[2020/05/25 21:17:55] Done.
+[2020/05/25 21:17:55] 1 files in directory
+[2020/05/25 21:18:08] Start...
+[2020/05/25 21:18:08] Initializing tools..
+[2020/05/25 21:18:08] DB connection initializing...
+[2020/05/25 21:18:08] Getting new connection..
+[2020/05/25 21:18:08] Create connection pool..
+[2020/05/25 21:18:08] Done.
+[2020/05/25 21:18:08] Done.
+[2020/05/25 21:18:08] Fetch current table attribute
+[2020/05/25 21:18:08] Done.
+[2020/05/25 21:18:08] 1 files in directory
+[2020/05/25 21:18:36] Start...
+[2020/05/25 21:18:36] Initializing tools..
+[2020/05/25 21:18:36] DB connection initializing...
+[2020/05/25 21:18:36] Getting new connection..
+[2020/05/25 21:18:36] Create connection pool..
+[2020/05/25 21:18:36] Done.
+[2020/05/25 21:18:36] Done.
+[2020/05/25 21:18:36] Fetch current table attribute
+[2020/05/25 21:18:36] Done.
+[2020/05/25 21:18:36] 1 files in directory
+[2020/05/25 21:18:37] Mapping data in 0.0156s
+[2020/05/25 21:18:37] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.03125s
+
+[2020/05/25 21:18:37] All transaction success
+[2020/05/25 21:18:37] END, total time: 0.03125s
+[2020/05/25 21:18:37] Main thread performance average / file: 0.031s
+[2020/05/25 21:18:37] Data mapping Performance average / file: 0.016s
+[2020/05/25 21:18:53] Start...
+[2020/05/25 21:18:53] Initializing tools..
+[2020/05/25 21:18:53] DB connection initializing...
+[2020/05/25 21:18:53] Getting new connection..
+[2020/05/25 21:18:53] Create connection pool..
+[2020/05/25 21:18:53] Done.
+[2020/05/25 21:18:53] Done.
+[2020/05/25 21:18:53] Fetch current table attribute
+[2020/05/25 21:18:53] Done.
+[2020/05/25 21:18:53] 1 files in directory
+[2020/05/25 21:18:53] Mapping data in 0.0s
+[2020/05/25 21:18:53] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:18:53] All transaction success
+[2020/05/25 21:18:53] END, total time: 0.015625s
+[2020/05/25 21:18:53] Main thread performance average / file: 0.016s
+[2020/05/25 21:18:53] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:20:39] Start...
+[2020/05/25 21:20:39] Initializing tools..
+[2020/05/25 21:20:39] DB connection initializing...
+[2020/05/25 21:20:39] Getting new connection..
+[2020/05/25 21:20:39] Create connection pool..
+[2020/05/25 21:20:39] Done.
+[2020/05/25 21:20:39] Done.
+[2020/05/25 21:20:39] Fetch current table attribute
+[2020/05/25 21:20:39] Done.
+[2020/05/25 21:20:39] 1 files in directory
+[2020/05/25 21:20:39] Mapping data in 0.0s
+[2020/05/25 21:20:39] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:20:39] All transaction success
+[2020/05/25 21:20:39] END, total time: 0.015625s
+[2020/05/25 21:20:39] Main thread performance average / file: 0.016s
+[2020/05/25 21:20:39] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:20:56] Start...
+[2020/05/25 21:20:56] Initializing tools..
+[2020/05/25 21:20:56] DB connection initializing...
+[2020/05/25 21:20:56] Getting new connection..
+[2020/05/25 21:20:56] Create connection pool..
+[2020/05/25 21:20:56] Done.
+[2020/05/25 21:20:56] Done.
+[2020/05/25 21:20:56] Fetch current table attribute
+[2020/05/25 21:20:56] Done.
+[2020/05/25 21:20:56] 1 files in directory
+[2020/05/25 21:20:56] Mapping data in 0.0s
+[2020/05/25 21:20:56] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:20:56] All transaction success
+[2020/05/25 21:20:56] END, total time: 0.015625s
+[2020/05/25 21:20:56] Main thread performance average / file: 0.016s
+[2020/05/25 21:20:56] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:30:20] Start...
+[2020/05/25 21:30:20] Initializing tools..
+[2020/05/25 21:30:20] DB connection initializing...
+[2020/05/25 21:30:20] Getting new connection..
+[2020/05/25 21:30:20] Create connection pool..
+[2020/05/25 21:30:20] Done.
+[2020/05/25 21:30:20] Done.
+[2020/05/25 21:30:20] Fetch current table attribute
+[2020/05/25 21:30:20] Done.
+[2020/05/25 21:30:20] 1 files in directory
+[2020/05/25 21:30:20] Mapping data in 0.0s
+[2020/05/25 21:30:20] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:30:20] All transaction success
+[2020/05/25 21:30:20] END, total time: 0.015625s
+[2020/05/25 21:30:20] Main thread performance average / file: 0.016s
+[2020/05/25 21:30:20] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:30:59] Start...
+[2020/05/25 21:30:59] Initializing tools..
+[2020/05/25 21:30:59] DB connection initializing...
+[2020/05/25 21:30:59] Getting new connection..
+[2020/05/25 21:30:59] Create connection pool..
+[2020/05/25 21:30:59] Done.
+[2020/05/25 21:30:59] Done.
+[2020/05/25 21:30:59] Fetch current table attribute
+[2020/05/25 21:30:59] Done.
+[2020/05/25 21:30:59] 1 files in directory
+[2020/05/25 21:30:59] Mapping data in 0.0s
+[2020/05/25 21:30:59] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:30:59] All transaction success
+[2020/05/25 21:30:59] END, total time: 0.015625s
+[2020/05/25 21:30:59] Main thread performance average / file: 0.016s
+[2020/05/25 21:30:59] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:31:10] Start...
+[2020/05/25 21:31:10] Initializing tools..
+[2020/05/25 21:31:10] DB connection initializing...
+[2020/05/25 21:31:10] Getting new connection..
+[2020/05/25 21:31:10] Create connection pool..
+[2020/05/25 21:31:10] Done.
+[2020/05/25 21:31:10] Done.
+[2020/05/25 21:31:10] Fetch current table attribute
+[2020/05/25 21:31:10] Done.
+[2020/05/25 21:31:10] 1 files in directory
+[2020/05/25 21:31:10] Mapping data in 0.0s
+[2020/05/25 21:31:10] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.015625s
+
+[2020/05/25 21:31:10] All transaction success
+[2020/05/25 21:31:10] END, total time: 0.015625s
+[2020/05/25 21:31:10] Main thread performance average / file: 0.016s
+[2020/05/25 21:31:10] Data mapping Performance average / file: 0.0s
+[2020/05/25 21:33:05] Start...
+[2020/05/25 21:33:05] Initializing tools..
+[2020/05/25 21:33:05] DB connection initializing...
+[2020/05/25 21:33:05] Getting new connection..
+[2020/05/25 21:33:05] Create connection pool..
+[2020/05/25 21:33:05] Done.
+[2020/05/25 21:33:05] Done.
+[2020/05/25 21:33:05] Fetch current table attribute
+[2020/05/25 21:33:05] Done.
+[2020/05/25 21:33:05] 1 files in directory
+[2020/05/25 21:33:05] Mapping data in 0.0625s
+[2020/05/25 21:33:05] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.078125s
+
+[2020/05/25 21:33:05] All transaction success
+[2020/05/25 21:33:05] END, total time: 0.078125s
+[2020/05/25 21:33:05] Main thread performance average / file: 0.078s
+[2020/05/25 21:33:05] Data mapping Performance average / file: 0.062s
+[2020/05/25 22:16:34] Start...
+[2020/05/25 22:16:34] Initializing tools..
+[2020/05/25 22:16:34] DB connection initializing...
+[2020/05/25 22:16:34] Getting new connection..
+[2020/05/25 22:16:34] Create connection pool..
+[2020/05/25 22:16:34] Done.
+[2020/05/25 22:16:34] Done.
+[2020/05/25 22:16:34] Fetch current table attribute
+[2020/05/25 22:16:34] Done.
+[2020/05/25 22:16:34] 1 files in directory
+[2020/05/25 22:16:34] Mapping data in 0.0938s
+[2020/05/25 22:16:34] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.25s
+
+[2020/05/25 22:16:34] All transaction success
+[2020/05/25 22:16:34] END, total time: 0.25s
+[2020/05/25 22:16:34] Main thread performance average / file: 0.25s
+[2020/05/25 22:16:34] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:18:18] Start...
+[2020/05/25 22:18:18] Initializing tools..
+[2020/05/25 22:18:18] DB connection initializing...
+[2020/05/25 22:18:18] Getting new connection..
+[2020/05/25 22:18:18] Create connection pool..
+[2020/05/25 22:18:18] Done.
+[2020/05/25 22:18:18] Done.
+[2020/05/25 22:18:18] Fetch current table attribute
+[2020/05/25 22:18:18] Done.
+[2020/05/25 22:18:18] 1 files in directory
+[2020/05/25 22:18:19] Mapping data in 0.0469s
+[2020/05/25 22:18:19] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.28125s
+
+[2020/05/25 22:18:19] All transaction success
+[2020/05/25 22:18:19] END, total time: 0.28125s
+[2020/05/25 22:18:19] Main thread performance average / file: 0.281s
+[2020/05/25 22:18:19] Data mapping Performance average / file: 0.047s
+[2020/05/25 22:18:47] Start...
+[2020/05/25 22:18:47] Initializing tools..
+[2020/05/25 22:18:47] DB connection initializing...
+[2020/05/25 22:18:47] Getting new connection..
+[2020/05/25 22:18:47] Create connection pool..
+[2020/05/25 22:18:47] Done.
+[2020/05/25 22:18:47] Done.
+[2020/05/25 22:18:47] Fetch current table attribute
+[2020/05/25 22:18:47] Done.
+[2020/05/25 22:18:47] 1 files in directory
+[2020/05/25 22:19:12] Start...
+[2020/05/25 22:19:12] Initializing tools..
+[2020/05/25 22:19:12] DB connection initializing...
+[2020/05/25 22:19:12] Getting new connection..
+[2020/05/25 22:19:12] Create connection pool..
+[2020/05/25 22:19:12] Done.
+[2020/05/25 22:19:12] Done.
+[2020/05/25 22:19:12] Fetch current table attribute
+[2020/05/25 22:19:12] Done.
+[2020/05/25 22:19:12] 1 files in directory
+[2020/05/25 22:19:26] Start...
+[2020/05/25 22:19:26] Initializing tools..
+[2020/05/25 22:19:26] DB connection initializing...
+[2020/05/25 22:19:26] Getting new connection..
+[2020/05/25 22:19:26] Create connection pool..
+[2020/05/25 22:19:26] Done.
+[2020/05/25 22:19:26] Done.
+[2020/05/25 22:19:26] Fetch current table attribute
+[2020/05/25 22:19:26] Done.
+[2020/05/25 22:19:26] 1 files in directory
+[2020/05/25 22:19:26] Mapping data in 0.0625s
+[2020/05/25 22:19:26] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.203125s
+
+[2020/05/25 22:19:26] All transaction success
+[2020/05/25 22:19:26] END, total time: 0.203125s
+[2020/05/25 22:19:26] Main thread performance average / file: 0.203s
+[2020/05/25 22:19:26] Data mapping Performance average / file: 0.062s
+[2020/05/25 22:19:54] Start...
+[2020/05/25 22:19:54] Initializing tools..
+[2020/05/25 22:19:54] DB connection initializing...
+[2020/05/25 22:19:54] Getting new connection..
+[2020/05/25 22:19:54] Create connection pool..
+[2020/05/25 22:19:54] Done.
+[2020/05/25 22:19:54] Done.
+[2020/05/25 22:19:54] Fetch current table attribute
+[2020/05/25 22:19:54] Done.
+[2020/05/25 22:19:54] 1 files in directory
+[2020/05/25 22:19:55] Mapping data in 0.0938s
+[2020/05/25 22:19:55] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.296875s
+
+[2020/05/25 22:19:55] All transaction success
+[2020/05/25 22:19:55] END, total time: 0.296875s
+[2020/05/25 22:19:55] Main thread performance average / file: 0.297s
+[2020/05/25 22:19:55] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:20:08] Start...
+[2020/05/25 22:20:08] Initializing tools..
+[2020/05/25 22:20:08] DB connection initializing...
+[2020/05/25 22:20:08] Getting new connection..
+[2020/05/25 22:20:08] Create connection pool..
+[2020/05/25 22:20:08] Done.
+[2020/05/25 22:20:08] Done.
+[2020/05/25 22:20:08] Fetch current table attribute
+[2020/05/25 22:20:08] Done.
+[2020/05/25 22:20:08] 1 files in directory
+[2020/05/25 22:20:08] Mapping data in 0.0469s
+[2020/05/25 22:20:08] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.0625s
+
+[2020/05/25 22:20:08] All transaction success
+[2020/05/25 22:20:08] END, total time: 0.0625s
+[2020/05/25 22:20:08] Main thread performance average / file: 0.062s
+[2020/05/25 22:20:08] Data mapping Performance average / file: 0.047s
+[2020/05/25 22:20:27] Start...
+[2020/05/25 22:20:27] Initializing tools..
+[2020/05/25 22:20:27] DB connection initializing...
+[2020/05/25 22:20:27] Getting new connection..
+[2020/05/25 22:20:27] Create connection pool..
+[2020/05/25 22:20:27] Done.
+[2020/05/25 22:20:27] Done.
+[2020/05/25 22:20:27] Fetch current table attribute
+[2020/05/25 22:20:27] Done.
+[2020/05/25 22:20:27] 1 files in directory
+[2020/05/25 22:20:27] Mapping data in 0.0469s
+[2020/05/25 22:20:27] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.09375s
+
+[2020/05/25 22:20:27] All transaction success
+[2020/05/25 22:20:27] END, total time: 0.09375s
+[2020/05/25 22:20:27] Main thread performance average / file: 0.094s
+[2020/05/25 22:20:27] Data mapping Performance average / file: 0.047s
+[2020/05/25 22:20:40] Start...
+[2020/05/25 22:20:40] Initializing tools..
+[2020/05/25 22:20:40] DB connection initializing...
+[2020/05/25 22:20:40] Getting new connection..
+[2020/05/25 22:20:40] Create connection pool..
+[2020/05/25 22:20:40] Done.
+[2020/05/25 22:20:40] Done.
+[2020/05/25 22:20:40] Fetch current table attribute
+[2020/05/25 22:20:40] Done.
+[2020/05/25 22:20:40] 1 files in directory
+[2020/05/25 22:20:40] Mapping data in 0.0938s
+[2020/05/25 22:20:40] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.125s
+
+[2020/05/25 22:20:40] All transaction success
+[2020/05/25 22:20:40] END, total time: 0.125s
+[2020/05/25 22:20:40] Main thread performance average / file: 0.125s
+[2020/05/25 22:20:40] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:20:52] Start...
+[2020/05/25 22:20:52] Initializing tools..
+[2020/05/25 22:20:52] DB connection initializing...
+[2020/05/25 22:20:52] Getting new connection..
+[2020/05/25 22:20:52] Create connection pool..
+[2020/05/25 22:20:52] Done.
+[2020/05/25 22:20:52] Done.
+[2020/05/25 22:20:52] Fetch current table attribute
+[2020/05/25 22:20:52] Done.
+[2020/05/25 22:20:52] 1 files in directory
+[2020/05/25 22:20:57] Start...
+[2020/05/25 22:20:57] Initializing tools..
+[2020/05/25 22:20:57] DB connection initializing...
+[2020/05/25 22:20:57] Getting new connection..
+[2020/05/25 22:20:57] Create connection pool..
+[2020/05/25 22:20:57] Done.
+[2020/05/25 22:20:57] Done.
+[2020/05/25 22:20:57] Fetch current table attribute
+[2020/05/25 22:20:57] Done.
+[2020/05/25 22:20:57] 1 files in directory
+[2020/05/25 22:21:07] Start...
+[2020/05/25 22:21:07] Initializing tools..
+[2020/05/25 22:21:07] DB connection initializing...
+[2020/05/25 22:21:07] Getting new connection..
+[2020/05/25 22:21:07] Create connection pool..
+[2020/05/25 22:21:07] Done.
+[2020/05/25 22:21:07] Done.
+[2020/05/25 22:21:07] Fetch current table attribute
+[2020/05/25 22:21:07] Done.
+[2020/05/25 22:21:07] 1 files in directory
+[2020/05/25 22:21:16] Start...
+[2020/05/25 22:21:16] Initializing tools..
+[2020/05/25 22:21:16] DB connection initializing...
+[2020/05/25 22:21:16] Getting new connection..
+[2020/05/25 22:21:16] Create connection pool..
+[2020/05/25 22:21:16] Done.
+[2020/05/25 22:21:16] Done.
+[2020/05/25 22:21:16] Fetch current table attribute
+[2020/05/25 22:21:16] Done.
+[2020/05/25 22:21:16] 1 files in directory
+[2020/05/25 22:21:16] Mapping data in 0.0781s
+[2020/05/25 22:21:17] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.296875s
+
+[2020/05/25 22:21:17] All transaction success
+[2020/05/25 22:21:17] END, total time: 0.296875s
+[2020/05/25 22:21:17] Main thread performance average / file: 0.297s
+[2020/05/25 22:21:17] Data mapping Performance average / file: 0.078s
+[2020/05/25 22:21:24] Start...
+[2020/05/25 22:21:24] Initializing tools..
+[2020/05/25 22:21:24] DB connection initializing...
+[2020/05/25 22:21:24] Getting new connection..
+[2020/05/25 22:21:24] Create connection pool..
+[2020/05/25 22:21:24] Done.
+[2020/05/25 22:21:24] Done.
+[2020/05/25 22:21:24] Fetch current table attribute
+[2020/05/25 22:21:24] Done.
+[2020/05/25 22:21:24] 1 files in directory
+[2020/05/25 22:22:19] Start...
+[2020/05/25 22:22:19] Initializing tools..
+[2020/05/25 22:22:19] DB connection initializing...
+[2020/05/25 22:22:19] Getting new connection..
+[2020/05/25 22:22:19] Create connection pool..
+[2020/05/25 22:22:19] Done.
+[2020/05/25 22:22:19] Done.
+[2020/05/25 22:22:19] Fetch current table attribute
+[2020/05/25 22:22:19] Done.
+[2020/05/25 22:22:19] 1 files in directory
+[2020/05/25 22:22:19] Mapping data in 0.0938s
+[2020/05/25 22:22:19] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.171875s
+
+[2020/05/25 22:22:19] All transaction success
+[2020/05/25 22:22:19] END, total time: 0.171875s
+[2020/05/25 22:22:19] Main thread performance average / file: 0.172s
+[2020/05/25 22:22:19] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:22:45] Start...
+[2020/05/25 22:22:45] Initializing tools..
+[2020/05/25 22:22:45] DB connection initializing...
+[2020/05/25 22:22:45] Getting new connection..
+[2020/05/25 22:22:45] Create connection pool..
+[2020/05/25 22:22:45] Done.
+[2020/05/25 22:22:45] Done.
+[2020/05/25 22:22:45] Fetch current table attribute
+[2020/05/25 22:22:45] Done.
+[2020/05/25 22:22:45] 1 files in directory
+[2020/05/25 22:22:45] Mapping data in 0.0469s
+[2020/05/25 22:22:45] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.171875s
+
+[2020/05/25 22:22:45] All transaction success
+[2020/05/25 22:22:45] END, total time: 0.171875s
+[2020/05/25 22:22:45] Main thread performance average / file: 0.172s
+[2020/05/25 22:22:45] Data mapping Performance average / file: 0.047s
+[2020/05/25 22:23:11] Start...
+[2020/05/25 22:23:11] Initializing tools..
+[2020/05/25 22:23:11] DB connection initializing...
+[2020/05/25 22:23:11] Getting new connection..
+[2020/05/25 22:23:11] Create connection pool..
+[2020/05/25 22:23:11] Done.
+[2020/05/25 22:23:11] Done.
+[2020/05/25 22:23:11] Fetch current table attribute
+[2020/05/25 22:23:11] Done.
+[2020/05/25 22:23:11] 1 files in directory
+[2020/05/25 22:25:55] Start...
+[2020/05/25 22:25:55] Initializing tools..
+[2020/05/25 22:25:55] DB connection initializing...
+[2020/05/25 22:25:55] Getting new connection..
+[2020/05/25 22:25:55] Create connection pool..
+[2020/05/25 22:25:55] Done.
+[2020/05/25 22:25:55] Done.
+[2020/05/25 22:25:55] Fetch current table attribute
+[2020/05/25 22:25:55] Done.
+[2020/05/25 22:25:55] 1 files in directory
+[2020/05/25 22:25:55] Mapping data in 0.0938s
+[2020/05/25 22:25:55] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.25s
+
+[2020/05/25 22:25:55] All transaction success
+[2020/05/25 22:25:55] END, total time: 0.25s
+[2020/05/25 22:25:55] Main thread performance average / file: 0.25s
+[2020/05/25 22:25:55] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:26:03] Start...
+[2020/05/25 22:26:03] Initializing tools..
+[2020/05/25 22:26:03] DB connection initializing...
+[2020/05/25 22:26:03] Getting new connection..
+[2020/05/25 22:26:03] Create connection pool..
+[2020/05/25 22:26:03] Done.
+[2020/05/25 22:26:03] Done.
+[2020/05/25 22:26:03] Fetch current table attribute
+[2020/05/25 22:26:04] Done.
+[2020/05/25 22:26:04] 1 files in directory
+[2020/05/25 22:26:04] Mapping data in 0.0625s
+[2020/05/25 22:26:04] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.15625s
+
+[2020/05/25 22:26:04] All transaction success
+[2020/05/25 22:26:04] END, total time: 0.15625s
+[2020/05/25 22:26:04] Main thread performance average / file: 0.156s
+[2020/05/25 22:26:04] Data mapping Performance average / file: 0.062s
+[2020/05/25 22:26:36] Start...
+[2020/05/25 22:26:36] Initializing tools..
+[2020/05/25 22:26:36] DB connection initializing...
+[2020/05/25 22:26:36] Getting new connection..
+[2020/05/25 22:26:36] Create connection pool..
+[2020/05/25 22:26:36] Done.
+[2020/05/25 22:26:36] Done.
+[2020/05/25 22:26:36] Fetch current table attribute
+[2020/05/25 22:26:36] Done.
+[2020/05/25 22:26:36] 1 files in directory
+[2020/05/25 22:26:37] Mapping data in 0.0938s
+[2020/05/25 22:26:37] Parsing file 1/1 AAL_annual_balance-sheet.csv in 0.265625s
+
+[2020/05/25 22:26:37] All transaction success
+[2020/05/25 22:26:37] END, total time: 0.265625s
+[2020/05/25 22:26:37] Main thread performance average / file: 0.266s
+[2020/05/25 22:26:37] Data mapping Performance average / file: 0.094s
+[2020/05/25 22:26:49] Start...
+[2020/05/25 22:26:49] Initializing tools..
+[2020/05/25 22:26:49] DB connection initializing...
+[2020/05/25 22:26:49] Getting new connection..
+[2020/05/25 22:26:49] Create connection pool..
+[2020/05/25 22:26:49] Done.
+[2020/05/25 22:26:49] Done.
+[2020/05/25 22:26:49] Fetch current table attribute
+[2020/05/25 22:26:50] Done.
+[2020/05/25 22:26:50] 1 files in directory
+[2020/05/25 22:27:04] Start...
+[2020/05/25 22:27:04] Initializing tools..
+[2020/05/25 22:27:04] DB connection initializing...
+[2020/05/25 22:27:04] Getting new connection..
+[2020/05/25 22:27:04] Create connection pool..
+[2020/05/25 22:27:04] Done.
+[2020/05/25 22:27:04] Done.
+[2020/05/25 22:27:04] Fetch current table attribute
+[2020/05/25 22:27:04] Done.
+[2020/05/25 22:27:04] 1 files in directory
+[2020/05/25 22:28:49] Start...
+[2020/05/25 22:28:49] Initializing tools..
+[2020/05/25 22:28:49] DB connection initializing...
+[2020/05/25 22:28:49] Getting new connection..
+[2020/05/25 22:28:49] Create connection pool..
+[2020/05/25 22:28:50] Done.
+[2020/05/25 22:28:50] Done.
+[2020/05/25 22:28:50] Fetch current table attribute
+[2020/05/25 22:28:50] Done.
+[2020/05/25 22:28:50] 1 files in directory
+[2020/05/25 22:30:40] Start...
+[2020/05/25 22:30:40] Initializing tools..
+[2020/05/25 22:30:40] DB connection initializing...
+[2020/05/25 22:30:40] Getting new connection..
+[2020/05/25 22:30:40] Create connection pool..
+[2020/05/25 22:30:40] Done.
+[2020/05/25 22:30:40] Done.
+[2020/05/25 22:30:40] Fetch current table attribute
+[2020/05/25 22:30:40] Done.
+[2020/05/25 22:30:40] 1 files in directory
+[2020/05/25 22:32:05] Start...
+[2020/05/25 22:32:05] Initializing tools..
+[2020/05/25 22:32:05] DB connection initializing...
+[2020/05/25 22:32:05] Getting new connection..
+[2020/05/25 22:32:05] Create connection pool..
+[2020/05/25 22:32:05] Done.
+[2020/05/25 22:32:05] Done.
+[2020/05/25 22:32:05] Fetch current table attribute
+[2020/05/25 22:32:05] Done.
+[2020/05/25 22:32:05] 1 files in directory
+[2020/05/25 22:32:29] Start...
+[2020/05/25 22:32:29] Initializing tools..
+[2020/05/25 22:32:29] DB connection initializing...
+[2020/05/25 22:32:29] Getting new connection..
+[2020/05/25 22:32:29] Create connection pool..
+[2020/05/25 22:32:29] Done.
+[2020/05/25 22:32:29] Done.
+[2020/05/25 22:32:29] Fetch current table attribute
+[2020/05/25 22:32:29] Done.
+[2020/05/25 22:32:29] 1 files in directory
+[2020/05/25 22:32:43] Start...
+[2020/05/25 22:32:43] Initializing tools..
+[2020/05/25 22:32:43] DB connection initializing...
+[2020/05/25 22:32:43] Getting new connection..
+[2020/05/25 22:32:43] Create connection pool..
+[2020/05/25 22:32:43] Done.
+[2020/05/25 22:32:43] Done.
+[2020/05/25 22:32:43] Fetch current table attribute
+[2020/05/25 22:32:43] Done.
+[2020/05/25 22:32:43] 1 files in directory
+[2020/05/25 22:32:55] Start...
+[2020/05/25 22:32:55] Initializing tools..
+[2020/05/25 22:32:55] DB connection initializing...
+[2020/05/25 22:32:55] Getting new connection..
+[2020/05/25 22:32:55] Create connection pool..
+[2020/05/25 22:32:55] Done.
+[2020/05/25 22:32:55] Done.
+[2020/05/25 22:32:55] Fetch current table attribute
+[2020/05/25 22:32:55] Done.
+[2020/05/25 22:32:55] 1 files in directory
+[2020/05/25 22:34:33] Start...
+[2020/05/25 22:34:33] Initializing tools..
+[2020/05/25 22:34:33] DB connection initializing...
+[2020/05/25 22:34:33] Getting new connection..
+[2020/05/25 22:34:33] Create connection pool..
+[2020/05/25 22:34:33] Done.
+[2020/05/25 22:34:33] Done.
+[2020/05/25 22:34:33] Fetch current table attribute
+[2020/05/25 22:34:33] Done.
+[2020/05/25 22:34:33] 1 files in directory
+[2020/05/25 22:35:06] Start...
+[2020/05/25 22:35:06] Initializing tools..
+[2020/05/25 22:35:06] DB connection initializing...
+[2020/05/25 22:35:06] Getting new connection..
+[2020/05/25 22:35:06] Create connection pool..
+[2020/05/25 22:35:06] Done.
+[2020/05/25 22:35:06] Done.
+[2020/05/25 22:35:06] Fetch current table attribute
+[2020/05/25 22:35:06] Done.
+[2020/05/25 22:35:06] 1 files in directory
+[2020/05/25 22:35:32] Start...
+[2020/05/25 22:35:32] Initializing tools..
+[2020/05/25 22:35:32] DB connection initializing...
+[2020/05/25 22:35:32] Getting new connection..
+[2020/05/25 22:35:32] Create connection pool..
+[2020/05/25 22:35:32] Done.
+[2020/05/25 22:35:32] Done.
+[2020/05/25 22:35:32] Fetch current table attribute
+[2020/05/25 22:35:32] Done.
+[2020/05/25 22:35:32] 1 files in directory
+[2020/05/25 22:36:27] Start...
+[2020/05/25 22:36:27] Initializing tools..
+[2020/05/25 22:36:27] DB connection initializing...
+[2020/05/25 22:36:27] Getting new connection..
+[2020/05/25 22:36:27] Create connection pool..
+[2020/05/25 22:36:27] Done.
+[2020/05/25 22:36:27] Done.
+[2020/05/25 22:36:27] Fetch current table attribute
+[2020/05/25 22:36:27] Done.
+[2020/05/25 22:36:27] 1 files in directory
+[2020/05/25 22:36:42] Start...
+[2020/05/25 22:36:42] Initializing tools..
+[2020/05/25 22:36:42] DB connection initializing...
+[2020/05/25 22:36:42] Getting new connection..
+[2020/05/25 22:36:42] Create connection pool..
+[2020/05/25 22:36:42] Done.
+[2020/05/25 22:36:42] Done.
+[2020/05/25 22:36:42] Fetch current table attribute
+[2020/05/25 22:36:42] Done.
+[2020/05/25 22:36:42] 1 files in directory
+[2020/05/25 22:36:59] Start...
+[2020/05/25 22:36:59] Initializing tools..
+[2020/05/25 22:36:59] DB connection initializing...
+[2020/05/25 22:36:59] Getting new connection..
+[2020/05/25 22:36:59] Create connection pool..
+[2020/05/25 22:36:59] Done.
+[2020/05/25 22:36:59] Done.
+[2020/05/25 22:36:59] Fetch current table attribute
+[2020/05/25 22:36:59] Done.
+[2020/05/25 22:36:59] 1 files in directory
+[2020/05/25 22:37:06] Start...
+[2020/05/25 22:37:06] Initializing tools..
+[2020/05/25 22:37:06] DB connection initializing...
+[2020/05/25 22:37:06] Getting new connection..
+[2020/05/25 22:37:06] Create connection pool..
+[2020/05/25 22:37:06] Done.
+[2020/05/25 22:37:06] Done.
+[2020/05/25 22:37:06] Fetch current table attribute
+[2020/05/25 22:37:06] Done.
+[2020/05/25 22:37:06] 1 files in directory
+[2020/05/25 22:37:24] Start...
+[2020/05/25 22:37:24] Initializing tools..
+[2020/05/25 22:37:24] DB connection initializing...
+[2020/05/25 22:37:24] Getting new connection..
+[2020/05/25 22:37:24] Create connection pool..
+[2020/05/25 22:37:24] Done.
+[2020/05/25 22:37:24] Done.
+[2020/05/25 22:37:24] Fetch current table attribute
+[2020/05/25 22:37:24] Done.
+[2020/05/25 22:37:24] 1 files in directory
+[2020/05/25 22:37:33] Start...
+[2020/05/25 22:37:33] Initializing tools..
+[2020/05/25 22:37:33] DB connection initializing...
+[2020/05/25 22:37:33] Getting new connection..
+[2020/05/25 22:37:33] Create connection pool..
+[2020/05/25 22:37:33] Done.
+[2020/05/25 22:37:33] Done.
+[2020/05/25 22:37:33] Fetch current table attribute
+[2020/05/25 22:37:33] Done.
+[2020/05/25 22:37:33] 1 files in directory
+[2020/05/25 22:37:57] Start...
+[2020/05/25 22:37:57] Initializing tools..
+[2020/05/25 22:37:57] DB connection initializing...
+[2020/05/25 22:37:57] Getting new connection..
+[2020/05/25 22:37:57] Create connection pool..
+[2020/05/25 22:37:57] Done.
+[2020/05/25 22:37:57] Done.
+[2020/05/25 22:37:57] Fetch current table attribute
+[2020/05/25 22:37:57] Done.
+[2020/05/25 22:37:57] 1 files in directory
+[2020/05/25 22:39:12] Start...
+[2020/05/25 22:39:12] Initializing tools..
+[2020/05/25 22:39:12] DB connection initializing...
+[2020/05/25 22:39:12] Getting new connection..
+[2020/05/25 22:39:12] Create connection pool..
+[2020/05/25 22:39:12] Done.
+[2020/05/25 22:39:12] Done.
+[2020/05/25 22:39:12] Fetch current table attribute
+[2020/05/25 22:39:12] Done.
+[2020/05/25 22:39:12] 1 files in directory
+[2020/05/25 22:39:18] Start...
+[2020/05/25 22:39:18] Initializing tools..
+[2020/05/25 22:39:18] DB connection initializing...
+[2020/05/25 22:39:18] Getting new connection..
+[2020/05/25 22:39:18] Create connection pool..
+[2020/05/25 22:39:18] Done.
+[2020/05/25 22:39:18] Done.
+[2020/05/25 22:39:18] Fetch current table attribute
+[2020/05/25 22:39:18] Done.
+[2020/05/25 22:39:18] 1 files in directory
+[2020/05/25 22:40:00] Start...
+[2020/05/25 22:40:00] Initializing tools..
+[2020/05/25 22:40:00] DB connection initializing...
+[2020/05/25 22:40:00] Getting new connection..
+[2020/05/25 22:40:00] Create connection pool..
+[2020/05/25 22:40:00] Done.
+[2020/05/25 22:40:00] Done.
+[2020/05/25 22:40:00] Fetch current table attribute
+[2020/05/25 22:40:00] Done.
+[2020/05/25 22:40:00] 1 files in directory
+[2020/05/25 22:40:12] Start...
+[2020/05/25 22:40:12] Initializing tools..
+[2020/05/25 22:40:12] DB connection initializing...
+[2020/05/25 22:40:12] Getting new connection..
+[2020/05/25 22:40:12] Create connection pool..
+[2020/05/25 22:40:12] Done.
+[2020/05/25 22:40:12] Done.
+[2020/05/25 22:40:12] Fetch current table attribute
+[2020/05/25 22:40:12] Done.
+[2020/05/25 22:40:12] 1 files in directory
+[2020/05/25 22:53:42] Start...
+[2020/05/25 22:53:42] Initializing tools..
+[2020/05/25 22:53:42] DB connection initializing...
+[2020/05/25 22:53:42] Getting new connection..
+[2020/05/25 22:53:42] Create connection pool..
+[2020/05/25 22:53:42] Done.
+[2020/05/25 22:53:42] Done.
+[2020/05/25 22:53:42] Fetch current table attribute
+[2020/05/25 22:53:42] Done.
+[2020/05/25 22:53:42] 1 files in directory
+[2020/05/25 22:53:42] DB connection initializing...
+[2020/05/25 22:53:42] Done.
+[2020/05/25 22:54:11] Start...
+[2020/05/25 22:54:11] Initializing tools..
+[2020/05/25 22:54:11] DB connection initializing...
+[2020/05/25 22:54:11] Getting new connection..
+[2020/05/25 22:54:11] Create connection pool..
+[2020/05/25 22:54:11] Done.
+[2020/05/25 22:54:11] Done.
+[2020/05/25 22:54:11] Fetch current table attribute
+[2020/05/25 22:54:11] Done.
+[2020/05/25 22:54:11] 1 files in directory
+[2020/05/25 22:54:11] DB connection initializing...
+[2020/05/25 22:54:11] Done.
+[2020/05/25 23:03:52] Start...
+[2020/05/25 23:03:52] Initializing tools..
+[2020/05/25 23:03:52] DB connection initializing...
+[2020/05/25 23:03:52] Getting new connection..
+[2020/05/25 23:03:52] Create connection pool..
+[2020/05/25 23:03:52] Done.
+[2020/05/25 23:03:52] Done.
+[2020/05/25 23:03:52] Fetch current table attribute
+[2020/05/25 23:03:52] Done.
+[2020/05/25 23:03:52] 1 files in directory
+[2020/05/25 23:04:26] Start...
+[2020/05/25 23:04:26] Initializing tools..
+[2020/05/25 23:04:26] DB connection initializing...
+[2020/05/25 23:04:26] Getting new connection..
+[2020/05/25 23:04:26] Create connection pool..
+[2020/05/25 23:04:26] Done.
+[2020/05/25 23:04:26] Done.
+[2020/05/25 23:04:26] Fetch current table attribute
+[2020/05/25 23:04:26] Done.
+[2020/05/25 23:04:26] 1 files in directory
+[2020/05/25 23:04:37] Start...
+[2020/05/25 23:04:37] Initializing tools..
+[2020/05/25 23:04:37] DB connection initializing...
+[2020/05/25 23:04:37] Getting new connection..
+[2020/05/25 23:04:37] Create connection pool..
+[2020/05/25 23:04:37] Done.
+[2020/05/25 23:04:37] Done.
+[2020/05/25 23:04:37] Fetch current table attribute
+[2020/05/25 23:04:37] Done.
+[2020/05/25 23:04:37] 1 files in directory
+[2020/05/25 23:17:56] Start...
+[2020/05/25 23:17:56] Initializing tools..
+[2020/05/25 23:17:56] DB connection initializing...
+[2020/05/25 23:17:56] Getting new connection..
+[2020/05/25 23:17:56] Create connection pool..
+[2020/05/25 23:17:56] Done.
+[2020/05/25 23:17:56] Done.
+[2020/05/25 23:17:56] Fetch current table attribute
+[2020/05/25 23:17:56] Done.
+[2020/05/25 23:17:56] 1 files in directory
+[2020/05/25 23:18:23] Start...
+[2020/05/25 23:18:23] Initializing tools..
+[2020/05/25 23:18:23] DB connection initializing...
+[2020/05/25 23:18:23] Getting new connection..
+[2020/05/25 23:18:23] Create connection pool..
+[2020/05/25 23:18:23] Done.
+[2020/05/25 23:18:23] Done.
+[2020/05/25 23:18:23] Fetch current table attribute
+[2020/05/25 23:18:23] Done.
+[2020/05/25 23:18:23] 1 files in directory
+[2020/05/25 23:19:01] Start...
+[2020/05/25 23:19:01] Initializing tools..
+[2020/05/25 23:19:01] DB connection initializing...
+[2020/05/25 23:19:01] Getting new connection..
+[2020/05/25 23:19:01] Create connection pool..
+[2020/05/25 23:19:02] Done.
+[2020/05/25 23:19:02] Done.
+[2020/05/25 23:19:02] Fetch current table attribute
+[2020/05/25 23:19:02] Done.
+[2020/05/25 23:19:02] 1 files in directory
+[2020/05/25 23:19:10] Start...
+[2020/05/25 23:19:10] Initializing tools..
+[2020/05/25 23:19:10] DB connection initializing...
+[2020/05/25 23:19:10] Getting new connection..
+[2020/05/25 23:19:10] Create connection pool..
+[2020/05/25 23:19:10] Done.
+[2020/05/25 23:19:10] Done.
+[2020/05/25 23:19:10] Fetch current table attribute
+[2020/05/25 23:19:10] Done.
+[2020/05/25 23:19:10] 1 files in directory
+[2020/05/25 23:19:29] Start...
+[2020/05/25 23:19:29] Initializing tools..
+[2020/05/25 23:19:29] DB connection initializing...
+[2020/05/25 23:19:29] Getting new connection..
+[2020/05/25 23:19:29] Create connection pool..
+[2020/05/25 23:19:29] Done.
+[2020/05/25 23:19:29] Done.
+[2020/05/25 23:19:29] Fetch current table attribute
+[2020/05/25 23:19:29] Done.
+[2020/05/25 23:19:29] 1 files in directory
+[2020/05/25 23:19:40] Start...
+[2020/05/25 23:19:40] Initializing tools..
+[2020/05/25 23:19:40] DB connection initializing...
+[2020/05/25 23:19:40] Getting new connection..
+[2020/05/25 23:19:40] Create connection pool..
+[2020/05/25 23:19:40] Done.
+[2020/05/25 23:19:40] Done.
+[2020/05/25 23:19:40] Fetch current table attribute
+[2020/05/25 23:19:40] Done.
+[2020/05/25 23:19:40] 1 files in directory
+[2020/05/25 23:19:55] Start...
+[2020/05/25 23:19:55] Initializing tools..
+[2020/05/25 23:19:55] DB connection initializing...
+[2020/05/25 23:19:55] Getting new connection..
+[2020/05/25 23:19:55] Create connection pool..
+[2020/05/25 23:19:55] Done.
+[2020/05/25 23:19:55] Done.
+[2020/05/25 23:19:55] Fetch current table attribute
+[2020/05/25 23:19:55] Done.
+[2020/05/25 23:19:55] 1 files in directory
+[2020/05/25 23:20:12] Start...
+[2020/05/25 23:20:12] Initializing tools..
+[2020/05/25 23:20:12] DB connection initializing...
+[2020/05/25 23:20:12] Getting new connection..
+[2020/05/25 23:20:12] Create connection pool..
+[2020/05/25 23:20:12] Done.
+[2020/05/25 23:20:12] Done.
+[2020/05/25 23:20:12] Fetch current table attribute
+[2020/05/25 23:20:12] Done.
+[2020/05/25 23:20:12] 1 files in directory
+[2020/05/25 23:20:30] Start...
+[2020/05/25 23:20:30] Initializing tools..
+[2020/05/25 23:20:30] DB connection initializing...
+[2020/05/25 23:20:30] Getting new connection..
+[2020/05/25 23:20:30] Create connection pool..
+[2020/05/25 23:20:30] Done.
+[2020/05/25 23:20:30] Done.
+[2020/05/25 23:20:30] Fetch current table attribute
+[2020/05/25 23:20:30] Done.
+[2020/05/25 23:20:30] 1 files in directory
+[2020/05/25 23:22:06] Start...
+[2020/05/25 23:22:06] Initializing tools..
+[2020/05/25 23:22:06] DB connection initializing...
+[2020/05/25 23:22:06] Getting new connection..
+[2020/05/25 23:22:06] Create connection pool..
+[2020/05/25 23:22:06] Done.
+[2020/05/25 23:22:06] Done.
+[2020/05/25 23:22:06] Fetch current table attribute
+[2020/05/25 23:22:06] Done.
+[2020/05/25 23:22:06] 1 files in directory
+[2020/05/25 23:22:26] Start...
+[2020/05/25 23:22:26] Initializing tools..
+[2020/05/25 23:22:26] DB connection initializing...
+[2020/05/25 23:22:26] Getting new connection..
+[2020/05/25 23:22:26] Create connection pool..
+[2020/05/25 23:22:26] Done.
+[2020/05/25 23:22:26] Done.
+[2020/05/25 23:22:26] Fetch current table attribute
+[2020/05/25 23:22:26] Done.
+[2020/05/25 23:22:26] 1 files in directory
+[2020/05/25 23:22:58] Start...
+[2020/05/25 23:22:58] Initializing tools..
+[2020/05/25 23:22:58] DB connection initializing...
+[2020/05/25 23:22:58] Getting new connection..
+[2020/05/25 23:22:58] Create connection pool..
+[2020/05/25 23:22:58] Done.
+[2020/05/25 23:22:58] Done.
+[2020/05/25 23:22:58] Fetch current table attribute
+[2020/05/25 23:22:58] Done.
+[2020/05/25 23:22:58] 1 files in directory
+[2020/05/25 23:23:24] Start...
+[2020/05/25 23:23:24] Initializing tools..
+[2020/05/25 23:23:24] DB connection initializing...
+[2020/05/25 23:23:24] Getting new connection..
+[2020/05/25 23:23:24] Create connection pool..
+[2020/05/25 23:23:24] Done.
+[2020/05/25 23:23:24] Done.
+[2020/05/25 23:23:24] Fetch current table attribute
+[2020/05/25 23:23:24] Done.
+[2020/05/25 23:23:24] 1 files in directory
+[2020/05/25 23:24:07] Start...
+[2020/05/25 23:24:07] Initializing tools..
+[2020/05/25 23:24:07] DB connection initializing...
+[2020/05/25 23:24:07] Getting new connection..
+[2020/05/25 23:24:07] Create connection pool..
+[2020/05/25 23:24:07] Done.
+[2020/05/25 23:24:07] Done.
+[2020/05/25 23:24:07] Fetch current table attribute
+[2020/05/25 23:24:07] Done.
+[2020/05/25 23:24:07] 1 files in directory
+[2020/05/25 23:24:16] Start...
+[2020/05/25 23:24:16] Initializing tools..
+[2020/05/25 23:24:16] DB connection initializing...
+[2020/05/25 23:24:16] Getting new connection..
+[2020/05/25 23:24:16] Create connection pool..
+[2020/05/25 23:24:16] Done.
+[2020/05/25 23:24:16] Done.
+[2020/05/25 23:24:16] Fetch current table attribute
+[2020/05/25 23:24:16] Done.
+[2020/05/25 23:24:16] 1 files in directory
+[2020/05/25 23:24:46] Start...
+[2020/05/25 23:24:46] Initializing tools..
+[2020/05/25 23:24:46] DB connection initializing...
+[2020/05/25 23:24:46] Getting new connection..
+[2020/05/25 23:24:46] Create connection pool..
+[2020/05/25 23:24:46] Done.
+[2020/05/25 23:24:46] Done.
+[2020/05/25 23:24:46] Fetch current table attribute
+[2020/05/25 23:24:46] Done.
+[2020/05/25 23:24:46] 1 files in directory
+[2020/05/25 23:25:13] Start...
+[2020/05/25 23:25:13] Initializing tools..
+[2020/05/25 23:25:13] DB connection initializing...
+[2020/05/25 23:25:13] Getting new connection..
+[2020/05/25 23:25:13] Create connection pool..
+[2020/05/25 23:25:13] Done.
+[2020/05/25 23:25:13] Done.
+[2020/05/25 23:25:13] Fetch current table attribute
+[2020/05/25 23:25:13] Done.
+[2020/05/25 23:25:13] 1 files in directory
+[2020/05/25 23:27:27] Start...
+[2020/05/25 23:27:27] Initializing tools..
+[2020/05/25 23:27:27] DB connection initializing...
+[2020/05/25 23:27:27] Getting new connection..
+[2020/05/25 23:27:27] Create connection pool..
+[2020/05/25 23:27:27] Done.
+[2020/05/25 23:27:27] Done.
+[2020/05/25 23:27:27] Fetch current table attribute
+[2020/05/25 23:27:27] Done.
+[2020/05/25 23:27:27] 1 files in directory
+[2020/05/25 23:27:41] Start...
+[2020/05/25 23:27:41] Initializing tools..
+[2020/05/25 23:27:41] DB connection initializing...
+[2020/05/25 23:27:41] Getting new connection..
+[2020/05/25 23:27:41] Create connection pool..
+[2020/05/25 23:27:41] Done.
+[2020/05/25 23:27:41] Done.
+[2020/05/25 23:27:41] Fetch current table attribute
+[2020/05/25 23:27:41] Done.
+[2020/05/25 23:27:41] 1 files in directory
+[2020/05/25 23:28:12] Start...
+[2020/05/25 23:28:12] Initializing tools..
+[2020/05/25 23:28:12] DB connection initializing...
+[2020/05/25 23:28:13] Getting new connection..
+[2020/05/25 23:28:13] Create connection pool..
+[2020/05/25 23:28:13] Done.
+[2020/05/25 23:28:13] Done.
+[2020/05/25 23:28:13] Fetch current table attribute
+[2020/05/25 23:28:13] Done.
+[2020/05/25 23:28:13] 1 files in directory
+[2020/05/25 23:28:51] Start...
+[2020/05/25 23:28:51] Initializing tools..
+[2020/05/25 23:28:51] DB connection initializing...
+[2020/05/25 23:28:51] Getting new connection..
+[2020/05/25 23:28:51] Create connection pool..
+[2020/05/25 23:28:51] Done.
+[2020/05/25 23:28:51] Done.
+[2020/05/25 23:28:51] Fetch current table attribute
+[2020/05/25 23:28:51] Done.
+[2020/05/25 23:28:51] 1 files in directory
+[2020/05/25 23:30:05] Start...
+[2020/05/25 23:30:05] Initializing tools..
+[2020/05/25 23:30:05] DB connection initializing...
+[2020/05/25 23:30:05] Getting new connection..
+[2020/05/25 23:30:05] Create connection pool..
+[2020/05/25 23:30:05] Done.
+[2020/05/25 23:30:05] Done.
+[2020/05/25 23:30:05] Fetch current table attribute
+[2020/05/25 23:30:05] Done.
+[2020/05/25 23:30:05] 1 files in directory
+[2020/05/25 23:30:48] Start...
+[2020/05/25 23:30:48] Initializing tools..
+[2020/05/25 23:30:48] DB connection initializing...
+[2020/05/25 23:30:48] Getting new connection..
+[2020/05/25 23:30:48] Create connection pool..
+[2020/05/25 23:30:48] Done.
+[2020/05/25 23:30:48] Done.
+[2020/05/25 23:30:48] Fetch current table attribute
+[2020/05/25 23:30:48] Done.
+[2020/05/25 23:30:48] 4 files in directory
+[2020/05/25 23:31:08] Start...
+[2020/05/25 23:31:08] Initializing tools..
+[2020/05/25 23:31:08] DB connection initializing...
+[2020/05/25 23:31:08] Getting new connection..
+[2020/05/25 23:31:08] Create connection pool..
+[2020/05/25 23:31:08] Done.
+[2020/05/25 23:31:08] Done.
+[2020/05/25 23:31:08] Fetch current table attribute
+[2020/05/25 23:31:08] Done.
+[2020/05/25 23:31:08] 4 files in directory
+[2020/05/25 23:31:13] Start...
+[2020/05/25 23:31:13] Initializing tools..
+[2020/05/25 23:31:13] DB connection initializing...
+[2020/05/25 23:31:13] Getting new connection..
+[2020/05/25 23:31:13] Create connection pool..
+[2020/05/25 23:31:13] Done.
+[2020/05/25 23:31:13] Done.
+[2020/05/25 23:31:13] Fetch current table attribute
+[2020/05/25 23:31:13] Done.
+[2020/05/25 23:31:13] 4 files in directory
+[2020/05/25 23:31:29] Start...
+[2020/05/25 23:31:29] Initializing tools..
+[2020/05/25 23:31:29] DB connection initializing...
+[2020/05/25 23:31:29] Getting new connection..
+[2020/05/25 23:31:29] Create connection pool..
+[2020/05/25 23:31:29] Done.
+[2020/05/25 23:31:29] Done.
+[2020/05/25 23:31:29] Fetch current table attribute
+[2020/05/25 23:31:29] Done.
+[2020/05/25 23:31:29] 4 files in directory
+[2020/05/25 23:38:16] Start...
+[2020/05/25 23:38:16] Initializing tools..
+[2020/05/25 23:38:16] DB connection initializing...
+[2020/05/25 23:38:16] Getting new connection..
+[2020/05/25 23:38:16] Create connection pool..
+[2020/05/25 23:38:16] Done.
+[2020/05/25 23:38:16] Done.
+[2020/05/25 23:38:16] Fetch current table attribute
+[2020/05/25 23:38:16] Done.
+[2020/05/25 23:38:16] 4 files in directory
+[2020/05/25 23:38:38] Start...
+[2020/05/25 23:38:38] Initializing tools..
+[2020/05/25 23:38:38] DB connection initializing...
+[2020/05/25 23:38:38] Getting new connection..
+[2020/05/25 23:38:38] Create connection pool..
+[2020/05/25 23:38:38] Done.
+[2020/05/25 23:38:38] Done.
+[2020/05/25 23:38:38] Fetch current table attribute
+[2020/05/25 23:38:38] Done.
+[2020/05/25 23:38:38] 4 files in directory
+[2020/05/25 23:38:38] DB connection initializing...
+[2020/05/25 23:38:38] Done.
+[2020/05/25 23:43:32] Start...
+[2020/05/25 23:43:32] Initializing tools..
+[2020/05/25 23:43:32] DB connection initializing...
+[2020/05/25 23:43:32] Getting new connection..
+[2020/05/25 23:43:32] Create connection pool..
+[2020/05/25 23:43:32] Done.
+[2020/05/25 23:43:32] Done.
+[2020/05/25 23:43:32] Fetch current table attribute
+[2020/05/25 23:43:32] Done.
+[2020/05/25 23:43:32] 4 files in directory
+[2020/05/25 23:43:32] DB connection initializing...
+[2020/05/25 23:43:32] Done.
+[2020/05/25 23:43:32] DB connection initializing...
+[2020/05/25 23:43:32] Done.
+[2020/05/25 23:45:07] Start...
+[2020/05/25 23:45:07] Initializing tools..
+[2020/05/25 23:45:07] DB connection initializing...
+[2020/05/25 23:45:07] Getting new connection..
+[2020/05/25 23:45:07] Create connection pool..
+[2020/05/25 23:45:07] Done.
+[2020/05/25 23:45:07] Done.
+[2020/05/25 23:45:07] Fetch current table attribute
+[2020/05/25 23:45:07] Done.
+[2020/05/25 23:45:07] 4 files in directory
+[2020/05/25 23:45:07] DB connection initializing...
+[2020/05/25 23:45:07] Done.
+[2020/05/25 23:45:29] Start...
+[2020/05/25 23:45:29] Initializing tools..
+[2020/05/25 23:45:29] DB connection initializing...
+[2020/05/25 23:45:29] Getting new connection..
+[2020/05/25 23:45:29] Create connection pool..
+[2020/05/25 23:45:29] Done.
+[2020/05/25 23:45:29] Done.
+[2020/05/25 23:45:29] Fetch current table attribute
+[2020/05/25 23:45:29] Done.
+[2020/05/25 23:45:29] 4 files in directory
+[2020/05/25 23:45:29] DB connection initializing...
+[2020/05/25 23:45:29] Done.
+[2020/05/25 23:45:30] DB connection initializing...
+[2020/05/25 23:45:30] Done.
+[2020/05/25 23:45:30] DB connection initializing...
+[2020/05/25 23:45:30] Done.
+[2020/05/25 23:45:30] DB connection initializing...
+[2020/05/25 23:45:30] Done.
+[2020/05/25 23:51:30] Start...
+[2020/05/25 23:51:30] Initializing tools..
+[2020/05/25 23:51:30] DB connection initializing...
+[2020/05/25 23:51:30] Getting new connection..
+[2020/05/25 23:51:30] Create connection pool..
+[2020/05/25 23:51:30] Done.
+[2020/05/25 23:51:30] Done.
+[2020/05/25 23:51:30] Fetch current table attribute
+[2020/05/25 23:51:30] Done.
+[2020/05/25 23:51:30] 4 files in directory
+[2020/05/25 23:51:30] DB connection initializing...
+[2020/05/25 23:51:30] Done.
+[2020/05/25 23:59:07] Start...
+[2020/05/25 23:59:07] Initializing tools..
+[2020/05/25 23:59:07] DB connection initializing...
+[2020/05/25 23:59:07] Getting new connection..
+[2020/05/25 23:59:07] Create connection pool..
+[2020/05/25 23:59:07] Done.
+[2020/05/25 23:59:07] Done.
+[2020/05/25 23:59:07] Fetch current table attribute
+[2020/05/25 23:59:08] Done.
+[2020/05/25 23:59:08] 4 files in directory

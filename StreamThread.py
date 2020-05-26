@@ -1,4 +1,4 @@
-import os
+from datetime import datetime
 import time
 import pandas as pd
 from logHandler import LogHandler
@@ -16,39 +16,57 @@ class StreamThread:
         for filename in sublist:
             t3 = time.process_time()
             number += 1
-            # checkCSVInTable
-            csvdata = pd.read_csv("csv/"+filename).fillna(value='0')
-            if csvdata.empty:
-                continue
-
-            dataset = csvdata.T
-            t1 = time.process_time()
-            if mytools.checkIfIsDate(csvdata.columns):
-                fileProperty = mytools.matchFile(filename, isPrice=False)
-                dr = csvdata.to_dict()
-                c = list(dr.keys())
-                args = mytools.regroupRowsFromDict(dr=dr, c=c, fileProperty=fileProperty)
-                t2 = time.process_time()
-                datamapping_performance += (t2 - t1)
-                LogHandler.log_msg("Mapping data in %ss" % round(t2 - t1, 4))
-            else:
-                fileProperty = mytools.matchFile(filename, isPrice=True)
-                dr = dataset.to_dict()
-                args = mytools.regroupRowsFromDictForPrice(dr=dr, fileProperty=fileProperty)
-                t2 = time.process_time()
-                datamapping_performance += (t2 - t1)
-                LogHandler.log_msg("Mapping data in %ss" % round(t2 - t1, 4))
-
-            # Do variable convertions
-            mytools.saveData(args=args, table=fileProperty['table'])
-            t4 = time.process_time()
-            LogHandler.log_msg('Parsing file %s/%s %s in %ss\n' % (
+            LogHandler.log_msg('Parsing file %s/%s %s\n' % (
                 number,
                 len(sublist),
                 filename,
-                (t4 - t3)
             ))
-        mytools.commitTransactions()
+            # checkCSVInTable
+            csvdata = pd.read_csv("csv/"+filename).fillna(value='0')
+
+            if csvdata.empty:
+                continue
+
+            # Check file type
+            if mytools.checkIfIsDate(csvdata.columns):
+                fileProperty = mytools.matchFile(filename, isPrice=False)
+                # Pre-processing data: remove fields which is not in sql table
+                csvdata = csvdata.loc[
+                    (csvdata['name'].str.strip().isin(mytools.getMp()[fileProperty['table']]))
+                ]
+
+                # Fetch table fields from origin csv dataframe
+                cols = csvdata['name'].str.strip()  # Series Obj
+
+                # Remove ',' of each element and convert to type float
+                dataframe = csvdata.T.iloc[1:] \
+                    .applymap(
+                    lambda x: x.replace(',', '') if type(x) == str else x
+                )
+
+                # Rename columns' names to string
+                dataframe.rename(columns=cols.to_dict(), inplace=True)
+
+                # Append Code, ReportDate, ValuationMethod to dataframe
+                dataframe['Code'] = fileProperty['cols']['Code']
+                dataframe['ReportDate'] = csvdata.columns.to_series().iloc[1:].apply(
+                    lambda x: datetime.strptime(x, '%m/%d/%Y').strftime('%Y-%m-%d') if x != 'ttm' else '0000-00-00'
+                )
+                if 'ValuationMethod' in tuple(fileProperty['cols'].keys()):
+                    dataframe['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
+
+                # Save in Database
+                mytools.saveDataFrame(dataframe, fileProperty['table'])
+            else:
+                fileProperty = mytools.matchFile(filename, isPrice=True)
+
+                # Save in Database
+                mytools.saveDataFrame(csvdata, fileProperty['table'])
+            # END
+
+            t4 = time.process_time()
+            LogHandler.log_msg('Finished in %ss\n' % (t4 - t3))
+
         t_end = time.process_time()
         LogHandler.log_msg("END, total time: %ss" % (t_end - t_start))
         LogHandler.log_msg("Main thread performance average / file: %ss" %
