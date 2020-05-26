@@ -18,7 +18,7 @@ class LogHandler:
         with open("./%s/%s" % (
                 directory,
                 "log_" + filenow + ".log"
-        ), "a+", encoding='utf-8') as f:
+        ), "a", encoding='utf-8') as f:
             f.write(log_msg)
         print(msg)
 

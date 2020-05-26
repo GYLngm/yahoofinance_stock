@@ -12,12 +12,6 @@ class dbConnection:
         'yahoofinance_stock_price': (),
         'yahoofinance_stock_valuation_measures': ()
     }
-    __table_debug = (
-        # 'yahoofinance_stock_balance_sheet',
-        'yahoofinance_stock_income_statement',
-        # 'yahoofinance_stock_price',
-        # 'yahoofinance_stock_valuation_measures'
-    )
 
     def __init__(self):
         self.__db_name = dbConfig['database']
@@ -69,8 +63,7 @@ class dbConnection:
             ','.join(['%s'] * len(rows)),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
-        if table in self.__table_debug:
-            print(args['org_dict'])
+        print(sql_insert)
         try:
             self.__sqlConnect.cursor().execute(sql_insert, rows)
             # NB : you won't get an IntegrityError when reading
