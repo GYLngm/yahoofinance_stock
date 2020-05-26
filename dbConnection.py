@@ -19,8 +19,8 @@ class dbConnection:
         LogHandler.log_msg("DB connection initializing...")
         if self.__sqlConnect is None:
             LogHandler.log_msg("Getting new connection..")
-            self.__sqlConnect = dbConnectionPool().getPoolConnect()
-        self.__sqlConnect.autocommit = False
+            self.__sqlConnect = mysql.connector.MySQLConnection(**dbConfig)
+        self.__sqlConnect.autocommit = True
         LogHandler.log_msg("Done.")
 
     def getConnect(self):
@@ -30,7 +30,7 @@ class dbConnection:
         onDupUpdateKey = []
         # print(rows)
         for i in range(len(rows)):
-            if cols[i] != 'ReportDate' and cols[i] != 'Code' and cols[i] != 'Date':
+            if cols[i] != 'ReportDate' and cols[i] != 'Code' and cols[i] != 'Date' and cols[i] != 'ValuationMethod':
                 onDupUpdateKey.append('%s=\'%s\'' % (cols[i], rows[i]))
 
         sql_insert = 'INSERT IGNORE INTO %s(%s) VALUES(%s) %s' % (
@@ -77,6 +77,29 @@ class dbConnection:
         for row in record:
             rows.append(row['COLUMN_NAME'])
         return tuple(rows)
+
+    def insert_update_from_dataframe(self, table, dataframe, **args):
+        onDupUpdateKey = []
+
+        cols = list(dataframe.columns)
+        for c in list(dataframe.columns):
+            if c != 'ReportDate' and c != 'Code' and c != 'Date' and c != 'ValuationMethod':
+                onDupUpdateKey.append('%s=new.%s' % (c.replace(" ", ""), c.replace(" ", "")))
+
+        sql_insert = 'INSERT IGNORE INTO %s(%s) VALUES(%s) AS new %s' % (
+            table,
+            ','.join([x.replace(" ", "") for x in cols]),
+            ','.join(['%s'] * len(cols)),
+            'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
+        )
+        try:
+            self.__sqlConnect.cursor().executemany(
+                sql_insert,
+                [tuple(x) for x in dataframe.values])
+        except mysql.connector.errors as err:
+            LogHandler.log_msg("""
+                    Parsing file {}\nSQL Query: {}\nSomething went wrong: {}\n
+            """.format(args['filename'], sql_insert, err))
 
     def update(self, table, fields, conditions):
         return True

@@ -4,14 +4,14 @@ import sys
 import time
 from locale import *
 import pandas as pd
-
+from config import db_field_types
 from logHandler import LogHandler
 from mytools import myTools
-
 setlocale(LC_NUMERIC, 'English_US')
 
 LogHandler.log_msg("Start...")
 mytools = myTools()
+
 number = 0
 t_start = time.process_time()
 file_nums = 0
@@ -39,20 +39,23 @@ for root, directories, files in os.walk("csv"):
         if mytools.checkIfIsDate(csvdata.columns):
             fileProperty = mytools.matchFile(filename, isPrice=False)
             # Pre-processing data: remove fields which is not in sql table
-            csvdata = csvdata.loc[
-                (csvdata['name'].str.strip().isin(mytools.getMp()[fileProperty['table']]))
+            csvdata['name'] = csvdata['name'].str.strip()
+            cols = csvdata['name'].str.strip()
+            csvdata = csvdata.iloc[
+                (csvdata['name'].isin(mytools.getMp()[fileProperty['table']])).index
             ]
-
-            # Fetch table fields from origin csv dataframe
-            cols = csvdata['name'].str.strip()  # Series Obj
 
             # Remove ',' of each element and convert to type float
             dataframe = csvdata.T.iloc[1:] \
                 .applymap(
-                lambda x: x.replace(',', '') if type(x) == str else x
+                lambda x: float(x.replace(',', '')) if type(x) != float else float(x)
             )
+
             # Rename columns' names to string
             dataframe.rename(columns=cols.to_dict(), inplace=True)
+
+            dataframe = dataframe.loc[:,
+                        cols.loc[(cols.isin(mytools.getMp()[fileProperty['table']]))].str.strip().to_list()]
 
             # Append Code, ReportDate, ValuationMethod to dataframe
             dataframe['Code'] = fileProperty['cols']['Code']
@@ -61,12 +64,21 @@ for root, directories, files in os.walk("csv"):
             )
             if 'ValuationMethod' in tuple(fileProperty['cols'].keys()):
                 dataframe['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
+
+            dict_sql = dataframe.values
+            # print(dict_sql)
             # Save in Database
-            mytools.saveDataFrame(dataframe, fileProperty['table'])
+            mytools.saveDataFrame(dataframe, fileProperty['table'])  # New function, using pandas sql insert
+            # mytools.save(table=fileProperty['table'], dataframe=dataframe)  # Old function
         else:
             fileProperty = mytools.matchFile(filename, isPrice=True)
+            csvdata.rename(
+                columns={csvdata.columns[x]: csvdata.columns[x].replace(" ", "") for x in range(csvdata.columns.size)},
+                inplace=True)
+            csvdata['Code'] = fileProperty['cols']['Code']
             # Save in Database
-            mytools.saveDataFrame(csvdata, fileProperty['table'])
+            mytools.saveDataFrame(csvdata, fileProperty['table'])  # New function, using pandas sql insert
+            # mytools.save(table=fileProperty['table'], dataframe=csvdata)  # Old function
 
         t4 = time.process_time()
         LogHandler.log_msg('Finished in %ss\n' % (t4 - t3))

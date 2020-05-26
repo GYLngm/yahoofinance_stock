@@ -73,12 +73,12 @@ db_field_types = {
     },
     'yahoofinance_stock_price': {
         'Code': sqlalchemy.types.String(length=50),
-        'Date': sqlalchemy.types.Float,
+        'Date': sqlalchemy.types.Date,
         'Open': sqlalchemy.types.Float,
         'High': sqlalchemy.types.Float,
         'Low': sqlalchemy.types.Float,
         'Close': sqlalchemy.types.Float,
-        'AdjClose': sqlalchemy.types.Float,
+        'Adj Close': sqlalchemy.types.Float,
         'Volume': sqlalchemy.types.Float,
     },
     'yahoofinance_stock_valuation_measures': {

@@ -1,13 +1,16 @@
 import re
 import pandas as pd
+import sqlalchemy
 from sqlalchemy.exc import DBAPIError
 
+from dbConnection import dbConnection
 from logHandler import LogHandler
 from dbConnectionEngine import dbConnectionEngine
 
 
 class myTools:
     __con = None
+    __sqlCon = None
     mp = {
         'yahoofinance_stock_balance_sheet': (),
         'yahoofinance_stock_income_statement': (),
@@ -18,6 +21,7 @@ class myTools:
     def __init__(self):
         LogHandler.log_msg("Initializing tools..")
         self.__con = dbConnectionEngine()
+        self.__sqlCon = dbConnection()
         LogHandler.log_msg("Fetch current table attribute")
         self.__con.loadModelProperties(self.mp)
         LogHandler.log_msg("Done.")
@@ -84,13 +88,46 @@ class myTools:
     def regroupRowsFromDictForPrice(self, dr, fileProperty):
         pass
 
+    def save(self, table, dataframe):
+        self.__sqlCon.insert_update_from_dataframe(dataframe=dataframe, table=table)
+        pass
+
     def saveDataFrame(self, dataframe, table):
         try:
-            dataframe.to_sql(name=table, con=self.__con.getEngine(), index=False, if_exists='replace',
-                             dtype=self.__con.getDbType()[table]
-            )
+            dataframe.to_sql(name=table, con=self.__con.getEngine(),
+                             index=False,
+                             if_exists='append',
+                             dtype=self.__con.getDbType()[table])
         except DBAPIError as e:
             LogHandler.log_exceptions("Sql Exceptions: %s\r\n" % e)
+            pass
         finally:
             pass
 
+    # Development function DEBUG USAGE Not important
+    def generateTabelOnConsole(self, table, df):
+        fields = []
+        args = []
+        for x in self.__con.getDbType()[table]:
+            type = self.__con.getDbType()[table][x]
+            type_str = ''
+            if type == sqlalchemy.types.Date:
+                type_str = 'DATE PRIMARY KEY NOT NULL'
+                args.append('`%s`' % x)
+            elif type == sqlalchemy.types.String:
+                type_str = 'VARCHAR(50) PRIMARY KEY NOT NULL'
+                args.append('`%s`' % x)
+            elif type == sqlalchemy.types.Float:
+                type_str = 'FLOAT'
+            fields.append(("`%s` %s" % (x, type_str)))
+        print("""
+            CREATE TABLE `%s`(
+                %s,
+                PRIMARY KEY (%s)
+            )
+        """ % (
+            table,
+            ",".join(fields),
+            ",".join(args)
+        ))
+        pass

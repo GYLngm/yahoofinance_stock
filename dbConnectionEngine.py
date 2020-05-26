@@ -1,9 +1,10 @@
-import pandas as pd
+from sqlalchemy.exc import DBAPIError
+from sqlalchemy import create_engine
+import sqlalchemy.dialects
+from sqlalchemy.sql import text, table
 
-from dbConnectionPool import dbConnectionPool
 from logHandler import LogHandler
 from config import dbConfig, db_field_types
-from sqlalchemy import create_engine
 
 
 class dbConnectionEngine:
@@ -36,8 +37,15 @@ class dbConnectionEngine:
     def getDbType(self):
         return self.__db_type
 
-    def insert(self, table, cols, rows, **args):
-        pass
+    def engine_insert_update(self, table, df):
+        insert_data = df.to_dict(orient='records')
+        insert_stm = sqlalchemy.dialects.mysql.insert(text(table)).values(insert_data)
+        my_table = sqlalchemy.Table.from_dict(
+            serialized=self.__db_type['table'],
+            tablename=table,
+            primary_key="",
+
+        )
 
     def select(self, table, fields, conditions=None, **args):
         pass
