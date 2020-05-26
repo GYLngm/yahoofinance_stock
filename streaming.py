@@ -1,12 +1,13 @@
 from datetime import datetime
 import os
-import sys
 import time
 from locale import *
 import pandas as pd
-from config import db_field_types
+
 from logHandler import LogHandler
 from mytools import myTools
+
+
 setlocale(LC_NUMERIC, 'English_US')
 
 LogHandler.log_msg("Start...")
@@ -65,11 +66,10 @@ for root, directories, files in os.walk("csv"):
             if 'ValuationMethod' in tuple(fileProperty['cols'].keys()):
                 dataframe['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
 
-            dict_sql = dataframe.values
-            # print(dict_sql)
+            dataframe = dataframe.fillna(value=0)
+
             # Save in Database
             mytools.saveDataFrame(dataframe, fileProperty['table'])  # New function, using pandas sql insert
-            # mytools.save(table=fileProperty['table'], dataframe=dataframe)  # Old function
         else:
             fileProperty = mytools.matchFile(filename, isPrice=True)
             csvdata.rename(
@@ -78,7 +78,6 @@ for root, directories, files in os.walk("csv"):
             csvdata['Code'] = fileProperty['cols']['Code']
             # Save in Database
             mytools.saveDataFrame(csvdata, fileProperty['table'])  # New function, using pandas sql insert
-            # mytools.save(table=fileProperty['table'], dataframe=csvdata)  # Old function
 
         t4 = time.process_time()
         LogHandler.log_msg('Finished in %ss\n' % (t4 - t3))

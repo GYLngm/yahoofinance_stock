@@ -2,6 +2,7 @@ from sqlalchemy.exc import DBAPIError
 from sqlalchemy import create_engine
 import sqlalchemy.dialects
 from sqlalchemy.sql import text, table
+from sqlalchemy.orm import sessionmaker
 
 from logHandler import LogHandler
 from config import dbConfig, db_field_types
@@ -18,6 +19,7 @@ class dbConnectionEngine:
     __engine = None
     __config = dbConfig
     __db_type = db_field_types
+    __sessionFactory = None
 
     def __init__(self):
         self.__db_name = dbConfig['database']
@@ -29,6 +31,7 @@ class dbConnectionEngine:
             self.__config['port'],
             self.__config['database'],
         ), echo=False)
+        self.__sessionFactory = sessionmaker(bind=self.__engine)
         LogHandler.log_msg("Done.")
 
     def getEngine(self):
@@ -44,7 +47,6 @@ class dbConnectionEngine:
             serialized=self.__db_type['table'],
             tablename=table,
             primary_key="",
-
         )
 
     def select(self, table, fields, conditions=None, **args):

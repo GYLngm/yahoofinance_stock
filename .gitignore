@@ -141,5 +141,6 @@ cython_debug/
 
 # Customize files
 csv/
+orm/
 *.csv
 Fields_not_in_definition/

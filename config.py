@@ -1,12 +1,16 @@
 import sqlalchemy
 
+Trial_mode = True
+
+
 dbConfig = {
     'host': '127.0.0.1',
     'user': 'mgnl',
     'password': 'password',
-    'database': 'py_sql',
+    'database': ('py_sql_test' if Trial_mode else 'py_sql'),
     'port': 3306,
 }
+
 
 db_field_types = {
     'yahoofinance_stock_balance_sheet': {

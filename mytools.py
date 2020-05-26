@@ -1,9 +1,8 @@
 import re
-import pandas as pd
 import sqlalchemy
 from sqlalchemy.exc import DBAPIError
 
-from dbConnection import dbConnection
+from orm.dbConnection import dbConnection
 from logHandler import LogHandler
 from dbConnectionEngine import dbConnectionEngine
 

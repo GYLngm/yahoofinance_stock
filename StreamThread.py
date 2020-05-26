@@ -22,7 +22,7 @@ class StreamThread:
                 filename,
             ))
             # checkCSVInTable
-            csvdata = pd.read_csv("csv/"+filename).fillna(value='0')
+            csvdata = pd.read_csv("csv/" + filename).fillna(value='0')
 
             if csvdata.empty:
                 continue
@@ -31,21 +31,23 @@ class StreamThread:
             if mytools.checkIfIsDate(csvdata.columns):
                 fileProperty = mytools.matchFile(filename, isPrice=False)
                 # Pre-processing data: remove fields which is not in sql table
-                csvdata = csvdata.loc[
-                    (csvdata['name'].str.strip().isin(mytools.getMp()[fileProperty['table']]))
+                csvdata['name'] = csvdata['name'].str.strip()
+                cols = csvdata['name'].str.strip()
+                csvdata = csvdata.iloc[
+                    (csvdata['name'].isin(mytools.getMp()[fileProperty['table']])).index
                 ]
-
-                # Fetch table fields from origin csv dataframe
-                cols = csvdata['name'].str.strip()  # Series Obj
 
                 # Remove ',' of each element and convert to type float
                 dataframe = csvdata.T.iloc[1:] \
                     .applymap(
-                    lambda x: x.replace(',', '') if type(x) == str else x
+                    lambda x: float(x.replace(',', '')) if type(x) != float else float(x)
                 )
 
                 # Rename columns' names to string
                 dataframe.rename(columns=cols.to_dict(), inplace=True)
+
+                dataframe = dataframe.loc[:,
+                            cols.loc[(cols.isin(mytools.getMp()[fileProperty['table']]))].str.strip().to_list()]
 
                 # Append Code, ReportDate, ValuationMethod to dataframe
                 dataframe['Code'] = fileProperty['cols']['Code']
@@ -56,12 +58,16 @@ class StreamThread:
                     dataframe['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
 
                 # Save in Database
-                mytools.saveDataFrame(dataframe, fileProperty['table'])
+                mytools.saveDataFrame(dataframe, fileProperty['table'])  # New function, using pandas sql insert
             else:
                 fileProperty = mytools.matchFile(filename, isPrice=True)
-
+                csvdata.rename(
+                    columns={csvdata.columns[x]: csvdata.columns[x].replace(" ", "") for x in
+                             range(csvdata.columns.size)},
+                    inplace=True)
+                csvdata['Code'] = fileProperty['cols']['Code']
                 # Save in Database
-                mytools.saveDataFrame(csvdata, fileProperty['table'])
+                mytools.saveDataFrame(csvdata, fileProperty['table'])  # New function, using pandas sql insert
             # END
 
             t4 = time.process_time()
