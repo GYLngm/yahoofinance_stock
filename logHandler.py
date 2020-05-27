@@ -1,6 +1,5 @@
 import time
 import os
-import pathlib
 
 
 class LogHandler:
@@ -57,3 +56,21 @@ class LogHandler:
                 "a", encoding='utf-8') as f:
             f.write(log_msg)
         print(msg)
+
+    @staticmethod
+    def success(success_msg):
+        now = time.strftime('%Y/%m/%d %H:%M:%S', time.localtime(int(round(time.time() * 1000)) / 1000))
+        filenow = time.strftime('%Y%m%d', time.localtime(int(round(time.time() * 1000)) / 1000))
+        log_msg = "[%s]:\r\n   %s \r\n" % (
+            now, success_msg
+        )
+        directory = os.path.abspath(os.path.dirname(os.path.abspath(__file__)) + os.path.sep + ".") + "\\log"
+
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        with open(
+                directory + "\\success.log",
+                "a", encoding='utf-8') as fs:
+            fs.write(log_msg)
+        print(success_msg)

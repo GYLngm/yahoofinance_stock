@@ -2,14 +2,14 @@ import re
 import sqlalchemy
 from sqlalchemy.exc import DBAPIError
 
-from orm.dbConnection import dbConnection
+from dbConnection import dbConnection
 from logHandler import LogHandler
 from dbConnectionEngine import dbConnectionEngine
 
 
 class myTools:
     __con = None
-    __sqlCon = None
+    __mysqlCon = None
     mp = {
         'yahoofinance_stock_balance_sheet': (),
         'yahoofinance_stock_income_statement': (),
@@ -20,10 +20,10 @@ class myTools:
     def __init__(self):
         LogHandler.log_msg("Initializing tools..")
         self.__con = dbConnectionEngine()
-        self.__sqlCon = dbConnection()
         LogHandler.log_msg("Fetch current table attribute")
         self.__con.loadModelProperties(self.mp)
         LogHandler.log_msg("Done.")
+        self.__mysqlCon = dbConnection()
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}
@@ -87,8 +87,13 @@ class myTools:
     def regroupRowsFromDictForPrice(self, dr, fileProperty):
         pass
 
-    def save(self, table, dataframe):
-        self.__sqlCon.insert_update_from_dataframe(dataframe=dataframe, table=table)
+    def save(self, dataframe, table, filename="defualt"):
+        self.__con.engine_insert_update(dataframe=dataframe, table=table, filename=filename)
+        pass
+
+    def save_using_mycon(self, table, df, filename="defualt"):
+        for r in df.values:
+            self.__mysqlCon.insert(table=table, cols=df.columns, rows=r, filename=filename)
         pass
 
     def saveDataFrame(self, dataframe, table):

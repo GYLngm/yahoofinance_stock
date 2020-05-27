@@ -1,7 +1,6 @@
 import sqlalchemy
 
-Trial_mode = True
-
+Trial_mode = False
 
 dbConfig = {
     'host': '127.0.0.1',
@@ -57,10 +56,9 @@ db_field_types = {
         'TotalRevenue': sqlalchemy.types.Float,
         'CostOfRevenue': sqlalchemy.types.Float,
         'GrossProfit': sqlalchemy.types.Float,
-        'OperatingExpense': sqlalchemy.types.Float,
         'ResearchAndDevelopment': sqlalchemy.types.Float,
         'SellingGeneralAndAdministration': sqlalchemy.types.Float,
-        'OperatingExpense"': sqlalchemy.types.Float,
+        'OperatingExpense': sqlalchemy.types.Float,
         'OperatingIncome': sqlalchemy.types.Float,
         'InterestExpense': sqlalchemy.types.Float,
         'OtherIncomeExpense': sqlalchemy.types.Float,

@@ -53,9 +53,9 @@ class dbConnection:
     def insert(self, table, cols, rows, **args):
         onDupUpdateKey = []
         # print(rows)
-        for i in range(len(rows)):
-            if cols[i] != 'ReportDate' and cols[i] != 'Code' and cols[i] != 'Date':
-                onDupUpdateKey.append('%s=\'%s\'' % (cols[i], rows[i]))
+        for i in range(len(cols)):
+            if cols[i] != 'ReportDate' and cols[i] != 'Code' and cols[i] != 'Date' and cols[i] != 'ValuationMethod':
+                onDupUpdateKey.append('%s=\'%s\'' % (cols[i].replace(" ", ""), rows[i]))
 
         sql_insert = 'INSERT IGNORE INTO %s(%s) VALUES(%s) %s' % (
             table,
@@ -63,12 +63,11 @@ class dbConnection:
             ','.join(['%s'] * len(rows)),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
-        print(sql_insert)
         try:
-            self.__sqlConnect.cursor().execute(sql_insert, rows)
+            self.__sqlConnect.cursor().execute(sql_insert, tuple(rows))
             # NB : you won't get an IntegrityError when reading
         except mysql.connector.Error as err:
-            LogHandler.log_msg("""
+            LogHandler.log_exceptions("""
                     Parsing file {}\nSQL Query: {}\nSomething went wrong: {}\n
             """.format(args['filename'], sql_insert, err))
 
