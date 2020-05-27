@@ -15,7 +15,7 @@ class dbConnectionEngine:
     def __init__(self):
         self.__db_name = dbConfig['database']
         LogHandler.log_msg("DB connection initializing...")
-        self.__engine = create_engine('mysql://%s:%s@%s:%s/%s' % (
+        self.__engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s' % (
             self.__config['user'],
             self.__config['password'],
             self.__config['host'],
@@ -39,9 +39,11 @@ class dbConnectionEngine:
         sql_insert = 'INSERT INTO %s(%s) VALUES(%s) %s' % (
             table,
             ','.join(dataframe.columns),
-            ','.join(['\':%s\'' % x for x in dataframe.columns]),
+            ','.join(['%s' % x for x in dataframe.columns]),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
+
+        print(sql_insert)
 
         try:
             with self.__engine.connect().execution_options(autocommit=True) as con:

@@ -77,13 +77,13 @@ def streaming(sublist, threadCode):
         # END
 
         t4 = time.process_time_ns()
-        LogHandler.log_msg('Finished in %ss\n' % round((t4 - t3) / 1000000), 5)
+        LogHandler.log_msg('Finished in %sms\n' % round((t4 - t3) / 1000000, 5))
 
     t_end = time.process_time_ns()
     success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
-    success_msg += "    END, total time: %ss\r\n" % round((t_end - t_start) / 1000000, 5)
-    success_msg += "    Main thread performance average/file: %ss" % round((t_end - t_start) / 1000000 / file_nums, 5)
+    success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start) / 1000000, 5)
+    success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start) / 1000000 / file_nums, 5)
     success_msg += "    Parsed data: %s\r\n" % data_count
-    success_msg += "    Performance average/data: %ss\r\n" % round((t_end - t_start) / 1000000 / data_count, 5)
+    success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start) / 1000000 / data_count, 5)
     success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
     LogHandler.success(success_msg)

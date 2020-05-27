@@ -58,6 +58,9 @@ for root, directories, files in os.walk("csv"):
             dataframe = dataframe.loc[:,
                         cols.loc[(cols.isin(mytools.getMp()[fileProperty['table']]))].str.strip().to_list()]
 
+            # Remove duplcated columns
+            dataframe = dataframe.loc[:, ~dataframe.columns.duplicated()]
+
             # Append Code, ReportDate, ValuationMethod to dataframe
             dataframe['Code'] = fileProperty['cols']['Code']
             dataframe['ReportDate'] = csvdata.columns.to_series().iloc[1:].apply(
@@ -67,6 +70,7 @@ for root, directories, files in os.walk("csv"):
 
             # Save in Database
             mytools.save(dataframe=dataframe, table=fileProperty['table'], filename=filename)
+            # mytools.save_using_mycon(table=fileProperty['table'], df=dataframe, filename=filename)
             data_count += dataframe.size
         else:
             fileProperty = mytools.matchFile(filename, isPrice=True)
@@ -79,16 +83,17 @@ for root, directories, files in os.walk("csv"):
 
             # Save in Database
             mytools.save(dataframe=csvdata, table=fileProperty['table'], filename=filename)
+            # mytools.save_using_mycon(table=fileProperty['table'], df=csvdata, filename=filename)
             data_count += csvdata.size
 
         t4 = time.process_time_ns()
-        LogHandler.log_msg('Finished in %ss\n' % round((t4 - t3)/1000000, 5))
+        LogHandler.log_msg('Finished in %sms\n' % round((t4 - t3)/1000000, 5))
 t_end = time.process_time_ns()
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
-success_msg += "    END, total time: %ss\r\n" % round((t_end - t_start)/1000000, 5)
-success_msg += "    Main thread performance average/file: %ss" % round((t_end - t_start)/1000000 / file_nums, 5)
-success_msg += "    Data mapping Performance average/file: %ss" % round(datamapping_performance/1000000 / file_nums, 5)
+success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start)/1000000, 5)
+success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start)/1000000 / file_nums, 5)
+success_msg += "    Data mapping Performance average/file: %sms" % round(datamapping_performance/1000000 / file_nums, 5)
 success_msg += "    Parsed data: %s\r\n" % data_count
-success_msg += "    Performance average/data: %ss\r\n" % round((t_end - t_start)/1000000 / data_count, 5)
+success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start)/1000000 / data_count, 5)
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
 LogHandler.success(success_msg)

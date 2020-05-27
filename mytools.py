@@ -23,7 +23,7 @@ class myTools:
         LogHandler.log_msg("Fetch current table attribute")
         self.__con.loadModelProperties(self.mp)
         LogHandler.log_msg("Done.")
-        self.__mysqlCon = dbConnection()
+        # self.__mysqlCon = dbConnection()
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}

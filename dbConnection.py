@@ -6,18 +6,12 @@ from config import dbConfig
 class dbConnection:
     __sqlConnect = None
     __db_name = None
-    __model_properties = {
-        'yahoofinance_stock_balance_sheet': (),
-        'yahoofinance_stock_income_statement': (),
-        'yahoofinance_stock_price': (),
-        'yahoofinance_stock_valuation_measures': ()
-    }
 
     def __init__(self):
         self.__db_name = dbConfig['database']
         if self.__sqlConnect is None:
             self.__sqlConnect = mysql.connector.connect(**dbConfig)
-        self.loadModelProperties()
+        # self.loadModelProperties()
 
     def getConnect(self):
         return self.__sqlConnect
