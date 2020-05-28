@@ -12,7 +12,7 @@ pd.set_option('display.max_columns', 10)
 
 # Global variables
 mytools, table_org_attributes, success_msg = myTools(), {}, ''
-number, file_nums, single_file_data_count, data_count, datamapping_performance = 0, 0, 0, 0, 0.0
+number, file_nums, single_file_data_count, data_count, datamapping_performance = 1, 0, 0, 0, 0.0
 
 # Program start here
 LogHandler.log_msg("Start...")
@@ -21,12 +21,12 @@ for root, directories, files in os.walk("csv"):
     file_nums = len(files)
     LogHandler.log_msg("{0} files in directory".format(len(files)))
     for filename in files:
-        number += 1
+
         LogHandler.log_msg('Extracting from files %s/%s %s\n' % (
             number,
             len(files),
-            filename,
-        ))
+            filename))
+
         t3 = time.process_time_ns()
         file_path = os.path.join(root, filename)
         # open and extract data from csv and return dataframe object
