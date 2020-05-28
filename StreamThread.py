@@ -29,7 +29,7 @@ class StreamThread(Process):
         for filename in self.sublist:
             file_nums = len(self.sublist)
             number += 1
-            LogHandler.log_msg('[%s]: Parsing file %s/%s %s\n' % (
+            LogHandler.log_msg('[%s]: Extracting from files %s/%s %s\n' % (
                 self.threadCode,
                 number,
                 len(self.sublist),
@@ -99,10 +99,9 @@ class StreamThread(Process):
 
         t_end = time.process_time_ns()
         success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
-        success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start) / 1000000, 5)
-        success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start) / 1000000 / file_nums,
-                                                                                5)
+        success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start)/1000000, 5)
+        success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start)/1000000*file_nums, 5)
         success_msg += "    Parsed data total: %s\r\n" % data_count
-        success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start) / 1000000 / data_count, 5)
+        success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start)/1000000*data_count, 5)
         success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
         LogHandler.success(success_msg)

@@ -8,23 +8,21 @@ from logHandler import LogHandler
 from mytools import myTools
 
 setlocale(LC_NUMERIC, 'English_US')
-
-LogHandler.log_msg("Start...")
-mytools = myTools()
-number = 0
-t_start = time.process_time_ns()
-success_msg = ''
-file_nums = 0
-data_count = 0
-datamapping_performance = 0.0
-table_org_attributes = {}
 pd.set_option('display.max_columns', 10)
+
+# Global variables
+mytools, table_org_attributes, success_msg = myTools(), {}, ''
+number, file_nums, single_file_data_count, data_count, datamapping_performance = 0, 0, 0, 0, 0.0
+
+# Program start here
+LogHandler.log_msg("Start...")
+t_start = time.process_time_ns()
 for root, directories, files in os.walk("csv"):
     file_nums = len(files)
     LogHandler.log_msg("{0} files in directory".format(len(files)))
     for filename in files:
         number += 1
-        LogHandler.log_msg('Parsing file %s/%s %s\n' % (
+        LogHandler.log_msg('Extracting from files %s/%s %s\n' % (
             number,
             len(files),
             filename,
@@ -71,6 +69,7 @@ for root, directories, files in os.walk("csv"):
             # Save in Database
             mytools.save(dataframe=dataframe, table=fileProperty['table'], filename=filename)
             # mytools.save_using_mycon(table=fileProperty['table'], df=dataframe, filename=filename)
+            single_file_data_count = dataframe.size
             data_count += dataframe.size
         else:
             fileProperty = mytools.matchFile(filename, isPrice=True)
@@ -84,17 +83,17 @@ for root, directories, files in os.walk("csv"):
             # Save in Database
             mytools.save(dataframe=csvdata, table=fileProperty['table'], filename=filename)
             # mytools.save_using_mycon(table=fileProperty['table'], df=csvdata, filename=filename)
-            data_count += csvdata.size
+            single_file_data_count = csvdata.size
+            data_count += single_file_data_count
 
         t4 = time.process_time_ns()
-        LogHandler.log_msg('%s data parsed, finished in %sms\n' % (data_count, round((t4 - t3) / 1000000, 5)))
+        LogHandler.log_msg('%s data parsed, finished in %sms\n' % (single_file_data_count, round((t4 - t3) / 1000000, 5)))
 t_end = time.process_time_ns()
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
 success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start) / 1000000, 5)
-success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start) / 1000000 / file_nums, 5)
-success_msg += "    Data mapping Performance average/file: %sms" % round(datamapping_performance / 1000000 / file_nums,
-                                                                         5)
+success_msg += "    Main thread performance average/file: %sms\r\n" % round((t_end - t_start) / 1000000 / file_nums, 5)
 success_msg += "    Parsed data: %s\r\n" % data_count
 success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start) / 1000000 / data_count, 5)
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
 LogHandler.success(success_msg)
+# End
