@@ -21,7 +21,7 @@ class dbConnectionEngine:
             self.__config['host'],
             self.__config['port'],
             self.__config['database'],
-        ), echo=False, poolclass=QueuePool, pool_size=5, max_overflow=0)
+        ), echo=False)
         LogHandler.log_msg("Done.")
 
     def getEngine(self):
@@ -32,6 +32,7 @@ class dbConnectionEngine:
 
     def engine_insert_update(self, dataframe, table, **args):
         onDupUpdateKey = []
+
         for c in dataframe.columns:
             if c != 'ReportDate' and c != 'Code' and c != 'Date' and c != 'ValuationMethod':
                 onDupUpdateKey.append('%s=VALUES(%s)' % (c.replace(" ", ""), c.replace(" ", "")))
@@ -39,15 +40,13 @@ class dbConnectionEngine:
         sql_insert = 'INSERT INTO %s(%s) VALUES(%s) %s' % (
             table,
             ','.join(dataframe.columns),
-            ','.join(['%s' % x for x in dataframe.columns]),
+            ','.join(['%s'] * len(dataframe.columns)),
             'ON DUPLICATE KEY UPDATE ' + ','.join(onDupUpdateKey),
         )
 
-        print(sql_insert)
-
         try:
-            with self.__engine.connect().execution_options(autocommit=True) as con:
-                row = [dict(zip(dataframe.columns, x)) for x in dataframe.values]
+            with self.__engine.connect() as con:
+                row = [tuple(x) for x in dataframe.values]
                 con.execute(sql_insert, *row)
         except DBAPIError as err:
             LogHandler.log_exceptions("""

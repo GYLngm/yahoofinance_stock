@@ -10,6 +10,10 @@ dbConfig = {
     'port': 3306,
 }
 
+debugConfig = {
+    'console_msg': True
+}
+
 
 db_field_types = {
     'yahoofinance_stock_balance_sheet': {

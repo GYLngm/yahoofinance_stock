@@ -7,7 +7,6 @@ import pandas as pd
 from logHandler import LogHandler
 from mytools import myTools
 
-
 setlocale(LC_NUMERIC, 'English_US')
 
 LogHandler.log_msg("Start...")
@@ -33,7 +32,7 @@ for root, directories, files in os.walk("csv"):
         t3 = time.process_time_ns()
         file_path = os.path.join(root, filename)
         # open and extract data from csv and return dataframe object
-        csvdata = pd.read_csv(file_path, parse_dates=True).fillna(value='0')
+        csvdata = pd.read_csv(file_path, parse_dates=True)
         if csvdata.empty:
             continue
 
@@ -49,7 +48,7 @@ for root, directories, files in os.walk("csv"):
             # Remove ',' of each element and convert to type float
             dataframe = csvdata.T.iloc[1:] \
                 .applymap(
-                lambda x: float(x.replace(',', '')) if type(x) != float else float(x))
+                lambda x: float(x.replace(',', '')) if type(x) != float and x != 'Null' else x)
 
             # Rename columns' names to string
             dataframe.rename(columns=cols.to_dict(), inplace=True)
@@ -68,6 +67,7 @@ for root, directories, files in os.walk("csv"):
             if 'ValuationMethod' in tuple(fileProperty['cols'].keys()):
                 dataframe['ValuationMethod'] = fileProperty['cols']['ValuationMethod']
 
+            dataframe = dataframe.where(dataframe.notna(), None)
             # Save in Database
             mytools.save(dataframe=dataframe, table=fileProperty['table'], filename=filename)
             # mytools.save_using_mycon(table=fileProperty['table'], df=dataframe, filename=filename)
@@ -87,13 +87,14 @@ for root, directories, files in os.walk("csv"):
             data_count += csvdata.size
 
         t4 = time.process_time_ns()
-        LogHandler.log_msg('Finished in %sms\n' % round((t4 - t3)/1000000, 5))
+        LogHandler.log_msg('%s data parsed, finished in %sms\n' % (data_count, round((t4 - t3) / 1000000, 5)))
 t_end = time.process_time_ns()
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
-success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start)/1000000, 5)
-success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start)/1000000 / file_nums, 5)
-success_msg += "    Data mapping Performance average/file: %sms" % round(datamapping_performance/1000000 / file_nums, 5)
+success_msg += "    END, total time: %sms\r\n" % round((t_end - t_start) / 1000000, 5)
+success_msg += "    Main thread performance average/file: %sms" % round((t_end - t_start) / 1000000 / file_nums, 5)
+success_msg += "    Data mapping Performance average/file: %sms" % round(datamapping_performance / 1000000 / file_nums,
+                                                                         5)
 success_msg += "    Parsed data: %s\r\n" % data_count
-success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start)/1000000 / data_count, 5)
+success_msg += "    Performance average/data: %sms\r\n" % round((t_end - t_start) / 1000000 / data_count, 5)
 success_msg += "\r\n-------------------------------------------------------------------------------\r\n"
 LogHandler.success(success_msg)

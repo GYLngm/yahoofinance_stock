@@ -23,7 +23,7 @@ class myTools:
         LogHandler.log_msg("Fetch current table attribute")
         self.__con.loadModelProperties(self.mp)
         LogHandler.log_msg("Done.")
-        # self.__mysqlCon = dbConnection()
+        self.__mysqlCon = dbConnection()
     
     def matchFile(self, filename, **ar):
         property = {'cols': {}, 'rows': [], 'key': '', 'filename': filename}
@@ -93,7 +93,7 @@ class myTools:
 
     def save_using_mycon(self, table, df, filename="defualt"):
         for r in df.values:
-            self.__mysqlCon.insert(table=table, cols=df.columns, rows=r, filename=filename)
+            self.__mysqlCon.insert(table=table, dataframe=df, filename=filename)
         pass
 
     def saveDataFrame(self, dataframe, table):

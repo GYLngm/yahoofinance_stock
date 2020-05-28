@@ -1,5 +1,6 @@
 import time
 import os
+from config import debugConfig
 
 
 class LogHandler:
@@ -22,7 +23,9 @@ class LogHandler:
                 directory + "\\log_" + filenow + ".log",
                 "a", encoding='utf-8') as f:
             f.write(log_msg)
-        print(msg)
+        if debugConfig:
+            print(msg)
+        pass
 
     @staticmethod
     def log_properties(filename, p):
@@ -37,6 +40,7 @@ class LogHandler:
             line_found = any(p in line for line in f)
             if not line_found:
                 f.write(p + "\r\n")
+        pass
 
     @staticmethod
     def log_exceptions(msg):
@@ -55,7 +59,9 @@ class LogHandler:
                 directory + "\\exceptions_" + filenow + ".log",
                 "a", encoding='utf-8') as f:
             f.write(log_msg)
-        print(msg)
+        if debugConfig:
+            print(msg)
+        pass
 
     @staticmethod
     def success(success_msg):
@@ -73,4 +79,6 @@ class LogHandler:
                 directory + "\\success.log",
                 "a", encoding='utf-8') as fs:
             fs.write(log_msg)
-        print(success_msg)
+        if debugConfig:
+            print(success_msg)
+        pass
