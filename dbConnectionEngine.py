@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.exc import DBAPIError, OperationalError, DataError
 from sqlalchemy.pool import QueuePool
+import pymysql
 
 from logHandler import LogHandler
 from config import dbConfig, db_field_types
@@ -15,7 +16,7 @@ class dbConnectionEngine:
     def __init__(self):
         self.__db_name = dbConfig['database']
         LogHandler.log_msg("DB connection initializing...")
-        self.__engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s' % (
+        self.__engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
             self.__config['user'],
             self.__config['password'],
             self.__config['host'],

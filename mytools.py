@@ -135,3 +135,17 @@ class myTools:
             ",".join(args)
         ))
         pass
+
+    def generateFieldAlter(self, table, cols):
+        fields = []
+        sql_alter = 'ALTER TABLE `%s` ' % table
+
+        for c in cols:
+            if c != 'ReportDate' and c != 'Code' and c != 'Date' and c != 'ValuationMethod':
+                fields.append(
+                    "MODIFY `%s` FLOAT DEFAULT NULL" % c
+                )
+
+        sql_alter += ",".join(fields)+";"
+        print(sql_alter)
+        return sql_alter

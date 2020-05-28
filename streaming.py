@@ -71,6 +71,7 @@ for root, directories, files in os.walk("csv"):
             # mytools.save_using_mycon(table=fileProperty['table'], df=dataframe, filename=filename)
             single_file_data_count = dataframe.size
             data_count += dataframe.size
+
         else:
             fileProperty = mytools.matchFile(filename, isPrice=True)
             csvdata.rename(
