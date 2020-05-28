@@ -8,6 +8,7 @@ dbConfig = {
     'password': 'password',
     'database': ('py_sql_test' if Trial_mode else 'py_sql'),
     'port': 3306,
+    'charset': 'utf8mb4',
 }
 
 debugConfig = {

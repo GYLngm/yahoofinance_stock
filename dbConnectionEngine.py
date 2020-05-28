@@ -16,12 +16,13 @@ class dbConnectionEngine:
     def __init__(self):
         self.__db_name = dbConfig['database']
         LogHandler.log_msg("DB connection initializing...")
-        self.__engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=utf8mb4' % (
+        self.__engine = create_engine('mysql+pymysql://%s:%s@%s:%s/%s?charset=%s' % (
             self.__config['user'],
             self.__config['password'],
             self.__config['host'],
             self.__config['port'],
             self.__config['database'],
+            self.__config['charset'],
         ), echo=False)
         LogHandler.log_msg("Done.")
 
